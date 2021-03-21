@@ -7,7 +7,7 @@
 -1;
 #X obj 31 62 cnv 15 620 80 empty empty empty 20 12 0 14 -233017 -66577
 0;
-#N canvas -10 2 1916 942 setttings 0;
+#N canvas -10 2 1916 942 setttings 1;
 #X obj 29 450 cnv 15 1100 400 empty empty empty 20 12 0 14 -233017
 -66577 0;
 #X obj 35 638 unpack 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16;
@@ -134,7 +134,7 @@
 #X connect 17 0 18 0;
 #X connect 18 0 19 0;
 #X restore 1270 260 pd keyboardkeys;
-#N canvas -10 2 1916 942 smplrQ 0;
+#N canvas -10 2 1916 942 smplrQ 1;
 #X obj 1377 222 soundfiler;
 #X floatatom 1377 249 15 0 0 0 - - -;
 #X obj 706 834 *~;
@@ -153,7 +153,7 @@
 #X obj 1223 808 /;
 #X floatatom 1223 837 5 0 0 0 - - -;
 #X obj 1226 867 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 851 1;
+-1 -1 0 1;
 #X obj 1223 898 s smplpos2;
 #X msg 1280 553 1;
 #X obj 901 94 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -395,7 +395,7 @@
 #X obj 1018 796 /;
 #X floatatom 1018 825 5 0 0 0 - - -;
 #X obj 1021 855 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 1898 1;
+-1 -1 0 1;
 #X msg 1075 541 1;
 #X obj 867 92 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -631,7 +631,7 @@
 #X obj 1211 811 /;
 #X floatatom 1211 840 5 0 0 0 - - -;
 #X obj 1214 870 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 1113 1;
+-1 -1 0 1;
 #X msg 1268 556 1;
 #X obj 843 96 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -877,7 +877,7 @@
 #X obj 1043 797 /;
 #X floatatom 1043 826 5 0 0 0 - - -;
 #X obj 1046 856 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 1047 1;
+-1 -1 0 1;
 #X msg 1044 544 1;
 #X obj 843 81 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -1399,7 +1399,7 @@
 #X connect 79 0 83 0;
 #X connect 84 0 85 0;
 #X connect 86 0 87 0;
-#X restore 1373 794 pd setttings;
+#X restore 1421 793 pd setttings;
 #N canvas 864 20 958 944 StepSeqFuncs 0;
 #N canvas -11 -11 1920 956 stepseqer 0;
 #X obj 235 42 inlet;
@@ -1630,17 +1630,17 @@
 -262144 -1 -1 4190 1;
 #X obj 192 541 *~;
 #X obj 333 483 vsl 30 50 0 1 0 0 empty SmplLvlDtaE empty 0 -9 0 10
--262144 -1 -1 4190 1;
+-262144 -1 -1 2912 1;
 #X obj 315 541 *~;
 #X obj 77 484 vsl 30 50 0 1 0 0 empty SmplLvlDtaQ empty 0 -9 0 10 -262144
--1 -1 3480 1;
+-1 -1 2983 1;
 #X obj 59 542 *~;
 #X text 59 426 Mixer;
 #X obj 791 579 vsl 30 50 0 8 0 0 empty MasterLvlRcv empty 0 -9 0 10
--262144 -1 -1 1661 1;
+-262144 -1 -1 1837 1;
 #X obj 238 635 *~;
 #X obj 457 481 vsl 30 50 0 1 0 0 empty SmplLvlDtaA empty 0 -9 0 10
--262144 -1 -1 1917 1;
+-262144 -1 -1 2912 1;
 #X obj 439 539 *~;
 #X obj 438 450 r~ Smplr4LneOut;
 #N canvas -11 -11 1920 956 RevCntrl 0;
@@ -2437,7 +2437,7 @@
 #X obj 122 635 *~;
 #X obj 361 645 *~;
 #X obj 586 480 vsl 30 50 0 1 0 0 empty SmplLvlDtaS empty 0 -9 0 10
--262144 -1 -1 3906 1;
+-262144 -1 -1 0 1;
 #X obj 568 538 *~;
 #X obj 567 449 r~ Smplr5LneOut;
 #X obj 406 655 *~;
@@ -2474,7 +2474,7 @@
 #X connect 27 0 26 0;
 #X connect 28 0 4 0;
 #X connect 28 0 4 1;
-#X restore 1373 768 pd StepSeqFuncs;
+#X restore 1421 767 pd StepSeqFuncs;
 #X obj 253 484 cnv 15 15 15 empty PtrnSve1DspItm9 empty 20 12 0 14
 -261681 -262144 0;
 #X obj 272 484 cnv 15 15 15 empty PtrnSve1DspItm10 empty 20 12 0 14
@@ -7276,7 +7276,7 @@
 #X connect 68 3 43 0;
 #X connect 68 4 60 0;
 #X connect 68 5 67 0;
-#X restore 1373 741 pd PtrnDisplay;
+#X restore 1421 740 pd PtrnDisplay;
 #N canvas -11 -11 1920 956 Sequencer 0;
 #N canvas 950 0 958 944 SpclSldeTrill 0;
 #X obj 370 468 metro;
@@ -7295,7 +7295,7 @@
 #X obj 223 476 sel 99;
 #X msg 277 312 0;
 #X obj 213 579 vsl 30 50 0 8 0 0 empty SmplLvlDtaE empty 0 -9 0 10
--262144 -1 -1 524 1;
+-262144 -1 -1 364 1;
 #X obj 214 644 s Smplr3SpclAmp;
 #X obj 124 586 sel 1;
 #X obj 439 363 * 8;
@@ -7758,18 +7758,18 @@
 #X connect 70 0 4 0;
 #X connect 70 1 71 0;
 #X connect 72 1 5 0;
-#X restore 1373 821 pd Sequencer;
+#X restore 1421 820 pd Sequencer;
 #X obj 1006 740 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
-1 1;
+0 1;
 #X msg 1006 761 \; pd dsp \$1;
 #X obj 382 89 nbx 3 40 1 1e+037 0 0 empty seqstepdsply empty 0 -8 0
-30 -262144 -1 -1 11 256;
+30 -262144 -1 -1 1 256;
 #X text 380 67 Step;
 #X obj 38 89 tgl 40 0 StpSeqerStrtStp SeqerStrtStp empty 17 7 0 10
 -262144 -1 -1 0 1;
 #X text 36 66 Start/Stop;
 #X obj 134 89 nbx 3 40 80 300 0 0 tempo strtuptmpo empty 0 -8 0 30
--262144 -1 -1 118 256;
+-262144 -1 -1 110 256;
 #X text 132 66 Tempo;
 #X obj 258 89 nbx 3 40 1 1e+037 0 0 empty barN empty 0 -8 0 30 -262144
 -1 -1 1 256;
@@ -7778,37 +7778,37 @@
 0;
 #X obj 36 407 bng 50 250 50 0 empty empty N 14 26 0 30 -228856 -1 -1
 ;
-#X obj 253 408 cnv 15 15 15 empty PtrnDspItm9 empty 20 12 0 14 -261681
+#X obj 253 408 cnv 15 15 15 empty PtrnDspItm9 empty 20 12 0 14 -233017
 -262144 0;
-#X obj 272 408 cnv 15 15 15 empty PtrnDspItm10 empty 20 12 0 14 -262131
+#X obj 272 408 cnv 15 15 15 empty PtrnDspItm10 empty 20 12 0 14 -233017
 -262144 0;
-#X obj 291 408 cnv 15 15 15 empty PtrnDspItm11 empty 20 12 0 14 -261681
+#X obj 291 408 cnv 15 15 15 empty PtrnDspItm11 empty 20 12 0 14 -233017
 -262144 0;
-#X obj 310 408 cnv 15 15 15 empty PtrnDspItm12 empty 20 12 0 14 -260818
+#X obj 310 408 cnv 15 15 15 empty PtrnDspItm12 empty 20 12 0 14 -233017
 -262144 0;
-#X obj 329 408 cnv 15 15 15 empty PtrnDspItm13 empty 20 12 0 14 -260818
+#X obj 329 408 cnv 15 15 15 empty PtrnDspItm13 empty 20 12 0 14 -233017
 -262144 0;
-#X obj 348 408 cnv 15 15 15 empty PtrnDspItm14 empty 20 12 0 14 -228992
+#X obj 348 408 cnv 15 15 15 empty PtrnDspItm14 empty 20 12 0 14 -233017
 -262144 0;
-#X obj 367 408 cnv 15 15 15 empty PtrnDspItm15 empty 20 12 0 14 -260818
+#X obj 367 408 cnv 15 15 15 empty PtrnDspItm15 empty 20 12 0 14 -233017
 -262144 0;
-#X obj 386 408 cnv 15 15 15 empty PtrnDspItm16 empty 20 12 0 14 -228992
+#X obj 386 408 cnv 15 15 15 empty PtrnDspItm16 empty 20 12 0 14 -233017
 -262144 0;
-#X obj 101 408 cnv 15 15 15 empty PtrnDspItm1 empty 20 12 0 14 -260818
+#X obj 101 408 cnv 15 15 15 empty PtrnDspItm1 empty 20 12 0 14 -233017
 -262144 0;
-#X obj 120 408 cnv 15 15 15 empty PtrnDspItm2 empty 20 12 0 14 -260818
+#X obj 120 408 cnv 15 15 15 empty PtrnDspItm2 empty 20 12 0 14 -233017
 -262144 0;
-#X obj 139 408 cnv 15 15 15 empty PtrnDspItm3 empty 20 12 0 14 -261681
+#X obj 139 408 cnv 15 15 15 empty PtrnDspItm3 empty 20 12 0 14 -233017
 -262144 0;
-#X obj 158 408 cnv 15 15 15 empty PtrnDspItm4 empty 20 12 0 14 -261681
+#X obj 158 408 cnv 15 15 15 empty PtrnDspItm4 empty 20 12 0 14 -233017
 -262144 0;
-#X obj 177 408 cnv 15 15 15 empty PtrnDspItm5 empty 20 12 0 14 -261681
+#X obj 177 408 cnv 15 15 15 empty PtrnDspItm5 empty 20 12 0 14 -233017
 -262144 0;
-#X obj 196 408 cnv 15 15 15 empty PtrnDspItm6 empty 20 12 0 14 -262131
+#X obj 196 408 cnv 15 15 15 empty PtrnDspItm6 empty 20 12 0 14 -233017
 -262144 0;
-#X obj 215 408 cnv 15 15 15 empty PtrnDspItm7 empty 20 12 0 14 -260818
+#X obj 215 408 cnv 15 15 15 empty PtrnDspItm7 empty 20 12 0 14 -233017
 -262144 0;
-#X obj 234 408 cnv 15 15 15 empty PtrnDspItm8 empty 20 12 0 14 -261681
+#X obj 234 408 cnv 15 15 15 empty PtrnDspItm8 empty 20 12 0 14 -233017
 -262144 0;
 #X obj 253 432 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
 0;
@@ -7850,10 +7850,10 @@
 #X text 519 403 Save Slot, f 5;
 #X obj 122 157 cnv 15 85 105 empty empty empty 20 12 0 14 -249661 -262144
 0;
-#X obj 129 162 cnv 15 30 30 empty PtrnDspItm2 empty 20 12 0 14 -260818
+#X obj 129 162 cnv 15 30 30 empty PtrnDspItm2 empty 20 12 0 14 -233017
 -262144 0;
 #X obj 163 162 tgl 15 0 trillswitch2 trillswitchrcv2 empty 17 7 0 10
--262130 -1 -1 1 1;
+-262130 -1 -1 0 1;
 #X obj 182 162 tgl 15 0 revswitch2 revswitchrcv2 empty 17 7 0 10 -232576
 -1 -1 0 1;
 #X obj 130 196 hradio 8 1 0 6 sqitmsmpl2 sqitmsmplset2 empty 0 -8 0
@@ -7864,7 +7864,7 @@
 -191407 -262144 0;
 #X obj 30 157 cnv 15 85 105 empty empty empty 20 12 0 14 -249661 -262144
 0;
-#X obj 37 162 cnv 15 30 30 empty PtrnDspItm1 empty 20 12 0 14 -260818
+#X obj 37 162 cnv 15 30 30 empty PtrnDspItm1 empty 20 12 0 14 -233017
 -262144 0;
 #X obj 71 162 tgl 15 0 trillswitch1 trillswitchrcv1 empty 17 7 0 10
 -262130 -1 -1 0 1;
@@ -7878,12 +7878,12 @@
 -262144 0;
 #X obj 214 157 cnv 15 85 105 empty empty empty 20 12 0 14 -249661 -262144
 0;
-#X obj 221 162 cnv 15 30 30 empty PtrnDspItm3 empty 20 12 0 14 -261681
+#X obj 221 162 cnv 15 30 30 empty PtrnDspItm3 empty 20 12 0 14 -233017
 -262144 0;
 #X obj 255 163 tgl 15 0 trillswitch3 trillswitchrcv3 empty 17 7 0 10
 -262130 -1 -1 0 1;
 #X obj 274 163 tgl 15 0 revswitch3 revswitchrcv3 empty 17 7 0 10 -232576
--1 -1 1 1;
+-1 -1 0 1;
 #X obj 222 197 hradio 8 1 0 6 sqitmsmpl3 sqitmsmplset3 empty 0 -8 0
 10 -262144 -1 -1 2;
 #X obj 222 245 hradio 8 1 0 4 empty empty empty 0 -8 0 10 -262144 -1
@@ -7892,12 +7892,12 @@
 -191407 -262144 0;
 #X obj 306 157 cnv 15 85 105 empty empty empty 20 12 0 14 -249661 -262144
 0;
-#X obj 314 163 cnv 15 30 30 empty PtrnDspItm4 empty 20 12 0 14 -261681
+#X obj 314 163 cnv 15 30 30 empty PtrnDspItm4 empty 20 12 0 14 -233017
 -262144 0;
 #X obj 348 163 tgl 15 0 trillswitch4 trillswitchrcv4 empty 17 7 0 10
 -262130 -1 -1 0 1;
 #X obj 367 163 tgl 15 0 revswitch4 revswitchrcv4 empty 17 7 0 10 -232576
--1 -1 1 1;
+-1 -1 0 1;
 #X obj 315 197 hradio 8 1 0 6 sqitmsmpl4 sqitmsmplset4 empty 0 -8 0
 10 -262144 -1 -1 2;
 #X obj 315 245 hradio 8 1 0 4 empty empty empty 0 -8 0 10 -262144 -1
@@ -7906,12 +7906,12 @@
 -191407 -262144 0;
 #X obj 398 157 cnv 15 85 105 empty empty empty 20 12 0 14 -249661 -262144
 0;
-#X obj 407 162 cnv 15 30 30 empty PtrnDspItm5 empty 20 12 0 14 -261681
+#X obj 407 162 cnv 15 30 30 empty PtrnDspItm5 empty 20 12 0 14 -233017
 -262144 0;
 #X obj 441 162 tgl 15 0 trillswitch5 trillswitchrcv5 empty 17 7 0 10
 -262130 -1 -1 0 1;
 #X obj 460 162 tgl 15 0 revswitch5 revswitchrcv5 empty 17 7 0 10 -232576
--1 -1 1 1;
+-1 -1 0 1;
 #X obj 408 196 hradio 8 1 0 6 sqitmsmpl5 sqitmsmplset5 empty 0 -8 0
 10 -262144 -1 -1 2;
 #X obj 408 244 hradio 8 1 0 4 empty empty empty 0 -8 0 10 -262144 -1
@@ -7920,7 +7920,7 @@
 -191407 -262144 0;
 #X obj 490 157 cnv 15 85 105 empty empty empty 20 12 0 14 -249661 -262144
 0;
-#X obj 498 162 cnv 15 30 30 empty PtrnDspItm6 empty 20 12 0 14 -262131
+#X obj 498 162 cnv 15 30 30 empty PtrnDspItm6 empty 20 12 0 14 -233017
 -262144 0;
 #X obj 532 163 tgl 15 0 trillswitch6 trillswitchrcv6 empty 17 7 0 10
 -262130 -1 -1 0 1;
@@ -7934,12 +7934,12 @@
 -191407 -262144 0;
 #X obj 582 157 cnv 15 85 105 empty empty empty 20 12 0 14 -249661 -262144
 0;
-#X obj 591 162 cnv 15 30 30 empty PtrnDspItm7 empty 20 12 0 14 -260818
+#X obj 591 162 cnv 15 30 30 empty PtrnDspItm7 empty 20 12 0 14 -233017
 -262144 0;
 #X obj 644 162 tgl 15 0 revswitch7 revswitchrcv7 empty 17 7 0 10 -232576
--1 -1 1 1;
+-1 -1 0 1;
 #X obj 625 162 tgl 15 0 trillswitch7 trillswitchrcv7 empty 17 7 0 10
--262130 -1 -1 1 1;
+-262130 -1 -1 0 1;
 #X obj 592 196 hradio 8 1 0 6 sqitmsmpl7 sqitmsmplset7 empty 0 -8 0
 10 -262144 -1 -1 1;
 #X obj 592 244 hradio 8 1 0 4 empty empty empty 0 -8 0 10 -262144 -1
@@ -7948,7 +7948,7 @@
 -191407 -262144 0;
 #X obj 674 157 cnv 15 85 105 empty empty empty 20 12 0 14 -249661 -262144
 0;
-#X obj 682 162 cnv 15 30 30 empty PtrnDspItm8 empty 20 12 0 14 -261681
+#X obj 682 162 cnv 15 30 30 empty PtrnDspItm8 empty 20 12 0 14 -233017
 -262144 0;
 #X obj 716 162 tgl 15 0 trillswitch8 trillswitchrcv8 empty 17 7 0 10
 -262130 -1 -1 0 1;
@@ -7976,44 +7976,44 @@
 0;
 #X obj 674 273 cnv 15 85 105 empty empty empty 20 12 0 14 -249661 -262144
 0;
-#X obj 682 280 cnv 15 30 30 empty PtrnDspItm16 empty 20 12 0 14 -228992
+#X obj 682 280 cnv 15 30 30 empty PtrnDspItm16 empty 20 12 0 14 -233017
 -262144 0;
 #X obj 716 281 tgl 15 0 trillswitch16 trillswitchrcv16 empty 17 7 0
 10 -262130 -1 -1 0 1;
-#X obj 591 280 cnv 15 30 30 empty PtrnDspItm15 empty 20 12 0 14 -260818
+#X obj 591 280 cnv 15 30 30 empty PtrnDspItm15 empty 20 12 0 14 -233017
 -262144 0;
 #X obj 626 280 tgl 15 0 trillswitch15 trillswitchrcv15 empty 17 7 0
 10 -262130 -1 -1 0 1;
-#X obj 497 280 cnv 15 30 30 empty PtrnDspItm14 empty 20 12 0 14 -228992
+#X obj 497 280 cnv 15 30 30 empty PtrnDspItm14 empty 20 12 0 14 -233017
 -262144 0;
 #X obj 532 281 tgl 15 0 trillswitch14 trillswitchrcv14 empty 17 7 0
-10 -262130 -1 -1 1 1;
-#X obj 406 280 cnv 15 30 30 empty PtrnDspItm13 empty 20 12 0 14 -260818
+10 -262130 -1 -1 0 1;
+#X obj 406 280 cnv 15 30 30 empty PtrnDspItm13 empty 20 12 0 14 -233017
 -262144 0;
 #X obj 441 282 tgl 15 0 trillswitch13 trillswitchrcv13 empty 17 7 0
 10 -262130 -1 -1 0 1;
-#X obj 315 280 cnv 15 30 30 empty PtrnDspItm12 empty 20 12 0 14 -260818
+#X obj 315 280 cnv 15 30 30 empty PtrnDspItm12 empty 20 12 0 14 -233017
 -262144 0;
 #X obj 349 281 tgl 15 0 trillswitch12 trillswitchrcv12 empty 17 7 0
 10 -262130 -1 -1 0 1;
-#X obj 222 280 cnv 15 30 30 empty PtrnDspItm11 empty 20 12 0 14 -261681
+#X obj 222 280 cnv 15 30 30 empty PtrnDspItm11 empty 20 12 0 14 -233017
 -262144 0;
 #X obj 257 281 tgl 15 0 trillswitch11 trillswitchrcv11 empty 17 7 0
 10 -262130 -1 -1 0 1;
-#X obj 130 280 cnv 15 30 30 empty PtrnDspItm10 empty 20 12 0 14 -262131
+#X obj 130 280 cnv 15 30 30 empty PtrnDspItm10 empty 20 12 0 14 -233017
 -262144 0;
 #X obj 165 281 tgl 15 0 trillswitch10 trillswitchrcv10 empty 17 7 0
 10 -262130 -1 -1 0 1;
-#X obj 39 280 cnv 15 30 30 empty PtrnDspItm9 empty 20 12 0 14 -261681
+#X obj 39 280 cnv 15 30 30 empty PtrnDspItm9 empty 20 12 0 14 -233017
 -262144 0;
 #X obj 74 281 tgl 15 0 trillswitch9 trillswitchrcv9 empty 17 7 0 10
 -262130 -1 -1 0 1;
 #X obj 735 281 tgl 15 0 revswitch16 revswitchrcv16 empty 17 7 0 10
 -232576 -1 -1 0 1;
 #X obj 645 280 tgl 15 0 revswitch15 revswitchrcv15 empty 17 7 0 10
--232576 -1 -1 1 1;
+-232576 -1 -1 0 1;
 #X obj 551 281 tgl 15 0 revswitch14 revswitchrcv14 empty 17 7 0 10
--232576 -1 -1 1 1;
+-232576 -1 -1 0 1;
 #X obj 460 282 tgl 15 0 revswitch13 revswitchrcv13 empty 17 7 0 10
 -232576 -1 -1 0 1;
 #X obj 368 281 tgl 15 0 revswitch12 revswitchrcv12 empty 17 7 0 10
@@ -8073,7 +8073,7 @@
 #X obj 39 326 cnv 15 30 30 empty Vce2PtrnDspItm1 empty 20 12 0 14 -191407
 -262144 0;
 #X obj 587 72 vsl 30 60 0 5 0 0 MasterLvlRcv MasterLvlSet empty 0 -9
-0 10 -262144 -1 -1 3240 1;
+0 10 -262144 -1 -1 3540 1;
 #X obj 36 678 bng 50 250 50 0 SeqSec4 empty 4 16 24 0 30 -228856 -1
 -1;
 #X obj 253 678 cnv 15 15 15 empty PtrnSve4DspItm9 empty 20 12 0 14
@@ -8215,38 +8215,35 @@
 #X obj 1206 27 bng 40 250 50 0 smpltrig qkeybng Q 8 20 0 30 -261234
 -1 -1;
 #X obj 1003 166 hsl 195 15 0 1 0 0 empty smplpos2 empty -2 -8 0 10
--262144 -1 -1 1300 1;
+-262144 -1 -1 0 1;
 #N canvas 0 50 450 250 (subpatch) 0;
 #X array sampleQ 20864 float 2;
 #X coords 0 1 20864 -1 200 120 1 0 0;
 #X restore 999 39 graph;
 #X obj 1003 190 hsl 195 15 0 1 0 0 strtlneQ RcvStrtlneQ empty -2 -6
-0 8 -228856 -1 -1 1300 1;
+0 8 -228856 -1 -1 0 1;
 #X obj 1003 211 hsl 195 15 0 1 0 0 fnshlneQ RcvFnshlneQ empty -2 -6
-0 8 -228856 -1 -1 5400 1;
+0 8 -228856 -1 -1 0 1;
 #X obj 1206 208 vsl 40 70 0 1 0 0 SmplLvlDtaQ SmplLvlDtaSetQ empty
-0 -9 0 10 -262144 -1 -1 4900 1;
+0 -9 0 10 -262144 -1 -1 4200 1;
 #X obj 1206 71 bng 40 250 50 0 loadQsmpl empty load 7 20 0 13 -262144
 -1 -1;
 #X obj 1206 135 tgl 15 0 QRevTgle QRevTgleRcv Rev 17 7 0 10 -232576
 -1 -1 0 1;
-#X msg 1107 742 \; MasterLvlSet 3 \; samplefileQ kick-zapper.wav \;
-samplefileW tom-fm.wav \; samplefileE tom-fm.wav \; samplefileA snare-acoustic01.wav
-\; samplefileS clap-808.wav;
 #X obj 1277 21 cnv 15 260 265 empty SampleWDspClr empty 20 12 0 14
 -261681 -262144 0;
 #X obj 1286 167 hsl 195 15 0 1 0 0 empty smpl2pos2 empty -2 -8 0 10
--262144 -1 -1 2900 1;
+-262144 -1 -1 0 1;
 #N canvas 0 50 450 250 (subpatch) 0;
 #X array sampleW 48128 float 2;
 #X coords 0 1 48128 -1 200 120 1 0 0;
 #X restore 1283 40 graph;
 #X obj 1286 192 hsl 195 15 0 1 0 0 strtlneW RcvStrtlneW empty -2 -6
-0 8 -228856 -1 -1 2900 1;
+0 8 -228856 -1 -1 0 1;
 #X obj 1286 213 hsl 195 15 0 1 0 0 fnshlneW RcvFnshlneW empty -2 -6
-0 8 -228856 -1 -1 4000 1;
+0 8 -228856 -1 -1 0 1;
 #X obj 1489 207 vsl 40 70 0 1 0 0 SmplLvlDtaW SmplLvlDtaSetW empty
-0 -9 0 10 -262144 -1 -1 0 1;
+0 -9 0 10 -262144 -1 -1 5900 1;
 #X obj 1489 118 tgl 15 0 WTrlTgle WTrlTgleRcv Lp 17 7 0 10 -262130
 -1 -1 0 1;
 #X obj 1488 29 bng 40 250 50 0 smpltrig2 wkeybng W 6 21 0 30 -261234
@@ -8258,17 +8255,17 @@ samplefileW tom-fm.wav \; samplefileE tom-fm.wav \; samplefileA snare-acoustic01
 #X obj 1563 21 cnv 15 260 265 empty SampleEDspClr empty 20 12 0 14
 -262131 -262144 0;
 #X obj 1572 166 hsl 195 15 0 1 0 0 empty smpl3pos2 empty -2 -8 0 10
--262144 -1 -1 1700 1;
+-262144 -1 -1 0 1;
 #N canvas -11 -11 1920 956 (subpatch) 0;
 #X array sampleE 48128 float 2;
 #X coords 0 1 48128 -1 200 120 1 0 0;
 #X restore 1569 39 graph;
 #X obj 1572 191 hsl 195 15 0 1 0 0 strtlneE RcvStrtlneE empty -2 -6
-0 8 -228856 -1 -1 1700 1;
+0 8 -228856 -1 -1 0 1;
 #X obj 1572 213 hsl 195 15 0 1 0 0 fnshlneE RcvFnshlneE empty -2 -6
-0 8 -228856 -1 -1 3700 1;
+0 8 -228856 -1 -1 0 1;
 #X obj 1776 207 vsl 40 70 0 1 0 0 SmplLvlDtaE SmplLvlDtaSetE empty
-0 -9 0 10 -262144 -1 -1 5900 1;
+0 -9 0 10 -262144 -1 -1 4100 1;
 #X obj 1777 117 tgl 15 0 ETrlTgle ETrlTgleRcv Lp 17 7 0 10 -262130
 -1 -1 0 1;
 #X obj 1775 29 bng 40 250 50 0 smpltrig3 ekeybng E 10 20 0 30 -261234
@@ -8284,19 +8281,19 @@ samplefileW tom-fm.wav \; samplefileE tom-fm.wav \; samplefileA snare-acoustic01
 #X obj 1204 310 bng 40 250 50 0 smpltrig4 akeybng A 10 20 0 30 -261234
 -1 -1;
 #X obj 1000 452 hsl 195 15 0 1 0 0 empty smpl4pos2 empty -2 -8 0 10
--262144 -1 -1 1600 1;
+-262144 -1 -1 0 1;
 #N canvas -11 -11 1920 956 (subpatch) 0;
 #X array sampleA 36958 float 2;
 #X coords 0 1 36958 -1 200 120 1 0 0;
 #X restore 997 323 graph;
 #X obj 1000 478 hsl 195 15 0 1 0 0 strtlneA RcvStrtlneA empty -2 -6
-0 8 -228856 -1 -1 1600 1;
+0 8 -228856 -1 -1 0 1;
 #X obj 1000 500 hsl 195 15 0 1 0 0 fnshlneA RcvFnshlneA empty -2 -6
-0 8 -228856 -1 -1 8400 1;
+0 8 -228856 -1 -1 0 1;
 #X obj 1204 355 bng 40 250 50 0 loadAsmpl empty load 7 20 0 13 -262144
 -1 -1;
 #X obj 1204 489 vsl 40 70 0 1 0 0 SmplLvlDtaA SmplLvlDtaSetA empty
-0 -9 0 10 -262144 -1 -1 2700 1;
+0 -9 0 10 -262144 -1 -1 4100 1;
 #X obj 1204 418 tgl 15 0 ARevTgle ARevTgleRcv Rev 17 7 0 10 -232576
 -1 -1 0 1;
 #X obj 1276 304 cnv 15 260 265 empty SampleSDspClr empty 20 12 0 14
@@ -8312,13 +8309,13 @@ samplefileW tom-fm.wav \; samplefileE tom-fm.wav \; samplefileA snare-acoustic01
 #X coords 0 1 47360 -1 200 120 1 0 0;
 #X restore 1284 324 graph;
 #X obj 1288 481 hsl 195 15 0 1 0 0 strtlneS RcvStrtlneS empty -2 -6
-0 8 -228856 -1 -1 1800 1;
+0 8 -228856 -1 -1 0 1;
 #X obj 1288 503 hsl 195 15 0 1 0 0 fnshlneS RcvFnshlneS empty -2 -6
-0 8 -228856 -1 -1 9100 1;
+0 8 -228856 -1 -1 0 1;
 #X obj 1490 356 bng 40 250 50 0 loadSsmpl empty load 7 20 0 13 -262144
 -1 -1;
 #X obj 1490 488 vsl 40 70 0 1 0 0 SmplLvlDtaS SmplLvlDtaSetS empty
-0 -9 0 10 -262144 -1 -1 5500 1;
+0 -9 0 10 -262144 -1 -1 0 1;
 #X obj 1490 419 tgl 15 0 SRevTgle SRevTgleRcv Rev 17 7 0 10 -232576
 -1 -1 0 1;
 #X obj 35 808 bng 50 250 50 0 SeqSec6 empty 6 16 24 0 30 -228856 -1
@@ -8915,4 +8912,8 @@ samplefileW tom-fm.wav \; samplefileE tom-fm.wav \; samplefileA snare-acoustic01
 0;
 #X obj 618 897 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
 0;
+#X msg 1107 742 \; MasterLvlSet 3 \; samplefileQ samples/kick-zapper.wav
+\; samplefileW samples/tom-fm.wav \; samplefileE samples/tom-fm.wav
+\; samplefileA samples/snare-acoustic01.wav \; samplefileS samples/clap-808.wav
+;
 #X connect 104 0 105 0;
