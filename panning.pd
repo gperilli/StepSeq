@@ -1,0 +1,50 @@
+#N canvas 28 22 793 614 10;
+#X obj 133 15 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 133 39 openpanel;
+#X msg 133 66 read -resize \$1 array1;
+#X obj 133 93 soundfiler;
+#X obj 39 167 tabplay~ array1;
+#X msg 38 14 0;
+#X obj 538 231 hsl 128 15 0 1 0 0 empty empty empty -2 -6 0 10 -262144
+-1 -1 12700 1;
+#X obj 76 524 dac~;
+#X floatatom 85 458 5 0 0 0 - - -;
+#X floatatom 188 413 5 0 0 0 - - -;
+#X obj 68 486 *~;
+#X obj 176 435 *~;
+#X obj 362 31 table array1;
+#X text 159 13 open a file;
+#X text 145 170 the right output is sending a bang \, so this will
+just make it loop.;
+#X text 539 212 panning.;
+#X text 328 403 1 - 1 = 0;
+#X text 111 522 output;
+#X text 218 440 recieves a value of 1 when the fader is to the right
+;
+#X text 399 521 comment;
+#X text 153 487 recieves a value of 1 when the fader is to the left.
+;
+#X text 316 320 you need to bang the left output of [- ] for pd to
+work it out. So \, i like to use a highly unlikely number so it always
+bangs.;
+#X obj 221 314 select 2;
+#X msg 256 349 1;
+#X obj 293 402 -;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 4 0 10 0;
+#X connect 4 0 11 0;
+#X connect 4 1 5 0;
+#X connect 5 0 4 0;
+#X connect 6 0 8 0;
+#X connect 6 0 22 0;
+#X connect 6 0 24 1;
+#X connect 8 0 10 1;
+#X connect 9 0 11 1;
+#X connect 10 0 7 0;
+#X connect 11 0 7 1;
+#X connect 22 1 23 0;
+#X connect 23 0 24 0;
+#X connect 24 0 9 0;
