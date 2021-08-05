@@ -1,4 +1,4 @@
-#N canvas 33 24 486 238 12;
+#N canvas 33 24 380 257 12;
 #N canvas 568 192 654 388 SeqStepMain 0;
 #X obj 100 100 cnv 15 350 185 empty UIClrScheme empty 20 12 0 14 -145658
 -33289 0;
@@ -18,7 +18,7 @@
 #X obj 319 134 cnv 15 115 135 empty UIClrScheme2 empty 20 12 0 14 -166458
 -33289 0;
 #X obj 325 159 nbx 2 40 1 1e+037 0 0 empty seqstepdsply empty 0 -8
-0 30 -262144 -1 -1 15 256;
+0 30 -262144 -1 -1 4 256;
 #X text 325 136 Step;
 #X obj 326 222 nbx 3 40 1 1e+037 0 0 empty barN empty 0 -8 0 30 -262144
 -1 -1 1 256;
@@ -32,16 +32,16 @@
 1;
 #X text 105 233 Show/Hide Windows, f 9;
 #X obj 264 224 vsl 30 50 0 3 0 0 MasterLvlRcv MasterLvlSet empty 0
--9 0 10 -262144 -1 -1 3600 1;
+-9 0 10 -262144 -1 -1 100 1;
 #X connect 17 0 16 0;
 #X coords 0 -1 1 1 350 185 2 100 100;
-#X restore 9 8 pd SeqStepMain;
+#X restore 10 7 pd SeqStepMain;
 #N canvas -11 -11 1920 956 MainFuncs 0;
 #N canvas -7 9 1920 956 stepseqer 0;
 #X obj 235 42 inlet;
 #X obj 293 40 inlet;
 #X obj 235 314 hradio 30 1 0 16 empty empty empty 0 -8 0 10 -262144
--1 -1 14;
+-1 -1 3;
 #X floatatom 235 274 5 0 0 0 - - -;
 #X obj 235 171 metro;
 #X obj 235 141 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
@@ -51,52 +51,52 @@
 #X obj 235 244 mod 16;
 #X floatatom 293 114 5 0 0 0 - - -;
 #X obj 253 414 vradio 15 1 0 6 sqitmsmplsnd1 sqitmsmpl1 empty 0 -8
-0 10 -262144 -1 -1 2;
+0 10 -262144 -1 -1 4;
 #X obj 235 509 f;
 #X obj 294 414 vradio 15 1 0 6 sqitmsmplsnd2 sqitmsmpl2 empty 0 -8
-0 10 -262144 -1 -1 1;
+0 10 -262144 -1 -1 2;
 #X obj 276 509 f;
 #X obj 335 413 vradio 15 1 0 6 sqitmsmplsnd3 sqitmsmpl3 empty 0 -8
-0 10 -262144 -1 -1 3;
+0 10 -262144 -1 -1 2;
 #X obj 317 509 f;
 #X obj 377 413 vradio 15 1 0 6 sqitmsmplsnd4 sqitmsmpl4 empty 0 -8
-0 10 -262144 -1 -1 2;
+0 10 -262144 -1 -1 4;
 #X obj 359 509 f;
 #X obj 418 413 vradio 15 1 0 6 sqitmsmplsnd5 sqitmsmpl5 empty 0 -8
-0 10 -262144 -1 -1 1;
+0 10 -262144 -1 -1 2;
 #X obj 400 508 f;
 #X obj 459 414 vradio 15 1 0 6 sqitmsmplsnd6 sqitmsmpl6 empty 0 -8
-0 10 -262144 -1 -1 2;
+0 10 -262144 -1 -1 3;
 #X obj 441 508 f;
 #X obj 501 414 vradio 15 1 0 6 sqitmsmplsnd7 sqitmsmpl7 empty 0 -8
 0 10 -262144 -1 -1 5;
 #X obj 483 508 f;
 #X obj 542 415 vradio 15 1 0 6 sqitmsmplsnd8 sqitmsmpl8 empty 0 -8
-0 10 -262144 -1 -1 1;
+0 10 -262144 -1 -1 4;
 #X obj 524 508 f;
 #X obj 584 416 vradio 15 1 0 6 sqitmsmplsnd9 sqitmsmpl9 empty 0 -8
-0 10 -262144 -1 -1 5;
+0 10 -262144 -1 -1 2;
 #X obj 566 508 f;
 #X obj 625 416 vradio 15 1 0 6 sqitmsmplsnd10 sqitmsmpl10 empty 0 -8
-0 10 -262144 -1 -1 1;
+0 10 -262144 -1 -1 3;
 #X obj 607 509 f;
 #X obj 666 417 vradio 15 1 0 6 sqitmsmplsnd11 sqitmsmpl11 empty 0 -8
-0 10 -262144 -1 -1 2;
+0 10 -262144 -1 -1 3;
 #X obj 648 510 f;
 #X obj 708 418 vradio 15 1 0 6 sqitmsmplsnd12 sqitmsmpl12 empty 0 -8
-0 10 -262144 -1 -1 2;
+0 10 -262144 -1 -1 1;
 #X obj 690 510 f;
 #X obj 749 417 vradio 15 1 0 6 sqitmsmplsnd13 sqitmsmpl13 empty 0 -8
-0 10 -262144 -1 -1 1;
+0 10 -262144 -1 -1 5;
 #X obj 731 511 f;
 #X obj 790 420 vradio 15 1 0 6 sqitmsmplsnd14 sqitmsmpl14 empty 0 -8
-0 10 -262144 -1 -1 3;
+0 10 -262144 -1 -1 5;
 #X obj 772 512 f;
 #X obj 832 421 vradio 15 1 0 6 sqitmsmplsnd15 sqitmsmpl15 empty 0 -8
 0 10 -262144 -1 -1 1;
 #X obj 814 512 f;
 #X obj 873 420 vradio 15 1 0 6 sqitmsmplsnd16 sqitmsmpl16 empty 0 -8
-0 10 -262144 -1 -1 2;
+0 10 -262144 -1 -1 5;
 #X obj 855 513 f;
 #X obj 234 784 s qkeybng;
 #X obj 235 355 select 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15, f 95
@@ -211,28 +211,28 @@
 #X connect 63 1 47 0;
 #X connect 64 0 7 1;
 #X connect 65 0 7 1;
-#X restore 33 81 pd stepseqer;
-#X obj 33 24 tgl 25 0 empty StpSeqerStrtStp empty 17 7 0 10 -262144
+#X restore 57 123 pd stepseqer;
+#X obj 57 66 tgl 25 0 empty StpSeqerStrtStp empty 17 7 0 10 -262144
 -1 -1 0 1;
-#X obj 66 23 r tempo;
-#X floatatom 83 52 5 0 0 0 - - -;
-#X obj 51 824 dac~ 1 2;
-#X obj 200 491 vsl 30 50 0 1 0 0 empty SmplLvlDtaW empty 0 -9 0 10
--262144 -1 -1 4468 1;
-#X obj 182 549 *~;
-#X obj 323 491 vsl 30 50 0 1 0 0 empty SmplLvlDtaE empty 0 -9 0 10
--262144 -1 -1 3747 1;
-#X obj 305 549 *~;
-#X obj 67 492 vsl 30 50 0 1 0 0 empty SmplLvlDtaQ empty 0 -9 0 10 -262144
--1 -1 576 1;
-#X obj 49 550 *~;
-#X text 29 305 Mixer;
-#X obj 30 336 vsl 30 50 0 8 0 0 empty MasterLvlRcv empty 0 -9 0 10
--262144 -1 -1 1350 1;
-#X obj 306 605 *~;
-#X obj 447 489 vsl 30 50 0 1 0 0 empty SmplLvlDtaA empty 0 -9 0 10
--262144 -1 -1 3891 1;
-#X obj 429 547 *~;
+#X obj 90 65 r tempo;
+#X floatatom 107 94 5 0 0 0 - - -;
+#X obj 91 840 dac~ 1 2;
+#X obj 240 411 vsl 30 50 0 1 0 0 empty SmplLvlDtaW empty 0 -9 0 10
+-262144 -1 -1 1297 1;
+#X obj 222 469 *~;
+#X obj 363 411 vsl 30 50 0 1 0 0 empty SmplLvlDtaE empty 0 -9 0 10
+-262144 -1 -1 3603 1;
+#X obj 345 469 *~;
+#X obj 107 412 vsl 30 50 0 1 0 0 empty SmplLvlDtaQ empty 0 -9 0 10
+-262144 -1 -1 4900 1;
+#X obj 89 470 *~;
+#X text 72 240 Mixer;
+#X obj 73 271 vsl 30 50 0 8 0 0 empty MasterLvlRcv empty 0 -9 0 10
+-262144 -1 -1 37 1;
+#X obj 346 525 *~;
+#X obj 487 409 vsl 30 50 0 1 0 0 empty SmplLvlDtaA empty 0 -9 0 10
+-262144 -1 -1 4900 1;
+#X obj 469 467 *~;
 #N canvas -11 -11 1920 956 RevCntrl 0;
 #X obj 181 778 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -255,7 +255,7 @@
 -1 -1;
 #X obj 69 82 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 260 79 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 260 79 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 160 327 t b b;
 #X obj 164 224 f 0;
@@ -274,7 +274,7 @@
 #X connect 12 0 7 0;
 #X restore 181 618 pd switch;
 #X floatatom 181 540 5 0 0 0 - - -;
-#X obj 241 599 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 241 599 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 181 599 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -648,7 +648,7 @@
 #X connect 43 0 11 1;
 #X connect 44 0 10 1;
 #X connect 45 0 9 1;
-#X restore 148 47 pd RevCntrl;
+#X restore 172 89 pd RevCntrl;
 #N canvas -10 0 1240 944 TrillCntrl 0;
 #X obj 181 778 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -672,7 +672,7 @@
 -1 -1;
 #X obj 69 82 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 260 79 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 260 79 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 160 327 t b b;
 #X obj 164 224 f 0;
@@ -691,7 +691,7 @@
 #X connect 12 0 7 0;
 #X restore 181 618 pd switch;
 #X floatatom 181 540 5 0 0 0 - - -;
-#X obj 241 599 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 241 599 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 181 599 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -1064,16 +1064,16 @@
 #X connect 43 0 3 0;
 #X connect 44 0 45 0;
 #X connect 45 0 3 0;
-#X restore 148 22 pd TrillCntrl;
-#X obj 50 603 *~;
-#X obj 181 604 *~;
-#X obj 428 605 *~;
-#X obj 577 488 vsl 30 50 0 1 0 0 empty SmplLvlDtaS empty 0 -9 0 10
--262144 -1 -1 1009 1;
-#X obj 558 546 *~;
-#X obj 559 604 *~;
-#X obj 504 715 delwrite~ testdel 10;
-#X obj 504 745 delread~ testdel 10;
+#X restore 172 64 pd TrillCntrl;
+#X obj 90 523 *~;
+#X obj 221 524 *~;
+#X obj 468 525 *~;
+#X obj 617 408 vsl 30 50 0 1 0 0 empty SmplLvlDtaS empty 0 -9 0 10
+-262144 -1 -1 4900 1;
+#X obj 598 466 *~;
+#X obj 599 524 *~;
+#X obj 276 592 delwrite~ testdel 10;
+#X obj 276 622 delread~ testdel 10;
 #N canvas -11 -11 1920 956 LvlCntrl 0;
 #X floatatom 110 594 5 0 0 0 - - -;
 #X floatatom 107 546 5 0 0 0 - - -;
@@ -1336,7 +1336,7 @@
 #X connect 37 0 18 1;
 #X connect 38 0 17 1;
 #X connect 39 0 16 1;
-#X restore 148 72 pd LvlCntrl;
+#X restore 172 114 pd LvlCntrl;
 #N canvas 950 0 958 944 SeqPosLveDsp 0;
 #X obj 454 493 f;
 #X obj 155 76 r seqstep;
@@ -1351,7 +1351,7 @@
 #X obj 155 219 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 155 371 set \$1\$2;
-#X msg 155 493 PtrnDspItm15;
+#X msg 155 493 PtrnDspItm4;
 #X obj 155 345 pack s f;
 #X floatatom 208 683 5 0 0 0 - - -;
 #X obj 445 285 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -1577,7 +1577,7 @@
 #X connect 39 4 36 0;
 #X connect 39 5 37 0;
 #X connect 39 6 38 0;
-#X restore 306 47 pd SeqPosLveDsp;
+#X restore 330 89 pd SeqPosLveDsp;
 #N canvas 49 140 1664 773 SmplGlblLvlCntrl 0;
 #X obj 152 410 value sqitmsmpl1;
 #X floatatom 152 434 5 0 0 0 - - -;
@@ -1652,7 +1652,7 @@
 #X floatatom 411 242 5 0 0 0 - - -;
 #X msg 46 79 1;
 #X obj 22 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 576 1;
+-1 -1 4900 1;
 #X obj 436 279 ==;
 #X obj 46 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -1668,25 +1668,25 @@
 #X obj 368 357 t b b;
 #X floatatom 470 242 5 0 0 0 - - -;
 #X obj 121 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4468 1;
+-1 -1 1297 1;
 #X obj 145 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 121 15 r SmplLvlDtaW;
 #X msg 145 79 2;
 #X obj 220 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3747 1;
+-1 -1 3603 1;
 #X obj 244 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 220 15 r SmplLvlDtaE;
 #X msg 243 79 3;
 #X obj 26 166 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3891 1;
+-1 -1 4900 1;
 #X obj 50 174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 49 197 4;
 #X obj 26 133 r SmplLvlDtaA;
 #X obj 128 165 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1009 1;
+-1 -1 4900 1;
 #X obj 152 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 151 196 4;
@@ -1810,7 +1810,7 @@
 #X floatatom 411 242 5 0 0 0 - - -;
 #X msg 46 79 1;
 #X obj 22 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 576 1;
+-1 -1 4900 1;
 #X obj 436 279 ==;
 #X obj 46 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -1826,25 +1826,25 @@
 #X obj 368 357 t b b;
 #X floatatom 470 242 5 0 0 0 - - -;
 #X obj 121 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4468 1;
+-1 -1 1297 1;
 #X obj 145 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 121 15 r SmplLvlDtaW;
 #X msg 145 79 2;
 #X obj 220 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3747 1;
+-1 -1 3603 1;
 #X obj 244 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 220 15 r SmplLvlDtaE;
 #X msg 243 79 3;
 #X obj 26 166 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3891 1;
+-1 -1 4900 1;
 #X obj 50 174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 49 197 4;
 #X obj 26 133 r SmplLvlDtaA;
 #X obj 128 165 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1009 1;
+-1 -1 4900 1;
 #X obj 152 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 151 196 4;
@@ -1935,7 +1935,7 @@
 #X floatatom 411 242 5 0 0 0 - - -;
 #X msg 46 79 1;
 #X obj 22 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 576 1;
+-1 -1 4900 1;
 #X obj 436 279 ==;
 #X obj 46 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -1951,25 +1951,25 @@
 #X obj 368 357 t b b;
 #X floatatom 470 242 5 0 0 0 - - -;
 #X obj 121 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4468 1;
+-1 -1 1297 1;
 #X obj 145 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 121 15 r SmplLvlDtaW;
 #X msg 145 79 2;
 #X obj 220 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3747 1;
+-1 -1 3603 1;
 #X obj 244 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 220 15 r SmplLvlDtaE;
 #X msg 243 79 3;
 #X obj 26 166 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3891 1;
+-1 -1 4900 1;
 #X obj 50 174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 49 197 4;
 #X obj 26 133 r SmplLvlDtaA;
 #X obj 128 165 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1009 1;
+-1 -1 4900 1;
 #X obj 152 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 151 196 4;
@@ -2060,7 +2060,7 @@
 #X floatatom 411 242 5 0 0 0 - - -;
 #X msg 46 79 1;
 #X obj 22 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 576 1;
+-1 -1 4900 1;
 #X obj 436 279 ==;
 #X obj 46 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -2076,25 +2076,25 @@
 #X obj 368 357 t b b;
 #X floatatom 470 242 5 0 0 0 - - -;
 #X obj 121 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4468 1;
+-1 -1 1297 1;
 #X obj 145 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 121 15 r SmplLvlDtaW;
 #X msg 145 79 2;
 #X obj 220 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3747 1;
+-1 -1 3603 1;
 #X obj 244 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 220 15 r SmplLvlDtaE;
 #X msg 243 79 3;
 #X obj 26 166 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3891 1;
+-1 -1 4900 1;
 #X obj 50 174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 49 197 4;
 #X obj 26 133 r SmplLvlDtaA;
 #X obj 128 165 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1009 1;
+-1 -1 4900 1;
 #X obj 152 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 151 196 4;
@@ -2185,7 +2185,7 @@
 #X floatatom 411 242 5 0 0 0 - - -;
 #X msg 46 79 1;
 #X obj 22 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 576 1;
+-1 -1 4900 1;
 #X obj 436 279 ==;
 #X obj 46 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -2201,25 +2201,25 @@
 #X obj 368 357 t b b;
 #X floatatom 470 242 5 0 0 0 - - -;
 #X obj 121 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4468 1;
+-1 -1 1297 1;
 #X obj 145 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 121 15 r SmplLvlDtaW;
 #X msg 145 79 2;
 #X obj 220 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3747 1;
+-1 -1 3603 1;
 #X obj 244 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 220 15 r SmplLvlDtaE;
 #X msg 243 79 3;
 #X obj 26 166 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3891 1;
+-1 -1 4900 1;
 #X obj 50 174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 49 197 4;
 #X obj 26 133 r SmplLvlDtaA;
 #X obj 128 165 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1009 1;
+-1 -1 4900 1;
 #X obj 152 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 151 196 4;
@@ -2310,7 +2310,7 @@
 #X floatatom 411 242 5 0 0 0 - - -;
 #X msg 46 79 1;
 #X obj 22 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 576 1;
+-1 -1 4900 1;
 #X obj 436 279 ==;
 #X obj 46 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -2326,25 +2326,25 @@
 #X obj 368 357 t b b;
 #X floatatom 470 242 5 0 0 0 - - -;
 #X obj 121 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4468 1;
+-1 -1 1297 1;
 #X obj 145 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 121 15 r SmplLvlDtaW;
 #X msg 145 79 2;
 #X obj 220 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3747 1;
+-1 -1 3603 1;
 #X obj 244 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 220 15 r SmplLvlDtaE;
 #X msg 243 79 3;
 #X obj 26 166 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3891 1;
+-1 -1 4900 1;
 #X obj 50 174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 49 197 4;
 #X obj 26 133 r SmplLvlDtaA;
 #X obj 128 165 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1009 1;
+-1 -1 4900 1;
 #X obj 152 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 151 196 4;
@@ -2435,7 +2435,7 @@
 #X floatatom 411 242 5 0 0 0 - - -;
 #X msg 46 79 1;
 #X obj 22 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 576 1;
+-1 -1 4900 1;
 #X obj 436 279 ==;
 #X obj 46 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -2451,25 +2451,25 @@
 #X obj 368 357 t b b;
 #X floatatom 470 242 5 0 0 0 - - -;
 #X obj 121 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4468 1;
+-1 -1 1297 1;
 #X obj 145 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 121 15 r SmplLvlDtaW;
 #X msg 145 79 2;
 #X obj 220 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3747 1;
+-1 -1 3603 1;
 #X obj 244 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 220 15 r SmplLvlDtaE;
 #X msg 243 79 3;
 #X obj 26 166 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3891 1;
+-1 -1 4900 1;
 #X obj 50 174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 49 197 4;
 #X obj 26 133 r SmplLvlDtaA;
 #X obj 128 165 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1009 1;
+-1 -1 4900 1;
 #X obj 152 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 151 196 4;
@@ -2560,7 +2560,7 @@
 #X floatatom 411 242 5 0 0 0 - - -;
 #X msg 46 79 1;
 #X obj 22 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 576 1;
+-1 -1 4900 1;
 #X obj 436 279 ==;
 #X obj 46 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -2576,25 +2576,25 @@
 #X obj 368 357 t b b;
 #X floatatom 470 242 5 0 0 0 - - -;
 #X obj 121 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4468 1;
+-1 -1 1297 1;
 #X obj 145 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 121 15 r SmplLvlDtaW;
 #X msg 145 79 2;
 #X obj 220 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3747 1;
+-1 -1 3603 1;
 #X obj 244 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 220 15 r SmplLvlDtaE;
 #X msg 243 79 3;
 #X obj 26 166 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3891 1;
+-1 -1 4900 1;
 #X obj 50 174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 49 197 4;
 #X obj 26 133 r SmplLvlDtaA;
 #X obj 128 165 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1009 1;
+-1 -1 4900 1;
 #X obj 152 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 151 196 4;
@@ -2685,7 +2685,7 @@
 #X floatatom 411 242 5 0 0 0 - - -;
 #X msg 46 79 1;
 #X obj 22 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 576 1;
+-1 -1 4900 1;
 #X obj 436 279 ==;
 #X obj 46 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -2701,25 +2701,25 @@
 #X obj 368 357 t b b;
 #X floatatom 470 242 5 0 0 0 - - -;
 #X obj 121 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4468 1;
+-1 -1 1297 1;
 #X obj 145 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 121 15 r SmplLvlDtaW;
 #X msg 145 79 2;
 #X obj 220 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3747 1;
+-1 -1 3603 1;
 #X obj 244 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 220 15 r SmplLvlDtaE;
 #X msg 243 79 3;
 #X obj 26 166 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3891 1;
+-1 -1 4900 1;
 #X obj 50 174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 49 197 4;
 #X obj 26 133 r SmplLvlDtaA;
 #X obj 128 165 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1009 1;
+-1 -1 4900 1;
 #X obj 152 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 151 196 4;
@@ -2810,7 +2810,7 @@
 #X floatatom 411 242 5 0 0 0 - - -;
 #X msg 46 79 1;
 #X obj 22 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 576 1;
+-1 -1 4900 1;
 #X obj 436 279 ==;
 #X obj 46 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -2826,25 +2826,25 @@
 #X obj 368 357 t b b;
 #X floatatom 470 242 5 0 0 0 - - -;
 #X obj 121 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4468 1;
+-1 -1 1297 1;
 #X obj 145 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 121 15 r SmplLvlDtaW;
 #X msg 145 79 2;
 #X obj 220 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3747 1;
+-1 -1 3603 1;
 #X obj 244 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 220 15 r SmplLvlDtaE;
 #X msg 243 79 3;
 #X obj 26 166 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3891 1;
+-1 -1 4900 1;
 #X obj 50 174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 49 197 4;
 #X obj 26 133 r SmplLvlDtaA;
 #X obj 128 165 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1009 1;
+-1 -1 4900 1;
 #X obj 152 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 151 196 4;
@@ -2935,7 +2935,7 @@
 #X floatatom 411 242 5 0 0 0 - - -;
 #X msg 46 79 1;
 #X obj 22 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 576 1;
+-1 -1 4900 1;
 #X obj 436 279 ==;
 #X obj 46 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -2951,25 +2951,25 @@
 #X obj 368 357 t b b;
 #X floatatom 470 242 5 0 0 0 - - -;
 #X obj 121 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4468 1;
+-1 -1 1297 1;
 #X obj 145 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 121 15 r SmplLvlDtaW;
 #X msg 145 79 2;
 #X obj 220 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3747 1;
+-1 -1 3603 1;
 #X obj 244 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 220 15 r SmplLvlDtaE;
 #X msg 243 79 3;
 #X obj 26 166 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3891 1;
+-1 -1 4900 1;
 #X obj 50 174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 49 197 4;
 #X obj 26 133 r SmplLvlDtaA;
 #X obj 128 165 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1009 1;
+-1 -1 4900 1;
 #X obj 152 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 151 196 4;
@@ -3060,7 +3060,7 @@
 #X floatatom 411 242 5 0 0 0 - - -;
 #X msg 46 79 1;
 #X obj 22 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 576 1;
+-1 -1 4900 1;
 #X obj 436 279 ==;
 #X obj 46 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -3076,25 +3076,25 @@
 #X obj 368 357 t b b;
 #X floatatom 470 242 5 0 0 0 - - -;
 #X obj 121 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4468 1;
+-1 -1 1297 1;
 #X obj 145 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 121 15 r SmplLvlDtaW;
 #X msg 145 79 2;
 #X obj 220 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3747 1;
+-1 -1 3603 1;
 #X obj 244 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 220 15 r SmplLvlDtaE;
 #X msg 243 79 3;
 #X obj 26 166 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3891 1;
+-1 -1 4900 1;
 #X obj 50 174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 49 197 4;
 #X obj 26 133 r SmplLvlDtaA;
 #X obj 128 165 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1009 1;
+-1 -1 4900 1;
 #X obj 152 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 151 196 4;
@@ -3185,7 +3185,7 @@
 #X floatatom 411 242 5 0 0 0 - - -;
 #X msg 46 79 1;
 #X obj 22 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 576 1;
+-1 -1 4900 1;
 #X obj 436 279 ==;
 #X obj 46 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -3201,25 +3201,25 @@
 #X obj 368 357 t b b;
 #X floatatom 470 242 5 0 0 0 - - -;
 #X obj 121 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4468 1;
+-1 -1 1297 1;
 #X obj 145 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 121 15 r SmplLvlDtaW;
 #X msg 145 79 2;
 #X obj 220 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3747 1;
+-1 -1 3603 1;
 #X obj 244 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 220 15 r SmplLvlDtaE;
 #X msg 243 79 3;
 #X obj 26 166 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3891 1;
+-1 -1 4900 1;
 #X obj 50 174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 49 197 4;
 #X obj 26 133 r SmplLvlDtaA;
 #X obj 128 165 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1009 1;
+-1 -1 4900 1;
 #X obj 152 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 151 196 4;
@@ -3310,7 +3310,7 @@
 #X floatatom 411 242 5 0 0 0 - - -;
 #X msg 46 79 1;
 #X obj 22 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 576 1;
+-1 -1 4900 1;
 #X obj 436 279 ==;
 #X obj 46 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -3326,25 +3326,25 @@
 #X obj 368 357 t b b;
 #X floatatom 470 242 5 0 0 0 - - -;
 #X obj 121 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4468 1;
+-1 -1 1297 1;
 #X obj 145 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 121 15 r SmplLvlDtaW;
 #X msg 145 79 2;
 #X obj 220 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3747 1;
+-1 -1 3603 1;
 #X obj 244 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 220 15 r SmplLvlDtaE;
 #X msg 243 79 3;
 #X obj 26 166 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3891 1;
+-1 -1 4900 1;
 #X obj 50 174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 49 197 4;
 #X obj 26 133 r SmplLvlDtaA;
 #X obj 128 165 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1009 1;
+-1 -1 4900 1;
 #X obj 152 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 151 196 4;
@@ -3435,7 +3435,7 @@
 #X floatatom 411 242 5 0 0 0 - - -;
 #X msg 46 79 1;
 #X obj 22 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 576 1;
+-1 -1 4900 1;
 #X obj 436 279 ==;
 #X obj 46 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -3451,25 +3451,25 @@
 #X obj 368 357 t b b;
 #X floatatom 470 242 5 0 0 0 - - -;
 #X obj 121 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4468 1;
+-1 -1 1297 1;
 #X obj 145 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 121 15 r SmplLvlDtaW;
 #X msg 145 79 2;
 #X obj 220 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3747 1;
+-1 -1 3603 1;
 #X obj 244 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 220 15 r SmplLvlDtaE;
 #X msg 243 79 3;
 #X obj 26 166 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3891 1;
+-1 -1 4900 1;
 #X obj 50 174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 49 197 4;
 #X obj 26 133 r SmplLvlDtaA;
 #X obj 128 165 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1009 1;
+-1 -1 4900 1;
 #X obj 152 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 151 196 4;
@@ -3560,7 +3560,7 @@
 #X floatatom 411 242 5 0 0 0 - - -;
 #X msg 46 79 1;
 #X obj 22 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 576 1;
+-1 -1 4900 1;
 #X obj 436 279 ==;
 #X obj 46 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -3576,25 +3576,25 @@
 #X obj 368 357 t b b;
 #X floatatom 470 242 5 0 0 0 - - -;
 #X obj 121 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4468 1;
+-1 -1 1297 1;
 #X obj 145 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 121 15 r SmplLvlDtaW;
 #X msg 145 79 2;
 #X obj 220 48 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3747 1;
+-1 -1 3603 1;
 #X obj 244 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 220 15 r SmplLvlDtaE;
 #X msg 243 79 3;
 #X obj 26 166 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3891 1;
+-1 -1 4900 1;
 #X obj 50 174 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 49 197 4;
 #X obj 26 133 r SmplLvlDtaA;
 #X obj 128 165 vsl 15 50 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1009 1;
+-1 -1 4900 1;
 #X obj 152 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 151 196 4;
@@ -3775,13 +3775,13 @@
 #X connect 95 0 78 0;
 #X connect 96 0 79 0;
 #X connect 97 0 80 0;
-#X restore 148 98 pd SmplGlblLvlCntrl;
+#X restore 172 140 pd SmplGlblLvlCntrl;
 #N canvas 4 86 1331 776 SmplSlctr 0;
 #X obj 57 253 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 131 445 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X msg 56 472 samplefileQ;
+#X msg 56 472 samplefileA;
 #X msg 57 285 samplefile;
 #X obj 57 312 symbol samplefile;
 #X msg 56 438 set \$1\$2;
@@ -3793,14 +3793,14 @@
 #X obj 56 511 symbol samplefileN;
 #X obj 56 560 pack s s;
 #X msg 56 606 \; \$1 \$2 \;;
-#X msg 211 284 Q;
+#X msg 211 284 A;
 #N canvas -10 0 1918 944 PrvNxtBtnRouting 0;
 #X obj 117 574 outlet;
 #X obj 309 575 outlet;
 #X obj 51 574 outlet;
 #X floatatom 309 548 5 0 0 0 - - -;
 #X msg 117 546 set \$1;
-#X msg 89 607 Q;
+#X msg 89 607 A;
 #X obj 51 487 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 117 515 symbol;
@@ -4198,12 +4198,12 @@
 #X obj 277 665 outlet;
 #X floatatom 277 384 5 0 0 0 - - -;
 #X msg 192 574 set \$1;
-#X msg 165 710 samples/hihat-dist02.wav;
+#X msg 165 710 samples/clap-808.wav;
 #X obj 83 -26 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 83 -55 sel Q;
 #X obj 83 -105 symbol;
-#X msg 83 -129 Q;
+#X msg 83 -129 A;
 #X obj 117 392 text get smpllbry;
 #X obj 117 270 f;
 #X obj 162 270 + 1;
@@ -4227,12 +4227,12 @@
 #X floatatom 498 793 5 0 0 0 - - -;
 #X obj 498 651 pack s f;
 #X obj 498 621 symbol;
-#X msg 498 707 A 17;
+#X msg 498 707 E 0;
 #X msg 498 680 set \$1 \$2;
 #X obj 498 738 route Q W E A S D;
 #X obj 543 570 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X msg 537 591 symbol Q;
+#X msg 537 591 symbol A;
 #X obj 446 173 t b b b;
 #X obj 1056 411 f;
 #X obj 1056 280 f;
@@ -4321,7 +4321,7 @@
 -1 -1;
 #X obj 1107 -56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X msg 1056 -143 Q;
+#X msg 1056 -143 A;
 #X obj 1056 -114 symbol;
 #X obj 1056 -171 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -4369,17 +4369,17 @@
 #X obj 1470 960 value SSmplN;
 #X obj 1574 960 value DSmplN;
 #X obj 390 482 del 2;
-#X msg 481 867 16;
+#X msg 481 867 0;
 #X msg 481 842 set \$1;
-#X msg 539 977 17;
+#X msg 539 977 0;
 #X msg 539 952 set \$1;
-#X msg 635 977 4;
+#X msg 635 977 0;
 #X msg 635 952 set \$1;
 #X msg 730 977 0;
 #X msg 730 952 set \$1;
 #X msg 586 867 5;
 #X msg 586 842 set \$1;
-#X msg 679 868 30;
+#X msg 679 868 0;
 #X msg 679 843 set \$1;
 #X text 1317 842 Set Sample Library Pos number when sample slot trigger
 is changed;
@@ -4606,7 +4606,7 @@ trigger event or sample change event, f 42;
 #X connect 158 0 157 0;
 #X connect 160 0 159 0;
 #X restore 386 333 pd SmplLbrPosSLctr;
-#X msg 447 382 samples/hihat-dist02.wav;
+#X msg 447 382 samples/clap-808.wav;
 #X floatatom 509 358 5 0 0 0 - - -;
 #X obj 57 141 t b b b;
 #X connect 0 0 3 0;
@@ -4637,10 +4637,10 @@ trigger event or sample change event, f 42;
 #X connect 20 0 0 0;
 #X connect 20 1 8 0;
 #X connect 20 2 17 0;
-#X restore 306 20 pd SmplSlctr;
-#X obj 36 119 tgl 15 0 empty AudOnOff empty 17 7 0 10 -262144 -1 -1
+#X restore 330 62 pd SmplSlctr;
+#X obj 60 161 tgl 15 0 empty AudOnOff empty 17 7 0 10 -262144 -1 -1
 1 1;
-#X msg 36 139 \; pd dsp \$1;
+#X msg 60 181 \; pd dsp \$1;
 #N canvas 1366 199 449 700 ChainSeq 0;
 #N canvas 950 0 958 944 SpclSldeTrill 0;
 #X obj 370 468 metro;
@@ -4659,7 +4659,7 @@ trigger event or sample change event, f 42;
 #X obj 223 476 sel 99;
 #X msg 277 312 0;
 #X obj 213 579 vsl 30 50 0 8 0 0 empty SmplLvlDtaE empty 0 -9 0 10
--262144 -1 -1 468 1;
+-262144 -1 -1 450 1;
 #X obj 214 644 s Smplr3SpclAmp;
 #X obj 124 586 sel 1;
 #X obj 439 363 * 8;
@@ -5064,81 +5064,81 @@ trigger event or sample change event, f 42;
 #X connect 21 1 18 0;
 #X connect 22 0 9 0;
 #X connect 23 0 16 0;
-#X restore 446 71 pd ChainSeq;
-#N canvas 61 392 768 296 SeqVc1Edtr 1;
+#X restore 470 113 pd ChainSeq;
+#N canvas 29 235 768 296 SeqVc1Edtr 1;
 #N canvas 882 193 959 418 SeqVx1EdtrPanl 0;
 #X obj 100 100 cnv 15 745 265 empty UIClrScheme empty 20 12 0 14 -145658
 -33289 0;
 #X obj 108 137 cnv 15 85 105 empty UIClrScheme2 empty 20 12 0 14 -166458
 -33289 0;
-#X obj 112 143 cnv 15 30 30 empty PtrnDspItm1 empty 20 12 0 14 -228992
+#X obj 112 143 cnv 15 30 30 empty PtrnDspItm1 empty 20 12 0 14 -225271
 -262144 0;
 #X obj 113 220 tgl 12 0 trillswitch1 trillswitchrcv1 empty 17 7 0 10
--262130 -1 -1 0 1;
+-262130 -1 -1 1 1;
 #X obj 129 220 tgl 12 0 revswitch1 revswitchrcv1 empty 17 7 0 10 -232576
 -1 -1 0 1;
 #X obj 113 179 hradio 9 1 0 8 sqitmsmpl1 sqitmsmplset1 empty 0 -8 0
-10 -262144 -1 -1 2;
+10 -262144 -1 -1 4;
 #X obj 292 137 cnv 15 85 105 empty UIClrScheme2 empty 20 12 0 14 -166458
 -33289 0;
-#X obj 299 142 cnv 15 30 30 empty PtrnDspItm3 empty 20 12 0 14 -261681
+#X obj 299 142 cnv 15 30 30 empty PtrnDspItm3 empty 20 12 0 14 -228992
 -262144 0;
 #X obj 299 222 tgl 12 0 trillswitch3 trillswitchrcv3 empty 17 7 0 10
 -262130 -1 -1 1 1;
 #X obj 314 222 tgl 12 0 revswitch3 revswitchrcv3 empty 17 7 0 10 -232576
 -1 -1 1 1;
 #X obj 300 179 hradio 9 1 0 8 sqitmsmpl3 sqitmsmplset3 empty 0 -8 0
-10 -262144 -1 -1 3;
+10 -262144 -1 -1 2;
 #X obj 384 137 cnv 15 85 105 empty UIClrScheme2 empty 20 12 0 14 -166458
 -33289 0;
-#X obj 389 142 cnv 15 30 30 empty PtrnDspItm4 empty 20 12 0 14 -228992
+#X obj 389 142 cnv 15 30 30 empty PtrnDspItm4 empty 20 12 0 14 -225271
 -262144 0;
 #X obj 391 221 tgl 12 0 trillswitch4 trillswitchrcv4 empty 17 7 0 10
 -262130 -1 -1 0 1;
 #X obj 407 221 tgl 12 0 revswitch4 revswitchrcv4 empty 17 7 0 10 -232576
--1 -1 1 1;
+-1 -1 0 1;
 #X obj 391 179 hradio 9 1 0 8 sqitmsmpl4 sqitmsmplset4 empty 0 -8 0
-10 -262144 -1 -1 2;
+10 -262144 -1 -1 4;
 #X obj 476 137 cnv 15 85 105 empty UIClrScheme2 empty 20 12 0 14 -166458
 -33289 0;
-#X obj 481 141 cnv 15 30 30 empty PtrnDspItm5 empty 20 12 0 14 -261689
+#X obj 481 141 cnv 15 30 30 empty PtrnDspItm5 empty 20 12 0 14 -228992
 -262144 0;
 #X obj 481 221 tgl 12 0 trillswitch5 trillswitchrcv5 empty 17 7 0 10
 -262130 -1 -1 0 1;
 #X obj 500 221 tgl 12 0 revswitch5 revswitchrcv5 empty 17 7 0 10 -232576
 -1 -1 0 1;
 #X obj 482 176 hradio 9 1 0 8 sqitmsmpl5 sqitmsmplset5 empty 0 -8 0
-10 -262144 -1 -1 1;
+10 -262144 -1 -1 2;
 #X obj 568 137 cnv 15 85 105 empty UIClrScheme2 empty 20 12 0 14 -166458
 -33289 0;
-#X obj 573 142 cnv 15 30 30 empty PtrnDspItm6 empty 20 12 0 14 -228992
+#X obj 573 142 cnv 15 30 30 empty PtrnDspItm6 empty 20 12 0 14 -261681
 -262144 0;
 #X obj 574 219 tgl 12 0 trillswitch6 trillswitchrcv6 empty 17 7 0 10
 -262130 -1 -1 0 1;
 #X obj 590 219 tgl 12 0 revswitch6 revswitchrcv6 empty 17 7 0 10 -232576
 -1 -1 0 1;
 #X obj 575 177 hradio 9 1 0 8 sqitmsmpl6 sqitmsmplset6 empty 0 -8 0
-10 -262144 -1 -1 2;
+10 -262144 -1 -1 3;
 #X obj 660 137 cnv 15 85 105 empty UIClrScheme2 empty 20 12 0 14 -166458
 -33289 0;
 #X obj 666 142 cnv 15 30 30 empty PtrnDspItm7 empty 20 12 0 14 -262131
 -262144 0;
 #X obj 685 219 tgl 12 0 revswitch7 revswitchrcv7 empty 17 7 0 10 -232576
--1 -1 1 1;
+-1 -1 0 1;
 #X obj 668 219 tgl 12 0 trillswitch7 trillswitchrcv7 empty 17 7 0 10
--262130 -1 -1 0 1;
+-262130 -1 -1 1 1;
 #X obj 668 176 hradio 9 1 0 8 sqitmsmpl7 sqitmsmplset7 empty 0 -8 0
 10 -262144 -1 -1 5;
 #X obj 752 137 cnv 15 85 105 empty UIClrScheme2 empty 20 12 0 14 -166458
 -33289 0;
-#X obj 757 142 cnv 15 30 30 empty PtrnDspItm8 empty 20 12 0 14 -261689
+#X obj 757 142 cnv 15 30 30 empty PtrnDspItm8 empty 20 12 0 14 -225271
 -262144 0;
 #X obj 758 218 tgl 12 0 trillswitch8 trillswitchrcv8 empty 17 7 0 10
 -262130 -1 -1 0 1;
 #X obj 775 218 tgl 12 0 revswitch8 revswitchrcv8 empty 17 7 0 10 -232576
 -1 -1 1 1;
 #X obj 758 177 hradio 9 1 0 8 sqitmsmpl8 sqitmsmplset8 empty 0 -8 0
-10 -262144 -1 -1 1;
+10 -262144 -1 -1 4;
 #X obj 200 253 cnv 15 85 105 empty UIClrScheme2 empty 20 12 0 14 -166458
 -33289 0;
 #X obj 108 253 cnv 15 85 105 empty UIClrScheme2 empty 20 12 0 14 -166458
@@ -5155,73 +5155,73 @@ trigger event or sample change event, f 42;
 -33289 0;
 #X obj 752 253 cnv 15 85 105 empty UIClrScheme2 empty 20 12 0 14 -166458
 -33289 0;
-#X obj 757 259 cnv 15 30 30 empty PtrnDspItm16 empty 20 12 0 14 -228992
+#X obj 757 259 cnv 15 30 30 empty PtrnDspItm16 empty 20 12 0 14 -262131
 -262144 0;
 #X obj 760 337 tgl 12 0 trillswitch16 trillswitchrcv16 empty 17 7 0
 10 -262130 -1 -1 0 1;
 #X obj 665 258 cnv 15 30 30 empty PtrnDspItm15 empty 20 12 0 14 -261689
 -262144 0;
 #X obj 667 335 tgl 12 0 trillswitch15 trillswitchrcv15 empty 17 7 0
-10 -262130 -1 -1 1 1;
-#X obj 573 258 cnv 15 30 30 empty PtrnDspItm14 empty 20 12 0 14 -261681
+10 -262130 -1 -1 0 1;
+#X obj 573 258 cnv 15 30 30 empty PtrnDspItm14 empty 20 12 0 14 -262131
 -262144 0;
 #X obj 576 336 tgl 12 0 trillswitch14 trillswitchrcv14 empty 17 7 0
 10 -262130 -1 -1 1 1;
-#X obj 480 258 cnv 15 30 30 empty PtrnDspItm13 empty 20 12 0 14 -261689
+#X obj 480 258 cnv 15 30 30 empty PtrnDspItm13 empty 20 12 0 14 -262131
 -262144 0;
 #X obj 482 337 tgl 12 0 trillswitch13 trillswitchrcv13 empty 17 7 0
-10 -262130 -1 -1 1 1;
-#X obj 389 258 cnv 15 30 30 empty PtrnDspItm12 empty 20 12 0 14 -228992
+10 -262130 -1 -1 0 1;
+#X obj 389 258 cnv 15 30 30 empty PtrnDspItm12 empty 20 12 0 14 -261689
 -262144 0;
 #X obj 390 338 tgl 12 0 trillswitch12 trillswitchrcv12 empty 17 7 0
 10 -262130 -1 -1 0 1;
-#X obj 297 258 cnv 15 30 30 empty PtrnDspItm11 empty 20 12 0 14 -228992
+#X obj 297 258 cnv 15 30 30 empty PtrnDspItm11 empty 20 12 0 14 -261681
 -262144 0;
 #X obj 298 335 tgl 12 0 trillswitch11 trillswitchrcv11 empty 17 7 0
 10 -262130 -1 -1 1 1;
-#X obj 205 258 cnv 15 30 30 empty PtrnDspItm10 empty 20 12 0 14 -261689
+#X obj 205 258 cnv 15 30 30 empty PtrnDspItm10 empty 20 12 0 14 -261681
 -262144 0;
 #X obj 206 337 tgl 12 0 trillswitch10 trillswitchrcv10 empty 17 7 0
 10 -262130 -1 -1 0 1;
-#X obj 112 257 cnv 15 30 30 empty PtrnDspItm9 empty 20 12 0 14 -262131
+#X obj 112 257 cnv 15 30 30 empty PtrnDspItm9 empty 20 12 0 14 -228992
 -262144 0;
 #X obj 114 337 tgl 12 0 trillswitch9 trillswitchrcv9 empty 17 7 0 10
 -262130 -1 -1 0 1;
 #X obj 777 337 tgl 12 0 revswitch16 revswitchrcv16 empty 17 7 0 10
--232576 -1 -1 1 1;
+-232576 -1 -1 0 1;
 #X obj 683 335 tgl 12 0 revswitch15 revswitchrcv15 empty 17 7 0 10
--232576 -1 -1 1 1;
+-232576 -1 -1 0 1;
 #X obj 593 335 tgl 12 0 revswitch14 revswitchrcv14 empty 17 7 0 10
 -232576 -1 -1 1 1;
 #X obj 499 337 tgl 12 0 revswitch13 revswitchrcv13 empty 17 7 0 10
 -232576 -1 -1 0 1;
 #X obj 407 338 tgl 12 0 revswitch12 revswitchrcv12 empty 17 7 0 10
--232576 -1 -1 0 1;
+-232576 -1 -1 1 1;
 #X obj 314 335 tgl 12 0 revswitch11 revswitchrcv11 empty 17 7 0 10
--232576 -1 -1 0 1;
+-232576 -1 -1 1 1;
 #X obj 224 337 tgl 12 0 revswitch10 revswitchrcv10 empty 17 7 0 10
 -232576 -1 -1 0 1;
 #X obj 131 337 tgl 12 0 revswitch9 revswitchrcv9 empty 17 7 0 10 -232576
 -1 -1 0 1;
 #X obj 114 293 hradio 9 1 0 8 sqitmsmpl9 sqitmsmplset9 empty 0 -8 0
-10 -262144 -1 -1 5;
+10 -262144 -1 -1 2;
 #X obj 206 294 hradio 9 1 0 8 sqitmsmpl10 sqitmsmplset10 empty 0 -8
-0 10 -262144 -1 -1 1;
-#X obj 298 294 hradio 9 1 0 8 sqitmsmpl11 sqitmsmplset11 empty 0 -8
-0 10 -262144 -1 -1 2;
-#X obj 390 294 hradio 9 1 0 8 sqitmsmpl12 sqitmsmplset12 empty 0 -8
-0 10 -262144 -1 -1 2;
-#X obj 481 293 hradio 9 1 0 8 sqitmsmpl13 sqitmsmplset13 empty 0 -8
-0 10 -262144 -1 -1 1;
-#X obj 575 294 hradio 9 1 0 8 sqitmsmpl14 sqitmsmplset14 empty 0 -8
 0 10 -262144 -1 -1 3;
+#X obj 298 294 hradio 9 1 0 8 sqitmsmpl11 sqitmsmplset11 empty 0 -8
+0 10 -262144 -1 -1 3;
+#X obj 390 294 hradio 9 1 0 8 sqitmsmpl12 sqitmsmplset12 empty 0 -8
+0 10 -262144 -1 -1 1;
+#X obj 481 293 hradio 9 1 0 8 sqitmsmpl13 sqitmsmplset13 empty 0 -8
+0 10 -262144 -1 -1 5;
+#X obj 575 294 hradio 9 1 0 8 sqitmsmpl14 sqitmsmplset14 empty 0 -8
+0 10 -262144 -1 -1 5;
 #X obj 667 294 hradio 9 1 0 8 sqitmsmpl15 sqitmsmplset15 empty 0 -8
 0 10 -262144 -1 -1 1;
 #X obj 759 294 hradio 9 1 0 8 sqitmsmpl16 sqitmsmplset16 empty 0 -8
-0 10 -262144 -1 -1 2;
+0 10 -262144 -1 -1 5;
 #X obj 201 137 cnv 15 85 105 empty UIClrScheme2 empty 20 12 0 14 -166458
 -33289 0;
-#X obj 206 142 cnv 15 30 30 empty PtrnDspItm2 empty 20 12 0 14 -261689
+#X obj 206 142 cnv 15 30 30 empty PtrnDspItm2 empty 20 12 0 14 -228992
 -262144 0;
 #X obj 207 220 tgl 12 0 trillswitch2 trillswitchrcv2 empty 17 7 0 10
 -262130 -1 -1 0 1;
@@ -5230,7 +5230,7 @@ trigger event or sample change event, f 42;
 #X obj 113 206 hradio 10 1 0 3 empty empty empty 0 -8 0 10 -204786
 -1 -1 0;
 #X obj 207 177 hradio 9 1 0 8 sqitmsmpl2 sqitmsmplset2 empty 0 -8 0
-10 -262144 -1 -1 1;
+10 -262144 -1 -1 2;
 #X obj 113 192 hradio 10 1 0 5 empty empty empty 0 -8 0 10 -261682
 -1 -1 0;
 #X obj 108 107 cnv 15 15 15 empty empty Seq_Voice_1_Editor 20 12 0
@@ -5260,7 +5260,7 @@ trigger event or sample change event, f 42;
 #X obj 668 190 hradio 10 1 0 5 empty empty empty 0 -8 0 10 -261682
 -1 -1 0;
 #X obj 758 204 hradio 10 1 0 3 empty empty empty 0 -8 0 10 -204786
--1 -1 0;
+-1 -1 1;
 #X obj 758 190 hradio 10 1 0 5 empty empty empty 0 -8 0 10 -261682
 -1 -1 0;
 #X obj 114 321 hradio 10 1 0 3 empty empty empty 0 -8 0 10 -204786
@@ -5296,41 +5296,41 @@ trigger event or sample change event, f 42;
 #X obj 760 308 hradio 10 1 0 5 empty empty empty 0 -8 0 10 -261682
 -1 -1 0;
 #X obj 170 194 vsl 15 35 0 1 0 0 StpSmplLvlSnd1 StpSmplLvlRcv1 empty
-0 -9 0 10 -262144 -1 -1 2600 1;
+0 -9 0 10 -262144 -1 -1 3400 1;
 #X obj 264 191 vsl 15 35 0 1 0 0 StpSmplLvlSnd2 StpSmplLvlRcv2 empty
-0 -9 0 10 -262144 -1 -1 400 1;
+0 -9 0 10 -262144 -1 -1 2400 1;
 #X obj 357 195 vsl 15 35 0 1 0 0 StpSmplLvlSnd3 StpSmplLvlRcv3 empty
-0 -9 0 10 -262144 -1 -1 3400 1;
+0 -9 0 10 -262144 -1 -1 900 1;
 #X obj 448 194 vsl 15 35 0 1 0 0 StpSmplLvlSnd4 StpSmplLvlRcv4 empty
-0 -9 0 10 -262144 -1 -1 2200 1;
-#X obj 540 193 vsl 15 35 0 1 0 0 StpSmplLvlSnd5 StpSmplLvlRcv5 empty
-0 -9 0 10 -262144 -1 -1 300 1;
-#X obj 631 193 vsl 15 35 0 1 0 0 StpSmplLvlSnd6 StpSmplLvlRcv6 empty
-0 -9 0 10 -262144 -1 -1 2100 1;
-#X obj 725 192 vsl 15 35 0 1 0 0 StpSmplLvlSnd7 StpSmplLvlRcv7 empty
-0 -9 0 10 -262144 -1 -1 1500 1;
-#X obj 815 193 vsl 15 35 0 1 0 0 StpSmplLvlSnd8 StpSmplLvlRcv8 empty
-0 -9 0 10 -262144 -1 -1 500 1;
-#X obj 169 309 vsl 15 35 0 1 0 0 StpSmplLvlSnd9 StpSmplLvlRcv9 empty
-0 -9 0 10 -262144 -1 -1 700 1;
-#X obj 264 311 vsl 15 35 0 1 0 0 StpSmplLvlSnd10 StpSmplLvlRcv10 empty
-0 -9 0 10 -262144 -1 -1 700 1;
-#X obj 354 309 vsl 15 35 0 1 0 0 StpSmplLvlSnd11 StpSmplLvlRcv11 empty
 0 -9 0 10 -262144 -1 -1 3400 1;
-#X obj 447 310 vsl 15 35 0 1 0 0 StpSmplLvlSnd12 StpSmplLvlRcv12 empty
-0 -9 0 10 -262144 -1 -1 3100 1;
-#X obj 539 310 vsl 15 35 0 1 0 0 StpSmplLvlSnd13 StpSmplLvlRcv13 empty
-0 -9 0 10 -262144 -1 -1 500 1;
-#X obj 632 310 vsl 15 35 0 1 0 0 StpSmplLvlSnd14 StpSmplLvlRcv14 empty
-0 -9 0 10 -262144 -1 -1 2600 1;
-#X obj 723 309 vsl 15 35 0 1 0 0 StpSmplLvlSnd15 StpSmplLvlRcv15 empty
-0 -9 0 10 -262144 -1 -1 400 1;
-#X obj 816 310 vsl 15 35 0 1 0 0 StpSmplLvlSnd16 StpSmplLvlRcv16 empty
+#X obj 540 193 vsl 15 35 0 1 0 0 StpSmplLvlSnd5 StpSmplLvlRcv5 empty
+0 -9 0 10 -262144 -1 -1 2400 1;
+#X obj 631 193 vsl 15 35 0 1 0 0 StpSmplLvlSnd6 StpSmplLvlRcv6 empty
+0 -9 0 10 -262144 -1 -1 2900 1;
+#X obj 725 192 vsl 15 35 0 1 0 0 StpSmplLvlSnd7 StpSmplLvlRcv7 empty
 0 -9 0 10 -262144 -1 -1 1700 1;
+#X obj 815 193 vsl 15 35 0 1 0 0 StpSmplLvlSnd8 StpSmplLvlRcv8 empty
+0 -9 0 10 -262144 -1 -1 3200 1;
+#X obj 169 309 vsl 15 35 0 1 0 0 StpSmplLvlSnd9 StpSmplLvlRcv9 empty
+0 -9 0 10 -262144 -1 -1 2200 1;
+#X obj 264 311 vsl 15 35 0 1 0 0 StpSmplLvlSnd10 StpSmplLvlRcv10 empty
+0 -9 0 10 -262144 -1 -1 2000 1;
+#X obj 354 309 vsl 15 35 0 1 0 0 StpSmplLvlSnd11 StpSmplLvlRcv11 empty
+0 -9 0 10 -262144 -1 -1 2500 1;
+#X obj 447 310 vsl 15 35 0 1 0 0 StpSmplLvlSnd12 StpSmplLvlRcv12 empty
+0 -9 0 10 -262144 -1 -1 3000 1;
+#X obj 539 310 vsl 15 35 0 1 0 0 StpSmplLvlSnd13 StpSmplLvlRcv13 empty
+0 -9 0 10 -262144 -1 -1 2400 1;
+#X obj 632 310 vsl 15 35 0 1 0 0 StpSmplLvlSnd14 StpSmplLvlRcv14 empty
+0 -9 0 10 -262144 -1 -1 3400 1;
+#X obj 723 309 vsl 15 35 0 1 0 0 StpSmplLvlSnd15 StpSmplLvlRcv15 empty
+0 -9 0 10 -262144 -1 -1 3400 1;
+#X obj 816 310 vsl 15 35 0 1 0 0 StpSmplLvlSnd16 StpSmplLvlRcv16 empty
+0 -9 0 10 -262144 -1 -1 3400 1;
 #X coords 0 -1 1 1 745 265 2 100 100;
 #X restore 5 8 pd SeqVx1EdtrPanl;
-#X restore 446 46 pd SeqVc1Edtr;
-#N canvas 659 1 882 638 SampleBank1 1;
+#X restore 470 88 pd SeqVc1Edtr;
+#N canvas 972 111 882 642 SampleBank1 1;
 #N canvas 501 65 1023 805 SmplBnk1Pnl 0;
 #X obj 100 100 cnv 15 830 600 empty UIClrScheme empty 20 12 0 14 -145658
 -33289 0;
@@ -5342,17 +5342,17 @@ trigger event or sample change event, f 42;
 #X obj 315 107 bng 40 250 50 0 smpltrig qkeybng Q 8 20 0 30 -232576
 -159808 -159808;
 #X obj 112 246 hsl 195 15 0 1 0 0 empty smplpos2 empty -2 -8 0 10 -262144
--1 -1 4600 1;
+-1 -1 6900 1;
 #N canvas 0 50 450 250 (subpatch) 0;
-#X array sampleQ 10112 float 2;
-#X coords 0 1 10112 -1 200 120 1 0 0;
+#X array sampleQ 34880 float 2;
+#X coords 0 1 34880 -1 200 120 1 0 0;
 #X restore 108 119 graph;
 #X obj 112 270 hsl 195 15 0 1 0 0 strtlneQ RcvStrtlneQ empty -2 -6
-0 8 -228856 -1 -1 4600 1;
+0 8 -228856 -1 -1 6900 1;
 #X obj 112 291 hsl 195 15 0 1 0 0 fnshlneQ RcvFnshlneQ empty -2 -6
-0 8 -228856 -1 -1 7300 1;
+0 8 -228856 -1 -1 16700 1;
 #X obj 315 288 vsl 40 70 0 1 0 0 SmplLvlDtaQ SmplLvlDtaSetQ empty 0
--9 0 10 -262144 -1 -1 812 1;
+-9 0 10 -262144 -1 -1 6900 1;
 #X obj 315 151 bng 40 250 50 0 loadQsmpl empty load 7 20 0 13 -204800
 -1 -1;
 #X obj 110 340 tgl 15 0 QRevTgle QRevTgleRcv empty 17 7 0 10 -232576
@@ -5378,7 +5378,7 @@ trigger event or sample change event, f 42;
 #X obj 1223 808 /;
 #X floatatom 1223 837 5 0 0 0 - - -;
 #X obj 1226 867 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 3011 1;
+-1 -1 4517 1;
 #X obj 1223 898 s smplpos2;
 #X msg 1223 564 1;
 #X obj 901 94 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -5519,7 +5519,7 @@ trigger event or sample change event, f 42;
 #X msg 1188 177 read -resize \$1 sampleQ, f 26;
 #X obj 1362 66 r samplefileQ;
 #X obj 706 723 tabread4~ sampleQ;
-#X msg 1418 217 samples/snare-noise.wav;
+#X msg 1418 217 samples/cowbell-808.wav;
 #X msg 1418 190 set \$1;
 #X obj 1417 251 s SmpleFleDspQ;
 #X obj 706 883 s~ SmplrQLneOut;
@@ -5619,7 +5619,8 @@ trigger event or sample change event, f 42;
 #X obj 339 195 bng 15 250 50 0 QSmplNxt empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 374 161 r SmpleFleDspQ;
-#X msg 374 248 samples/snare-noise.wav;
+#X msg 374 248 C:/Users/Gareth/Documents/GitHub/port/audio/tom-analog-dstrt-Gstone-trem2.wav
+;
 #X msg 374 190 set \$1;
 #X obj 647 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -5642,17 +5643,17 @@ trigger event or sample change event, f 42;
 #X obj 100 100 cnv 15 260 265 empty SampleWDspClr empty 20 12 0 14
 -228992 -262144 0;
 #X obj 109 246 hsl 195 15 0 1 0 0 empty smpl2pos2 empty -2 -8 0 10
--262144 -1 -1 1100 1;
+-262144 -1 -1 0 1;
 #N canvas 0 50 450 250 (subpatch) 0;
-#X array sampleW 17664 float 2;
-#X coords 0 1 17664 -1 200 120 1 0 0;
+#X array sampleW 7160 float 2;
+#X coords 0 1 7160 -1 200 120 1 0 0;
 #X restore 106 119 graph;
 #X obj 109 271 hsl 195 15 0 1 0 0 strtlneW RcvStrtlneW empty -2 -6
-0 8 -228856 -1 -1 1100 1;
+0 8 -228856 -1 -1 0 1;
 #X obj 109 292 hsl 195 15 0 1 0 0 fnshlneW RcvFnshlneW empty -2 -6
-0 8 -228856 -1 -1 10500 1;
+0 8 -228856 -1 -1 16000 1;
 #X obj 312 286 vsl 40 70 0 1 0 0 SmplLvlDtaW SmplLvlDtaSetW empty 0
--9 0 10 -262144 -1 -1 6291 1;
+-9 0 10 -262144 -1 -1 1826 1;
 #X obj 108 320 tgl 15 0 WTrlTgle WTrlTgleRcv Loop 17 7 0 10 -262130
 -1 -1 0 1;
 #X obj 312 106 bng 40 250 50 0 smpltrig2 wkeybng W 6 21 0 30 -261234
@@ -5681,7 +5682,7 @@ trigger event or sample change event, f 42;
 #X obj 1018 796 /;
 #X floatatom 1018 825 5 0 0 0 - - -;
 #X obj 1021 855 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 720 1;
+-1 -1 0 1;
 #X msg 1075 541 1;
 #X obj 867 92 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -5820,7 +5821,7 @@ trigger event or sample change event, f 42;
 #X msg 1186 170 read -resize \$1 sampleW, f 27;
 #X obj 1379 79 r samplefileW;
 #X obj 718 718 tabread4~ sampleW;
-#X msg 1430 244 samples/kick-classic.wav;
+#X msg 1430 244 samples/cowbell-808.wav;
 #X msg 1430 217 set \$1;
 #X obj 1429 278 s SmpleFleDspW;
 #X obj 718 878 s~ SmplrWLneOut;
@@ -5909,7 +5910,8 @@ trigger event or sample change event, f 42;
 -1 -1;
 #X obj 337 195 bng 15 250 50 0 WSmplNxt empty empty 17 7 0 10 -262144
 -1 -1;
-#X msg 374 270 samples/kick-classic.wav;
+#X msg 374 270 C:/Users/Gareth/Documents/GitHub/port/audio/perc-laser.wav
+;
 #X msg 374 190 set \$1;
 #X obj 374 161 r SmpleFleDspW;
 #X obj 374 361 symbol;
@@ -5933,17 +5935,17 @@ trigger event or sample change event, f 42;
 #X obj 100 100 cnv 15 260 265 empty SampleEDspClr empty 20 12 0 14
 -261681 -262144 0;
 #X obj 109 245 hsl 195 15 0 1 0 0 empty smpl3pos2 empty -2 -8 0 10
--262144 -1 -1 6400 1;
+-262144 -1 -1 3700 1;
 #N canvas -11 -11 1920 956 (subpatch) 0;
-#X array sampleE 18900 float 2;
-#X coords 0 1 18900 -1 200 120 1 0 0;
+#X array sampleE 17216 float 2;
+#X coords 0 1 17216 -1 200 120 1 0 0;
 #X restore 106 118 graph;
 #X obj 109 270 hsl 195 15 0 1 0 0 strtlneE RcvStrtlneE empty -2 -6
-0 8 -228856 -1 -1 6400 1;
+0 8 -228856 -1 -1 3700 1;
 #X obj 109 292 hsl 195 15 0 1 0 0 fnshlneE RcvFnshlneE empty -2 -6
-0 8 -228856 -1 -1 7600 1;
+0 8 -228856 -1 -1 19400 1;
 #X obj 313 286 vsl 40 70 0 1 0 0 SmplLvlDtaE SmplLvlDtaSetE empty 0
--9 0 10 -262144 -1 -1 5276 1;
+-9 0 10 -262144 -1 -1 5074 1;
 #X obj 106 323 tgl 15 0 ETrlTgle ETrlTgleRcv Loop 17 7 0 10 -262130
 -1 -1 0 1;
 #X obj 312 106 bng 40 250 50 0 smpltrig3 ekeybng E 10 20 0 30 -261234
@@ -5971,7 +5973,7 @@ trigger event or sample change event, f 42;
 #X obj 1211 811 /;
 #X floatatom 1211 840 5 0 0 0 - - -;
 #X obj 1214 870 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 4190 1;
+-1 -1 2422 1;
 #X msg 1268 556 1;
 #X obj 843 96 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -6114,7 +6116,7 @@ trigger event or sample change event, f 42;
 #X obj 694 722 tabread4~ sampleE;
 #X msg 1116 188 read -resize \$1 sampleE, f 24;
 #X obj 1277 84 r samplefileE;
-#X msg 1343 217 samples/kick-big.wav;
+#X msg 1343 217 samples/clap-tape.wav;
 #X msg 1343 190 set \$1;
 #X obj 1342 251 s SmpleFleDspE;
 #X obj 694 882 s~ SmplrELneOut;
@@ -6205,7 +6207,7 @@ trigger event or sample change event, f 42;
 #X obj 337 195 bng 15 250 50 0 ESmplNxt empty empty 17 7 0 10 -262144
 -1 -1;
 #X text 310 266 Lvl;
-#X msg 374 248 samples/kick-big.wav;
+#X msg 374 248 samples/clap-tape.wav;
 #X msg 374 190 set \$1;
 #X obj 647 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -6233,19 +6235,19 @@ trigger event or sample change event, f 42;
 #X obj 314 106 bng 40 250 50 0 smpltrig4 akeybng A 10 20 0 30 -261234
 -1 -1;
 #X obj 110 248 hsl 195 15 0 1 0 0 empty smpl4pos2 empty -2 -8 0 10
--262144 -1 -1 0 1;
+-262144 -1 -1 3300 1;
 #N canvas -11 -11 1920 956 (subpatch) 0;
-#X array sampleA 17216 float 2;
-#X coords 0 1 17216 -1 200 120 1 0 0;
+#X array sampleA 125184 float 2;
+#X coords 0 1 125184 -1 200 120 1 0 0;
 #X restore 107 119 graph;
 #X obj 110 274 hsl 195 15 0 1 0 0 strtlneA RcvStrtlneA empty -2 -6
-0 8 -228856 -1 -1 4600 1;
+0 8 -228856 -1 -1 3300 1;
 #X obj 110 296 hsl 195 15 0 1 0 0 fnshlneA RcvFnshlneA empty -2 -6
-0 8 -228856 -1 -1 8400 1;
+0 8 -228856 -1 -1 14700 1;
 #X obj 314 151 bng 40 250 50 0 loadAsmpl empty load 7 20 0 13 -262144
 -1 -1;
 #X obj 314 285 vsl 40 70 0 1 0 0 SmplLvlDtaA SmplLvlDtaSetA empty 0
--9 0 10 -262144 -1 -1 5479 1;
+-9 0 10 -262144 -1 -1 6900 1;
 #X obj 107 344 tgl 15 0 ARevTgle ARevTgleRcv Reverse 17 7 0 10 -232576
 -1 -1 0 1;
 #X obj 375 100 bng 15 250 50 0 empty loadAsmpl empty 17 7 0 10 -262144
@@ -6268,7 +6270,7 @@ trigger event or sample change event, f 42;
 #X obj 1043 797 /;
 #X floatatom 1043 826 5 0 0 0 - - -;
 #X obj 1046 856 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 0 1;
+-1 -1 2160 1;
 #X msg 1044 544 1;
 #X obj 843 81 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -6408,7 +6410,7 @@ trigger event or sample change event, f 42;
 #X obj 692 719 tabread4~ sampleA;
 #X obj 1263 37 r samplefileA;
 #X msg 1129 584 \; samplefileA samples/snare-acoustic01.wav \;;
-#X msg 1311 167 samples/clap-tape.wav;
+#X msg 1311 167 samples/crash-808.wav;
 #X msg 1311 140 set \$1;
 #X obj 1281 202 s SmpleFleDspA;
 #X obj 692 879 s~ SmplrALneOut;
@@ -6497,7 +6499,7 @@ trigger event or sample change event, f 42;
 #X obj 338 196 bng 15 250 50 0 ASmplNxt empty empty 17 7 0 10 -262144
 -1 -1;
 #X text 311 265 Lvl;
-#X msg 374 248 samples/clap-tape.wav;
+#X msg 374 248 samples/crash-808.wav;
 #X msg 374 190 set \$1;
 #X obj 647 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -6525,19 +6527,19 @@ trigger event or sample change event, f 42;
 #X obj 314 107 bng 40 250 50 0 smpltrig5 skeybng S 10 20 0 30 -261234
 -1 -1;
 #X obj 112 249 hsl 195 15 0 1 0 0 empty smpl5pos2 empty -2 -8 0 10
--262144 -1 -1 7000 1;
+-262144 -1 -1 2200 1;
 #N canvas -11 -11 1920 956 (subpatch) 0;
-#X array sampleS 8237 float 2;
-#X coords 0 1 8237 -1 200 120 1 0 0;
+#X array sampleS 17216 float 2;
+#X coords 0 1 17216 -1 200 120 1 0 0;
 #X restore 108 120 graph;
 #X obj 112 277 hsl 195 15 0 1 0 0 strtlneS RcvStrtlneS empty -2 -6
-0 8 -228856 -1 -1 7000 1;
+0 8 -228856 -1 -1 2200 1;
 #X obj 112 299 hsl 195 15 0 1 0 0 fnshlneS RcvFnshlneS empty -2 -6
-0 8 -228856 -1 -1 8400 1;
+0 8 -228856 -1 -1 11700 1;
 #X obj 314 152 bng 40 250 50 0 loadSsmpl empty load 7 20 0 13 -262144
 -1 -1;
 #X obj 314 284 vsl 40 70 0 1 0 0 SmplLvlDtaS SmplLvlDtaSetS empty 0
--9 0 10 -262144 -1 -1 1421 1;
+-9 0 10 -262144 -1 -1 6900 1;
 #X obj 109 342 tgl 15 0 SRevTgle SRevTgleRcv Reverse 17 7 0 10 -232576
 -1 -1 0 1;
 #X obj 376 103 bng 15 250 50 0 empty loadSsmpl empty 17 7 0 10 -262144
@@ -6560,7 +6562,7 @@ trigger event or sample change event, f 42;
 #X obj 1043 797 /;
 #X floatatom 1043 826 5 0 0 0 - - -;
 #X obj 1046 856 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 4582 1;
+-1 -1 1440 1;
 #X msg 1044 544 1;
 #X obj 843 81 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -6697,7 +6699,7 @@ trigger event or sample change event, f 42;
 #X obj 1045 886 s smpl5pos2;
 #X obj 1145 257 s Smpl5Sze1;
 #X obj 345 37 r fnshlneS;
-#X msg 1362 249 samples/clap-crushed.wav;
+#X msg 1362 249 samples/clap-tape.wav;
 #X msg 1362 222 set \$1;
 #X obj 1361 283 s SmpleFleDspS;
 #X obj 692 880 s~ SmplrSLneOut;
@@ -6778,7 +6780,7 @@ trigger event or sample change event, f 42;
 #X connect 72 0 8 0;
 #X connect 73 0 22 1;
 #X restore 376 125 pd smplrS;
-#X msg 374 248 samples/clap-crushed.wav;
+#X msg 374 248 samples/clap-tape.wav;
 #X msg 374 190 set \$1;
 #X obj 647 173 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -6846,50 +6848,50 @@ samples/hihat-analog.wav \; samples/hihat-digital.wav \; samples/hihat-dist01.wa
 \; samples/tom-acoustic02.wav \; samples/tom-analog.wav \; samples/tom-chiptune.wav
 \; samples/tom-fm.wav \; samples/tom-lofi.wav \; samples/tom-rototom.wav
 \; samples/tom-short.wav \;;
-#X restore 445 20 pd SampleBank1;
-#X obj 698 488 vsl 30 50 0 1 0 0 empty SmplLvlDtaD empty 0 -9 0 10
+#X restore 469 62 pd SampleBank1;
+#X obj 738 408 vsl 30 50 0 1 0 0 empty SmplLvlDtaD empty 0 -9 0 10
 -262144 -1 -1 0 1;
-#X obj 679 546 *~;
-#X obj 680 604 *~;
-#X obj 50 459 r~ SmplrQLneOut;
-#X obj 180 459 r~ SmplrWLneOut;
-#X obj 304 460 r~ SmplrELneOut;
-#X obj 428 458 r~ SmplrALneOut;
-#X obj 557 457 r~ SmplrSLneOut;
-#X obj 678 457 r~ SmplrDLneOut;
+#X obj 719 466 *~;
+#X obj 720 524 *~;
+#X obj 90 379 r~ SmplrQLneOut;
+#X obj 220 379 r~ SmplrWLneOut;
+#X obj 344 380 r~ SmplrELneOut;
+#X obj 468 378 r~ SmplrALneOut;
+#X obj 597 377 r~ SmplrSLneOut;
+#X obj 718 377 r~ SmplrDLneOut;
 #N canvas -11 -11 1920 956 SeqDspClrUpdte 0;
 #X obj 168 82 vradio 15 1 0 6 sqitmsmplsnd1 sqitmsmpl1 empty 0 -8 0
-10 -262144 -1 -1 2;
+10 -262144 -1 -1 4;
 #X obj 229 81 vradio 15 1 0 6 sqitmsmplsnd2 sqitmsmpl2 empty 0 -8 0
-10 -262144 -1 -1 1;
+10 -262144 -1 -1 2;
 #X obj 298 80 vradio 15 1 0 6 sqitmsmplsnd3 sqitmsmpl3 empty 0 -8 0
-10 -262144 -1 -1 3;
+10 -262144 -1 -1 2;
 #X obj 367 80 vradio 15 1 0 6 sqitmsmplsnd4 sqitmsmpl4 empty 0 -8 0
-10 -262144 -1 -1 2;
+10 -262144 -1 -1 4;
 #X obj 431 71 vradio 15 1 0 6 sqitmsmplsnd5 sqitmsmpl5 empty 0 -8 0
-10 -262144 -1 -1 1;
-#X obj 502 75 vradio 15 1 0 6 sqitmsmplsnd6 sqitmsmpl6 empty 0 -8 0
 10 -262144 -1 -1 2;
+#X obj 502 75 vradio 15 1 0 6 sqitmsmplsnd6 sqitmsmpl6 empty 0 -8 0
+10 -262144 -1 -1 3;
 #X obj 570 77 vradio 15 1 0 6 sqitmsmplsnd7 sqitmsmpl7 empty 0 -8 0
 10 -262144 -1 -1 5;
 #X obj 638 75 vradio 15 1 0 6 sqitmsmplsnd8 sqitmsmpl8 empty 0 -8 0
-10 -262144 -1 -1 1;
+10 -262144 -1 -1 4;
 #X obj 711 74 vradio 15 1 0 6 sqitmsmplsnd9 sqitmsmpl9 empty 0 -8 0
-10 -262144 -1 -1 5;
+10 -262144 -1 -1 2;
 #X obj 783 74 vradio 15 1 0 6 sqitmsmplsnd10 sqitmsmpl10 empty 0 -8
-0 10 -262144 -1 -1 1;
-#X obj 852 78 vradio 15 1 0 6 sqitmsmplsnd11 sqitmsmpl11 empty 0 -8
-0 10 -262144 -1 -1 2;
-#X obj 913 73 vradio 15 1 0 6 sqitmsmplsnd12 sqitmsmpl12 empty 0 -8
-0 10 -262144 -1 -1 2;
-#X obj 976 78 vradio 15 1 0 6 sqitmsmplsnd13 sqitmsmpl13 empty 0 -8
-0 10 -262144 -1 -1 1;
-#X obj 1040 84 vradio 15 1 0 6 sqitmsmplsnd14 sqitmsmpl14 empty 0 -8
 0 10 -262144 -1 -1 3;
+#X obj 852 78 vradio 15 1 0 6 sqitmsmplsnd11 sqitmsmpl11 empty 0 -8
+0 10 -262144 -1 -1 3;
+#X obj 913 73 vradio 15 1 0 6 sqitmsmplsnd12 sqitmsmpl12 empty 0 -8
+0 10 -262144 -1 -1 1;
+#X obj 976 78 vradio 15 1 0 6 sqitmsmplsnd13 sqitmsmpl13 empty 0 -8
+0 10 -262144 -1 -1 5;
+#X obj 1040 84 vradio 15 1 0 6 sqitmsmplsnd14 sqitmsmpl14 empty 0 -8
+0 10 -262144 -1 -1 5;
 #X obj 1114 79 vradio 15 1 0 6 sqitmsmplsnd15 sqitmsmpl15 empty 0 -8
 0 10 -262144 -1 -1 1;
 #X obj 1184 78 vradio 15 1 0 6 sqitmsmplsnd16 sqitmsmpl16 empty 0 -8
-0 10 -262144 -1 -1 2;
+0 10 -262144 -1 -1 5;
 #X msg 128 264 1;
 #X obj 639 611 value Smpl0Clr;
 #X obj 704 794 pack s 1;
@@ -7152,25 +7154,36 @@ samples/hihat-analog.wav \; samples/hihat-digital.wav \; samples/hihat-dist01.wa
 #X connect 101 4 97 0;
 #X connect 101 5 99 0;
 #X connect 101 6 100 0;
-#X restore 307 75 pd SeqDspClrUpdte;
-#X obj 757 22 loadbang;
-#X obj 1040 246 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
+#X restore 331 117 pd SeqDspClrUpdte;
+#X obj 1084 354 loadbang;
+#X obj 1363 578 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
 1 1;
-#X msg 992 181 1;
-#X obj 1040 180 r ShwMainWndws;
-#X msg 761 309 \; SmplLvlDtaSetQ 0.5 \; SmplLvlDtaSetW 0.5 \; SmplLvlDtaSetE
+#X msg 1315 513 1;
+#X obj 1363 512 r ShwMainWndws;
+#X msg 1084 641 \; SmplLvlDtaSetQ 0.5 \; SmplLvlDtaSetW 0.5 \; SmplLvlDtaSetE
 0.5 \; SmplLvlDtaSetA 0.5 \; SmplLvlDtaSetS 0.5 \; SmplLvlDtaSetD 0.5
 \;;
-#X floatatom 1040 218 5 0 0 0 - - -;
-#X obj 874 129 t b b;
-#X obj 793 99 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
-#X msg 799 212 \; MasterLvlSet 3 \; strtuptmpo 115 \;;
-#X msg 1047 78 \; ShwMainWndws \$1 \;;
-#X obj 1047 51 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
-#N canvas 127 563 882 312 Settings 0;
-#N canvas -11 -11 1920 956 UISettings 0;
+#X floatatom 1363 550 5 0 0 0 - - -;
+#X obj 1116 445 t b b;
+#X obj 1116 403 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 1116 528 \; MasterLvlSet 3 \; strtuptmpo 115 \;;
+#X msg 1362 464 \; ShwMainWndws \$1 \;;
+#X obj 1362 437 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#N canvas 427 29 390 232 patternbanks 1;
+#X obj 16 14 cnv 15 350 185 empty UIClrScheme empty 20 12 0 14 -145658
+-33289 0;
+#X obj 21 78 PatternBank2;
+#X obj 21 103 PatternBank3;
+#X obj 21 128 PatternBank4;
+#X obj 22 53 PatternBank1;
+#X obj 21 20 cnv 15 15 15 empty empty SeqStep:_Pattern_Banks 20 12
+0 25 -233017 -66577 0;
+#X restore 470 141 pd patternbanks;
+#X msg 1363 600 \; pd-SampleBank1 vis \$1 \; pd-SeqVc1Edtr vis \$1
+\; pd-patternbanks vis \$1 \;;
+#N canvas 296 223 1254 495 UISettings 0;
 #X obj 100 100 cnv 15 820 270 empty UIClrScheme empty 570 12 0 14 -145658
 -33289 0;
 #X obj 109 107 cnv 15 15 15 empty empty SeqStep:_UI_Settings 20 12
@@ -8383,10 +8396,15 @@ vis_size \$1 \$2 \; PtrnDspItm11 vis_size \$1 \$2 \; PtrnDspItm12 vis_size
 #X coords 0 -1 1 1 260 220 2 100 100;
 #X restore 649 141 pd SeqVcEdtrUI;
 #X coords 0 -1 1 1 820 270 1 100 100;
-#X restore 23 12 pd UISettings;
-#X restore 648 14 pd Settings;
-#X msg 1038 268 \; pd-SampleBank1 vis \$1 \; pd-SeqVc1Edtr vis \$1
-\;;
+#X restore 1074 55 pd UISettings;
+#X msg 817 765 start;
+#X msg 615 676 stop;
+#X obj 357 864 writesf~ 1;
+#X obj 689 655 t b b;
+#X obj 870 713 del 25;
+#X obj 690 606 bng 40 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 689 715 open StepSeqqEx3.wav;
 #X connect 1 0 0 0;
 #X connect 2 0 3 0;
 #X connect 3 0 0 1;
@@ -8404,19 +8422,24 @@ vis_size \$1 \$2 \; PtrnDspItm11 vis_size \$1 \$2 \; PtrnDspItm12 vis_size
 #X connect 12 0 37 1;
 #X connect 13 0 4 1;
 #X connect 13 0 4 0;
+#X connect 13 0 61 0;
 #X connect 14 0 15 1;
 #X connect 15 0 20 0;
 #X connect 18 0 4 0;
 #X connect 18 0 4 1;
 #X connect 18 0 24 0;
+#X connect 18 0 61 0;
 #X connect 19 0 4 0;
 #X connect 19 0 4 1;
+#X connect 19 0 61 0;
 #X connect 20 0 4 0;
 #X connect 20 0 4 1;
+#X connect 20 0 61 0;
 #X connect 21 0 22 1;
 #X connect 22 0 23 0;
 #X connect 23 0 4 0;
 #X connect 23 0 4 1;
+#X connect 23 0 61 0;
 #X connect 25 0 4 0;
 #X connect 25 0 4 1;
 #X connect 30 0 31 0;
@@ -8440,8 +8463,11 @@ vis_size \$1 \$2 \; PtrnDspItm11 vis_size \$1 \$2 \; PtrnDspItm12 vis_size
 #X connect 51 1 47 0;
 #X connect 52 0 51 0;
 #X connect 55 0 54 0;
+#X connect 59 0 61 0;
+#X connect 60 0 61 0;
+#X connect 62 0 65 0;
+#X connect 62 1 63 0;
+#X connect 63 0 59 0;
+#X connect 64 0 62 0;
+#X connect 65 0 61 0;
 #X restore 10 200 pd MainFuncs;
-#X obj 366 33 PatternBank2;
-#X obj 366 58 PatternBank3;
-#X obj 366 83 PatternBank4;
-#X obj 367 8 PatternBank1;

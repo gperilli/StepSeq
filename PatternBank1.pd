@@ -287,9 +287,9 @@
 #X obj 543 267 cnv 15 375 60 empty \$0-SveSltSlct10 empty 20 12 0 14
 -166458 -262144 0;
 #X obj 543 331 cnv 15 375 60 empty \$0-SveSltSlct11 empty 20 12 0 14
--166458 -262144 0;
-#X obj 543 395 cnv 15 375 60 empty \$0-SveSltSlct12 empty 20 12 0 14
 -153914 -262144 0;
+#X obj 543 395 cnv 15 375 60 empty \$0-SveSltSlct12 empty 20 12 0 14
+-166458 -262144 0;
 #X obj 133 462 bng 50 250 50 0 \$0-SeqSec5 \$0-SeqSec5Rcv PB1-05 5
 24 0 12 -195578 -262144 -262144;
 #X obj 350 463 cnv 15 15 15 empty \$0-PtrnSve5DspItm9 empty 20 12 0
@@ -1303,7 +1303,7 @@
 #X floatatom 189 84 5 0 0 0 - - -;
 #X obj 189 169 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X msg 189 499 1007-SveSltSlct12;
+#X msg 189 499 1009-SveSltSlct11;
 #X obj 189 250 symbol SveSltSlct;
 #X floatatom 355 249 5 0 0 0 - - -;
 #X obj 188 716 pack s 0 0 0;
@@ -1499,7 +1499,7 @@ color \$3 \$4 \$5 \;;
 #X obj 707 145 cnv 15 140 50 empty UIClrScheme2 empty 20 12 0 14 -166458
 -33289 0;
 #X obj 757 150 nbx 2 40 1 16 0 0 \$0-PtrnSveSltN \$0-PtrnSveSltNDsp
-empty 0 -8 0 35 -262144 -1 -1 12 256;
+empty 0 -8 0 35 -262144 -1 -1 11 256;
 #X obj 712 150 bng 40 250 50 0 \$0-PtrnSveBng empty save 3 19 0 14
 -261234 -258113 -258113;
 #X obj 108 145 cnv 15 590 50 empty UIClrScheme2 empty 20 12 0 14 -166458
@@ -1510,29 +1510,29 @@ empty 0 -8 0 35 -262144 -1 -1 12 256;
 -262144 0;
 #X obj 477 153 cnv 15 30 30 empty PtrnDspItm11 empty 20 12 0 14 -228992
 -262144 0;
-#X obj 513 153 cnv 15 30 30 empty PtrnDspItm12 empty 20 12 0 14 -262131
+#X obj 513 153 cnv 15 30 30 empty PtrnDspItm12 empty 20 12 0 14 -228992
 -262144 0;
 #X obj 549 153 cnv 15 30 30 empty PtrnDspItm13 empty 20 12 0 14 -262131
 -262144 0;
-#X obj 585 153 cnv 15 30 30 empty PtrnDspItm14 empty 20 12 0 14 -228992
+#X obj 585 153 cnv 15 30 30 empty PtrnDspItm14 empty 20 12 0 14 -262131
 -262144 0;
 #X obj 621 153 cnv 15 30 30 empty PtrnDspItm15 empty 20 12 0 14 -261689
 -262144 0;
-#X obj 657 153 cnv 15 30 30 empty PtrnDspItm16 empty 20 12 0 14 -262131
+#X obj 657 153 cnv 15 30 30 empty PtrnDspItm16 empty 20 12 0 14 -225271
 -262144 0;
 #X obj 117 153 cnv 15 30 30 empty PtrnDspItm1 empty 20 12 0 14 -228992
 -262144 0;
-#X obj 153 153 cnv 15 30 30 empty PtrnDspItm2 empty 20 12 0 14 -225271
+#X obj 153 153 cnv 15 30 30 empty PtrnDspItm2 empty 20 12 0 14 -261689
 -262144 0;
 #X obj 189 153 cnv 15 30 30 empty PtrnDspItm3 empty 20 12 0 14 -261681
 -262144 0;
 #X obj 225 153 cnv 15 30 30 empty PtrnDspItm4 empty 20 12 0 14 -228992
 -262144 0;
-#X obj 261 153 cnv 15 30 30 empty PtrnDspItm5 empty 20 12 0 14 -261689
+#X obj 261 153 cnv 15 30 30 empty PtrnDspItm5 empty 20 12 0 14 -225271
 -262144 0;
 #X obj 297 153 cnv 15 30 30 empty PtrnDspItm6 empty 20 12 0 14 -225271
 -262144 0;
-#X obj 333 153 cnv 15 30 30 empty PtrnDspItm7 empty 20 12 0 14 -166441
+#X obj 333 153 cnv 15 30 30 empty PtrnDspItm7 empty 20 12 0 14 -262131
 -262144 0;
 #X obj 369 153 cnv 15 30 30 empty PtrnDspItm8 empty 20 12 0 14 -262131
 -262144 0;
@@ -1542,29 +1542,29 @@ empty 0 -8 0 35 -262144 -1 -1 12 256;
 -262144 0;
 #X obj 479 154 cnv 15 30 30 empty PtrnDspItm11 empty 20 12 0 14 -228992
 -262144 0;
-#X obj 515 154 cnv 15 30 30 empty PtrnDspItm12 empty 20 12 0 14 -262131
+#X obj 515 154 cnv 15 30 30 empty PtrnDspItm12 empty 20 12 0 14 -228992
 -262144 0;
 #X obj 551 154 cnv 15 30 30 empty PtrnDspItm13 empty 20 12 0 14 -262131
 -262144 0;
-#X obj 587 154 cnv 15 30 30 empty PtrnDspItm14 empty 20 12 0 14 -228992
+#X obj 587 154 cnv 15 30 30 empty PtrnDspItm14 empty 20 12 0 14 -262131
 -262144 0;
 #X obj 623 154 cnv 15 30 30 empty PtrnDspItm15 empty 20 12 0 14 -261689
 -262144 0;
-#X obj 659 154 cnv 15 30 30 empty PtrnDspItm16 empty 20 12 0 14 -262131
+#X obj 659 154 cnv 15 30 30 empty PtrnDspItm16 empty 20 12 0 14 -225271
 -262144 0;
 #X obj 118 154 cnv 15 30 30 empty PtrnDspItm1 empty 20 12 0 14 -228992
 -262144 0;
-#X obj 155 154 cnv 15 30 30 empty PtrnDspItm2 empty 20 12 0 14 -225271
+#X obj 155 154 cnv 15 30 30 empty PtrnDspItm2 empty 20 12 0 14 -261689
 -262144 0;
 #X obj 191 154 cnv 15 30 30 empty PtrnDspItm3 empty 20 12 0 14 -261681
 -262144 0;
 #X obj 227 154 cnv 15 30 30 empty PtrnDspItm4 empty 20 12 0 14 -228992
 -262144 0;
-#X obj 263 154 cnv 15 30 30 empty PtrnDspItm5 empty 20 12 0 14 -261689
+#X obj 263 154 cnv 15 30 30 empty PtrnDspItm5 empty 20 12 0 14 -225271
 -262144 0;
 #X obj 299 154 cnv 15 30 30 empty PtrnDspItm6 empty 20 12 0 14 -225271
 -262144 0;
-#X obj 335 154 cnv 15 30 30 empty PtrnDspItm7 empty 20 12 0 14 -166441
+#X obj 335 154 cnv 15 30 30 empty PtrnDspItm7 empty 20 12 0 14 -262131
 -262144 0;
 #X obj 371 154 cnv 15 30 30 empty PtrnDspItm8 empty 20 12 0 14 -262131
 -262144 0;
@@ -1733,7 +1733,7 @@ empty 0 -8 0 35 -262144 -1 -1 12 256;
 #X connect 52 0 51 0;
 #X restore 263 477 pd SmpltoClrSlctr;
 #X obj 115 289 symbol PtrnSve1DspItm;
-#X msg 115 258 1007-PtrnSve12DspItm;
+#X msg 115 258 1009-PtrnSve11DspItm;
 #X floatatom 464 148 5 0 0 0 - - -;
 #X msg 544 143 DspItm;
 #X obj 382 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -29307,7 +29307,7 @@ color \$2 \$3 \$4 \;;
 -1;
 #X obj 815 109 bng 40 250 50 0 empty empty load 5 19 0 14 -204800 -1
 -1;
-#X obj 106 109 cnv 15 15 15 empty empty Pattern_Bank_1_Samples 20 12
+#X obj 106 109 cnv 15 15 15 empty empty Pattern_Bank_0_Samples 20 12
 0 25 -233017 -66577 0;
 #X obj 105 155 cnv 15 750 200 empty UIClrScheme2 empty 570 12 0 14
 -166458 -33289 0;

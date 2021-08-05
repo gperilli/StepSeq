@@ -1,4 +1,4 @@
-#N canvas 116 118 854 664 12;
+#N canvas 232 230 854 664 12;
 #N canvas 16 85 1920 956 PtrnBnk 0;
 #X obj 100 100 cnv 15 830 620 empty UIClrScheme empty 20 12 0 14 -145658
 -33289 0;
@@ -7,37 +7,37 @@
 #X obj 132 207 bng 50 250 50 0 \$0-SeqSec1 \$0-SeqSec1Rcv PB1-01 5
 26 0 12 -195578 -262144 -262144;
 #X obj 349 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm9 empty 20 12 0
-14 -228992 -262144 0;
+14 -261681 -262144 0;
 #X obj 368 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm10 empty 20 12
 0 14 -261681 -262144 0;
 #X obj 387 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm11 empty 20 12
-0 14 -228992 -262144 0;
-#X obj 406 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm12 empty 20 12
-0 14 -261689 -262144 0;
-#X obj 425 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm13 empty 20 12
-0 14 -261689 -262144 0;
-#X obj 444 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm14 empty 20 12
-0 14 -225271 -262144 0;
-#X obj 463 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm15 empty 20 12
-0 14 -261689 -262144 0;
-#X obj 482 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm16 empty 20 12
 0 14 -262131 -262144 0;
+#X obj 406 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm12 empty 20 12
+0 14 -262131 -262144 0;
+#X obj 425 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm13 empty 20 12
+0 14 -261681 -262144 0;
+#X obj 444 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm14 empty 20 12
+0 14 -262131 -262144 0;
+#X obj 463 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm15 empty 20 12
+0 14 -261681 -262144 0;
+#X obj 482 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm16 empty 20 12
+0 14 -228992 -262144 0;
 #X obj 197 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm1 empty 20 12 0
-14 -262144 -262144 0;
+14 -262131 -262144 0;
 #X obj 216 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm2 empty 20 12 0
-14 -262144 -262144 0;
+14 -225271 -262144 0;
 #X obj 235 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm3 empty 20 12 0
-14 -262144 -262144 0;
+14 -228992 -262144 0;
 #X obj 254 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm4 empty 20 12 0
-14 -262144 -262144 0;
+14 -225271 -262144 0;
 #X obj 273 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm5 empty 20 12 0
-14 -262144 -262144 0;
+14 -262131 -262144 0;
 #X obj 292 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm6 empty 20 12 0
-14 -262144 -262144 0;
+14 -261681 -262144 0;
 #X obj 311 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm7 empty 20 12 0
-14 -262144 -262144 0;
+14 -262131 -262144 0;
 #X obj 330 207 cnv 15 15 15 empty \$0-PtrnSve1DspItm8 empty 20 12 0
-14 -262144 -262144 0;
+14 -228992 -262144 0;
 #X obj 349 231 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
 0;
 #X obj 368 231 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
@@ -81,7 +81,7 @@
 #X obj 133 334 bng 50 250 50 0 \$0-SeqSec3 \$0-SeqSec3Rcv PB1-03 5
 24 0 12 -195578 -262144 -262144;
 #X obj 349 273 cnv 15 15 15 empty \$0-PtrnSve2DspItm9 empty 20 12 0
-14 -228992 -262144 0;
+14 -262131 -262144 0;
 #X obj 368 273 cnv 15 15 15 empty \$0-PtrnSve2DspItm10 empty 20 12
 0 14 -261681 -262144 0;
 #X obj 387 273 cnv 15 15 15 empty \$0-PtrnSve2DspItm11 empty 20 12
@@ -93,11 +93,11 @@
 #X obj 444 273 cnv 15 15 15 empty \$0-PtrnSve2DspItm14 empty 20 12
 0 14 -225271 -262144 0;
 #X obj 463 273 cnv 15 15 15 empty \$0-PtrnSve2DspItm15 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -228992 -262144 0;
 #X obj 482 273 cnv 15 15 15 empty \$0-PtrnSve2DspItm16 empty 20 12
 0 14 -262131 -262144 0;
 #X obj 197 273 cnv 15 15 15 empty \$0-PtrnSve2DspItm1 empty 20 12 0
-14 -261689 -262144 0;
+14 -262131 -262144 0;
 #X obj 216 273 cnv 15 15 15 empty \$0-PtrnSve2DspItm2 empty 20 12 0
 14 -225271 -262144 0;
 #X obj 235 273 cnv 15 15 15 empty \$0-PtrnSve2DspItm3 empty 20 12 0
@@ -105,11 +105,11 @@
 #X obj 254 273 cnv 15 15 15 empty \$0-PtrnSve2DspItm4 empty 20 12 0
 14 -225271 -262144 0;
 #X obj 273 273 cnv 15 15 15 empty \$0-PtrnSve2DspItm5 empty 20 12 0
-14 -225271 -262144 0;
+14 -262131 -262144 0;
 #X obj 292 273 cnv 15 15 15 empty \$0-PtrnSve2DspItm6 empty 20 12 0
 14 -261681 -262144 0;
 #X obj 311 273 cnv 15 15 15 empty \$0-PtrnSve2DspItm7 empty 20 12 0
-14 -261689 -262144 0;
+14 -262131 -262144 0;
 #X obj 330 273 cnv 15 15 15 empty \$0-PtrnSve2DspItm8 empty 20 12 0
 14 -228992 -262144 0;
 #X obj 349 297 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
@@ -145,7 +145,7 @@
 #X obj 330 297 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
 0;
 #X obj 351 335 cnv 15 15 15 empty \$0-PtrnSve3DspItm9 empty 20 12 0
-14 -228992 -262144 0;
+14 -261689 -262144 0;
 #X obj 370 335 cnv 15 15 15 empty \$0-PtrnSve3DspItm10 empty 20 12
 0 14 -261681 -262144 0;
 #X obj 389 335 cnv 15 15 15 empty \$0-PtrnSve3DspItm11 empty 20 12
@@ -157,11 +157,11 @@
 #X obj 446 335 cnv 15 15 15 empty \$0-PtrnSve3DspItm14 empty 20 12
 0 14 -225271 -262144 0;
 #X obj 465 335 cnv 15 15 15 empty \$0-PtrnSve3DspItm15 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -228992 -262144 0;
 #X obj 484 335 cnv 15 15 15 empty \$0-PtrnSve3DspItm16 empty 20 12
 0 14 -262131 -262144 0;
 #X obj 199 335 cnv 15 15 15 empty \$0-PtrnSve3DspItm1 empty 20 12 0
-14 -261689 -262144 0;
+14 -262131 -262144 0;
 #X obj 218 335 cnv 15 15 15 empty \$0-PtrnSve3DspItm2 empty 20 12 0
 14 -225271 -262144 0;
 #X obj 237 335 cnv 15 15 15 empty \$0-PtrnSve3DspItm3 empty 20 12 0
@@ -169,11 +169,11 @@
 #X obj 256 335 cnv 15 15 15 empty \$0-PtrnSve3DspItm4 empty 20 12 0
 14 -225271 -262144 0;
 #X obj 275 335 cnv 15 15 15 empty \$0-PtrnSve3DspItm5 empty 20 12 0
-14 -225271 -262144 0;
+14 -262131 -262144 0;
 #X obj 294 335 cnv 15 15 15 empty \$0-PtrnSve3DspItm6 empty 20 12 0
 14 -261681 -262144 0;
 #X obj 313 335 cnv 15 15 15 empty \$0-PtrnSve3DspItm7 empty 20 12 0
-14 -261689 -262144 0;
+14 -262131 -262144 0;
 #X obj 332 335 cnv 15 15 15 empty \$0-PtrnSve3DspItm8 empty 20 12 0
 14 -228992 -262144 0;
 #X obj 351 359 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
@@ -211,23 +211,23 @@
 #X obj 133 398 bng 50 250 50 0 \$0-SeqSec4 \$0-SeqSec4Rcv PB1-04 5
 24 0 12 -195578 -262144 -262144;
 #X obj 351 399 cnv 15 15 15 empty \$0-PtrnSve4DspItm9 empty 20 12 0
-14 -228992 -262144 0;
+14 -261689 -262144 0;
 #X obj 370 399 cnv 15 15 15 empty \$0-PtrnSve4DspItm10 empty 20 12
 0 14 -261681 -262144 0;
 #X obj 389 399 cnv 15 15 15 empty \$0-PtrnSve4DspItm11 empty 20 12
-0 14 -261681 -262144 0;
+0 14 -228992 -262144 0;
 #X obj 408 399 cnv 15 15 15 empty \$0-PtrnSve4DspItm12 empty 20 12
 0 14 -261689 -262144 0;
 #X obj 427 399 cnv 15 15 15 empty \$0-PtrnSve4DspItm13 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -228992 -262144 0;
 #X obj 446 399 cnv 15 15 15 empty \$0-PtrnSve4DspItm14 empty 20 12
 0 14 -225271 -262144 0;
 #X obj 465 399 cnv 15 15 15 empty \$0-PtrnSve4DspItm15 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -228992 -262144 0;
 #X obj 484 399 cnv 15 15 15 empty \$0-PtrnSve4DspItm16 empty 20 12
 0 14 -262131 -262144 0;
 #X obj 199 399 cnv 15 15 15 empty \$0-PtrnSve4DspItm1 empty 20 12 0
-14 -261689 -262144 0;
+14 -262131 -262144 0;
 #X obj 218 399 cnv 15 15 15 empty \$0-PtrnSve4DspItm2 empty 20 12 0
 14 -225271 -262144 0;
 #X obj 237 399 cnv 15 15 15 empty \$0-PtrnSve4DspItm3 empty 20 12 0
@@ -235,11 +235,11 @@
 #X obj 256 399 cnv 15 15 15 empty \$0-PtrnSve4DspItm4 empty 20 12 0
 14 -225271 -262144 0;
 #X obj 275 399 cnv 15 15 15 empty \$0-PtrnSve4DspItm5 empty 20 12 0
-14 -225271 -262144 0;
+14 -262131 -262144 0;
 #X obj 294 399 cnv 15 15 15 empty \$0-PtrnSve4DspItm6 empty 20 12 0
 14 -261681 -262144 0;
 #X obj 313 399 cnv 15 15 15 empty \$0-PtrnSve4DspItm7 empty 20 12 0
-14 -261689 -262144 0;
+14 -262131 -262144 0;
 #X obj 332 399 cnv 15 15 15 empty \$0-PtrnSve4DspItm8 empty 20 12 0
 14 -228992 -262144 0;
 #X obj 351 423 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
@@ -293,23 +293,23 @@
 #X obj 133 462 bng 50 250 50 0 \$0-SeqSec5 \$0-SeqSec5Rcv PB1-05 5
 24 0 12 -195578 -262144 -262144;
 #X obj 350 463 cnv 15 15 15 empty \$0-PtrnSve5DspItm9 empty 20 12 0
-14 -228992 -262144 0;
+14 -261689 -262144 0;
 #X obj 369 463 cnv 15 15 15 empty \$0-PtrnSve5DspItm10 empty 20 12
 0 14 -261681 -262144 0;
 #X obj 388 463 cnv 15 15 15 empty \$0-PtrnSve5DspItm11 empty 20 12
-0 14 -261681 -262144 0;
+0 14 -228992 -262144 0;
 #X obj 407 463 cnv 15 15 15 empty \$0-PtrnSve5DspItm12 empty 20 12
-0 14 -262131 -262144 0;
-#X obj 426 463 cnv 15 15 15 empty \$0-PtrnSve5DspItm13 empty 20 12
 0 14 -261689 -262144 0;
+#X obj 426 463 cnv 15 15 15 empty \$0-PtrnSve5DspItm13 empty 20 12
+0 14 -228992 -262144 0;
 #X obj 445 463 cnv 15 15 15 empty \$0-PtrnSve5DspItm14 empty 20 12
 0 14 -225271 -262144 0;
 #X obj 464 463 cnv 15 15 15 empty \$0-PtrnSve5DspItm15 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -228992 -262144 0;
 #X obj 483 463 cnv 15 15 15 empty \$0-PtrnSve5DspItm16 empty 20 12
 0 14 -262131 -262144 0;
 #X obj 198 463 cnv 15 15 15 empty \$0-PtrnSve5DspItm1 empty 20 12 0
-14 -261689 -262144 0;
+14 -262131 -262144 0;
 #X obj 217 463 cnv 15 15 15 empty \$0-PtrnSve5DspItm2 empty 20 12 0
 14 -225271 -262144 0;
 #X obj 236 463 cnv 15 15 15 empty \$0-PtrnSve5DspItm3 empty 20 12 0
@@ -317,11 +317,11 @@
 #X obj 255 463 cnv 15 15 15 empty \$0-PtrnSve5DspItm4 empty 20 12 0
 14 -225271 -262144 0;
 #X obj 274 463 cnv 15 15 15 empty \$0-PtrnSve5DspItm5 empty 20 12 0
-14 -225271 -262144 0;
+14 -262131 -262144 0;
 #X obj 293 463 cnv 15 15 15 empty \$0-PtrnSve5DspItm6 empty 20 12 0
 14 -261681 -262144 0;
 #X obj 312 463 cnv 15 15 15 empty \$0-PtrnSve5DspItm7 empty 20 12 0
-14 -261689 -262144 0;
+14 -262131 -262144 0;
 #X obj 331 463 cnv 15 15 15 empty \$0-PtrnSve5DspItm8 empty 20 12 0
 14 -228992 -262144 0;
 #X obj 350 487 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
@@ -359,23 +359,23 @@
 #X obj 132 526 bng 50 250 50 0 \$0-SeqSec6 \$0-SeqSec6Rcv PB1-06 5
 24 0 12 -195578 -262144 -262144;
 #X obj 350 529 cnv 15 15 15 empty \$0-PtrnSve6DspItm9 empty 20 12 0
-14 -228992 -262144 0;
+14 -261689 -262144 0;
 #X obj 369 529 cnv 15 15 15 empty \$0-PtrnSve6DspItm10 empty 20 12
 0 14 -261681 -262144 0;
 #X obj 388 529 cnv 15 15 15 empty \$0-PtrnSve6DspItm11 empty 20 12
-0 14 -261681 -262144 0;
+0 14 -228992 -262144 0;
 #X obj 407 529 cnv 15 15 15 empty \$0-PtrnSve6DspItm12 empty 20 12
-0 14 -262131 -262144 0;
+0 14 -261689 -262144 0;
 #X obj 426 529 cnv 15 15 15 empty \$0-PtrnSve6DspItm13 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -228992 -262144 0;
 #X obj 445 529 cnv 15 15 15 empty \$0-PtrnSve6DspItm14 empty 20 12
-0 14 -262131 -262144 0;
+0 14 -225271 -262144 0;
 #X obj 463 529 cnv 15 15 15 empty \$0-PtrnSve6DspItm15 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -228992 -262144 0;
 #X obj 483 529 cnv 15 15 15 empty \$0-PtrnSve6DspItm16 empty 20 12
 0 14 -262131 -262144 0;
 #X obj 198 529 cnv 15 15 15 empty \$0-PtrnSve6DspItm1 empty 20 12 0
-14 -261689 -262144 0;
+14 -262131 -262144 0;
 #X obj 217 529 cnv 15 15 15 empty \$0-PtrnSve6DspItm2 empty 20 12 0
 14 -225271 -262144 0;
 #X obj 236 529 cnv 15 15 15 empty \$0-PtrnSve6DspItm3 empty 20 12 0
@@ -383,11 +383,11 @@
 #X obj 254 529 cnv 15 15 15 empty \$0-PtrnSve6DspItm4 empty 20 12 0
 14 -225271 -262144 0;
 #X obj 274 529 cnv 15 15 15 empty \$0-PtrnSve6DspItm5 empty 20 12 0
-14 -225271 -262144 0;
+14 -262131 -262144 0;
 #X obj 293 529 cnv 15 15 15 empty \$0-PtrnSve6DspItm6 empty 20 12 0
 14 -261681 -262144 0;
 #X obj 312 529 cnv 15 15 15 empty \$0-PtrnSve6DspItm7 empty 20 12 0
-14 -261689 -262144 0;
+14 -262131 -262144 0;
 #X obj 331 529 cnv 15 15 15 empty \$0-PtrnSve6DspItm8 empty 20 12 0
 14 -228992 -262144 0;
 #X obj 350 553 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
@@ -425,23 +425,23 @@
 #X obj 133 590 bng 50 250 50 0 \$0-SeqSec7 \$0-SeqSec7Rcv PB1-07 5
 24 0 12 -195578 -262144 -262144;
 #X obj 350 593 cnv 15 15 15 empty \$0-PtrnSve7DspItm9 empty 20 12 0
-14 -228992 -262144 0;
+14 -261689 -262144 0;
 #X obj 369 593 cnv 15 15 15 empty \$0-PtrnSve7DspItm10 empty 20 12
-0 14 -261681 -262144 0;
+0 14 -225271 -262144 0;
 #X obj 388 593 cnv 15 15 15 empty \$0-PtrnSve7DspItm11 empty 20 12
-0 14 -261681 -262144 0;
+0 14 -228992 -262144 0;
 #X obj 407 593 cnv 15 15 15 empty \$0-PtrnSve7DspItm12 empty 20 12
-0 14 -262131 -262144 0;
+0 14 -261689 -262144 0;
 #X obj 426 593 cnv 15 15 15 empty \$0-PtrnSve7DspItm13 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -228992 -262144 0;
 #X obj 445 593 cnv 15 15 15 empty \$0-PtrnSve7DspItm14 empty 20 12
-0 14 -262131 -262144 0;
+0 14 -225271 -262144 0;
 #X obj 464 593 cnv 15 15 15 empty \$0-PtrnSve7DspItm15 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -228992 -262144 0;
 #X obj 483 593 cnv 15 15 15 empty \$0-PtrnSve7DspItm16 empty 20 12
 0 14 -262131 -262144 0;
 #X obj 198 593 cnv 15 15 15 empty \$0-PtrnSve7DspItm1 empty 20 12 0
-14 -261689 -262144 0;
+14 -262131 -262144 0;
 #X obj 217 593 cnv 15 15 15 empty \$0-PtrnSve7DspItm2 empty 20 12 0
 14 -225271 -262144 0;
 #X obj 236 593 cnv 15 15 15 empty \$0-PtrnSve7DspItm3 empty 20 12 0
@@ -449,11 +449,11 @@
 #X obj 255 593 cnv 15 15 15 empty \$0-PtrnSve7DspItm4 empty 20 12 0
 14 -225271 -262144 0;
 #X obj 274 593 cnv 15 15 15 empty \$0-PtrnSve7DspItm5 empty 20 12 0
-14 -225271 -262144 0;
+14 -262131 -262144 0;
 #X obj 293 593 cnv 15 15 15 empty \$0-PtrnSve7DspItm6 empty 20 12 0
 14 -261681 -262144 0;
 #X obj 312 593 cnv 15 15 15 empty \$0-PtrnSve7DspItm7 empty 20 12 0
-14 -261689 -262144 0;
+14 -262131 -262144 0;
 #X obj 331 593 cnv 15 15 15 empty \$0-PtrnSve7DspItm8 empty 20 12 0
 14 -228992 -262144 0;
 #X obj 350 617 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
@@ -491,23 +491,23 @@
 #X obj 133 654 bng 50 250 50 0 \$0-SeqSec8 \$0-SeqSec8Rcv PB1-08 5
 24 0 12 -195578 -262144 -262144;
 #X obj 351 657 cnv 15 15 15 empty \$0-PtrnSve8DspItm9 empty 20 12 0
-14 -228992 -262144 0;
+14 -261689 -262144 0;
 #X obj 370 657 cnv 15 15 15 empty \$0-PtrnSve8DspItm10 empty 20 12
-0 14 -261681 -262144 0;
+0 14 -225271 -262144 0;
 #X obj 389 657 cnv 15 15 15 empty \$0-PtrnSve1DspItm11 empty 20 12
-0 14 -228992 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 408 657 cnv 15 15 15 empty \$0-PtrnSve8DspItm12 empty 20 12
-0 14 -262131 -262144 0;
+0 14 -228992 -262144 0;
 #X obj 427 657 cnv 15 15 15 empty \$0-PtrnSve8DspItm13 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -225271 -262144 0;
 #X obj 446 657 cnv 15 15 15 empty \$0-PtrnSve8DspItm14 empty 20 12
-0 14 -262131 -262144 0;
+0 14 -225271 -262144 0;
 #X obj 465 657 cnv 15 15 15 empty \$0-PtrnSve8DspItm15 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -228992 -262144 0;
 #X obj 484 657 cnv 15 15 15 empty \$0-PtrnSve8DspItm16 empty 20 12
 0 14 -262131 -262144 0;
 #X obj 199 657 cnv 15 15 15 empty \$0-PtrnSve8DspItm1 empty 20 12 0
-14 -261689 -262144 0;
+14 -262131 -262144 0;
 #X obj 218 657 cnv 15 15 15 empty \$0-PtrnSve8DspItm2 empty 20 12 0
 14 -225271 -262144 0;
 #X obj 237 657 cnv 15 15 15 empty \$0-PtrnSve8DspItm3 empty 20 12 0
@@ -515,11 +515,11 @@
 #X obj 256 657 cnv 15 15 15 empty \$0-PtrnSve8DspItm4 empty 20 12 0
 14 -225271 -262144 0;
 #X obj 275 657 cnv 15 15 15 empty \$0-PtrnSve8DspItm5 empty 20 12 0
-14 -225271 -262144 0;
+14 -262131 -262144 0;
 #X obj 294 657 cnv 15 15 15 empty \$0-PtrnSve8DspItm6 empty 20 12 0
 14 -261681 -262144 0;
 #X obj 313 657 cnv 15 15 15 empty \$0-PtrnSve8DspItm7 empty 20 12 0
-14 -261689 -262144 0;
+14 -262131 -262144 0;
 #X obj 332 657 cnv 15 15 15 empty \$0-PtrnSve8DspItm8 empty 20 12 0
 14 -228992 -262144 0;
 #X obj 351 681 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
@@ -567,35 +567,35 @@
 #X obj 547 271 bng 50 250 50 0 \$0-SeqSec10 \$0-SeqSec10Rcv PB1-10
 5 24 0 12 -195578 -262144 -262144;
 #X obj 765 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm9 empty 20 12 0
-14 -228992 -262144 0;
+14 -261681 -262144 0;
 #X obj 784 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm10 empty 20 12
 0 14 -261681 -262144 0;
 #X obj 803 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm11 empty 20 12
-0 14 -228992 -262144 0;
-#X obj 822 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm12 empty 20 12
-0 14 -261689 -262144 0;
-#X obj 841 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm13 empty 20 12
-0 14 -261689 -262144 0;
-#X obj 860 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm14 empty 20 12
-0 14 -225271 -262144 0;
-#X obj 879 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm15 empty 20 12
-0 14 -261689 -262144 0;
-#X obj 898 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm16 empty 20 12
 0 14 -262131 -262144 0;
+#X obj 822 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm12 empty 20 12
+0 14 -262131 -262144 0;
+#X obj 841 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm13 empty 20 12
+0 14 -261681 -262144 0;
+#X obj 860 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm14 empty 20 12
+0 14 -262131 -262144 0;
+#X obj 879 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm15 empty 20 12
+0 14 -261681 -262144 0;
+#X obj 898 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm16 empty 20 12
+0 14 -228992 -262144 0;
 #X obj 613 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm1 empty 20 12 0
-14 -261689 -262144 0;
+14 -262131 -262144 0;
 #X obj 632 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm2 empty 20 12 0
 14 -225271 -262144 0;
 #X obj 651 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm3 empty 20 12 0
 14 -228992 -262144 0;
 #X obj 670 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm4 empty 20 12 0
-14 -228992 -262144 0;
+14 -225271 -262144 0;
 #X obj 689 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm5 empty 20 12 0
-14 -228992 -262144 0;
+14 -262131 -262144 0;
 #X obj 708 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm6 empty 20 12 0
 14 -261681 -262144 0;
 #X obj 727 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm7 empty 20 12 0
-14 -261689 -262144 0;
+14 -262131 -262144 0;
 #X obj 746 208 cnv 15 15 15 empty \$0-PtrnSve9DspItm8 empty 20 12 0
 14 -228992 -262144 0;
 #X obj 765 232 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
@@ -631,23 +631,23 @@
 #X obj 746 232 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
 0;
 #X obj 765 271 cnv 15 15 15 empty \$0-PtrnSve10DspItm9 empty 20 12
-0 14 -228992 -262144 0;
+0 14 -261681 -262144 0;
 #X obj 784 271 cnv 15 15 15 empty \$0-PtrnSve10DspItm10 empty 20 12
 0 14 -261681 -262144 0;
 #X obj 803 271 cnv 15 15 15 empty \$0-PtrnSve10DspItm11 empty 20 12
-0 14 -261681 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 822 271 cnv 15 15 15 empty \$0-PtrnSve10DspItm12 empty 20 12
 0 14 -262131 -262144 0;
 #X obj 841 271 cnv 15 15 15 empty \$0-PtrnSve10DspItm13 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -261681 -262144 0;
 #X obj 860 271 cnv 15 15 15 empty \$0-PtrnSve10DspItm14 empty 20 12
-0 14 -225271 -262144 0;
-#X obj 879 271 cnv 15 15 15 empty \$0-PtrnSve10DspItm15 empty 20 12
-0 14 -261689 -262144 0;
-#X obj 898 271 cnv 15 15 15 empty \$0-PtrnSve10DspItm16 empty 20 12
 0 14 -262131 -262144 0;
+#X obj 879 271 cnv 15 15 15 empty \$0-PtrnSve10DspItm15 empty 20 12
+0 14 -261681 -262144 0;
+#X obj 898 271 cnv 15 15 15 empty \$0-PtrnSve10DspItm16 empty 20 12
+0 14 -228992 -262144 0;
 #X obj 613 271 cnv 15 15 15 empty \$0-PtrnSve10DspItm1 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 632 271 cnv 15 15 15 empty \$0-PtrnSve10DspItm2 empty 20 12
 0 14 -225271 -262144 0;
 #X obj 651 271 cnv 15 15 15 empty \$0-PtrnSve10DspItm3 empty 20 12
@@ -655,11 +655,11 @@
 #X obj 670 271 cnv 15 15 15 empty \$0-PtrnSve10DspItm4 empty 20 12
 0 14 -225271 -262144 0;
 #X obj 689 271 cnv 15 15 15 empty \$0-PtrnSve10DspItm5 empty 20 12
-0 14 -225271 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 708 271 cnv 15 15 15 empty \$0-PtrnSve10DspItm6 empty 20 12
 0 14 -261681 -262144 0;
 #X obj 727 271 cnv 15 15 15 empty \$0-PtrnSve10DspItm7 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 746 271 cnv 15 15 15 empty \$0-PtrnSve10DspItm8 empty 20 12
 0 14 -228992 -262144 0;
 #X obj 765 295 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
@@ -697,23 +697,23 @@
 #X obj 547 334 bng 50 250 50 0 \$0-SeqSec11 \$0-SeqSec11Rcv PB1-11
 5 24 0 12 -195578 -262144 -262144;
 #X obj 766 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm9 empty 20 12
-0 14 -228992 -262144 0;
+0 14 -261681 -262144 0;
 #X obj 785 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm10 empty 20 12
 0 14 -261681 -262144 0;
 #X obj 804 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm11 empty 20 12
-0 14 -228992 -262144 0;
-#X obj 0 1 cnv 15 15 15 empty \$0-PtrnSve11DspItm12 empty 20 12 0 14
--261689 -262144 0;
-#X obj 842 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm13 empty 20 12
-0 14 -261689 -262144 0;
-#X obj 861 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm14 empty 20 12
-0 14 -225271 -262144 0;
-#X obj 880 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm15 empty 20 12
-0 14 -261689 -262144 0;
-#X obj 899 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm16 empty 20 12
 0 14 -262131 -262144 0;
+#X obj 0 1 cnv 15 15 15 empty \$0-PtrnSve11DspItm12 empty 20 12 0 14
+-262131 -262144 0;
+#X obj 842 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm13 empty 20 12
+0 14 -261681 -262144 0;
+#X obj 861 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm14 empty 20 12
+0 14 -262131 -262144 0;
+#X obj 880 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm15 empty 20 12
+0 14 -261681 -262144 0;
+#X obj 899 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm16 empty 20 12
+0 14 -228992 -262144 0;
 #X obj 614 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm1 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 633 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm2 empty 20 12
 0 14 -225271 -262144 0;
 #X obj 652 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm3 empty 20 12
@@ -721,11 +721,11 @@
 #X obj 671 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm4 empty 20 12
 0 14 -225271 -262144 0;
 #X obj 690 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm5 empty 20 12
-0 14 -225271 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 709 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm6 empty 20 12
 0 14 -261681 -262144 0;
 #X obj 728 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm7 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 747 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm8 empty 20 12
 0 14 -228992 -262144 0;
 #X obj 766 359 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
@@ -763,35 +763,35 @@
 #X obj 546 399 bng 50 250 50 0 \$0-SeqSec12 \$0-SeqSec12Rcv PB1-12
 5 24 0 12 -195578 -262144 -262144;
 #X obj 765 399 cnv 15 15 15 empty \$0-PtrnSve12DspItm9 empty 20 12
-0 14 -228992 -262144 0;
+0 14 -261681 -262144 0;
 #X obj 784 399 cnv 15 15 15 empty \$0-PtrnSve12DspItm10 empty 20 12
-0 14 -262131 -262144 0;
+0 14 -261681 -262144 0;
 #X obj 803 399 cnv 15 15 15 empty \$0-PtrnSve12DspItm11 empty 20 12
 0 14 -262131 -262144 0;
 #X obj 822 399 cnv 15 15 15 empty \$0-PtrnSve12DspItm12 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 841 399 cnv 15 15 15 empty \$0-PtrnSve12DspItm13 empty 20 12
-0 14 -225271 -262144 0;
+0 14 -261681 -262144 0;
 #X obj 860 399 cnv 15 15 15 empty \$0-PtrnSve12DspItm14 empty 20 12
-0 14 -257472 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 879 399 cnv 15 15 15 empty \$0-PtrnSve12DspItm15 empty 20 12
-0 14 -225271 -262144 0;
+0 14 -261681 -262144 0;
 #X obj 898 399 cnv 15 15 15 empty \$0-PtrnSve12DspItm16 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -228992 -262144 0;
 #X obj 613 399 cnv 15 15 15 empty \$0-PtrnSve12DspItm1 empty 20 12
-0 14 -225271 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 632 399 cnv 15 15 15 empty \$0-PtrnSve12DspItm2 empty 20 12
-0 14 -257472 -262144 0;
+0 14 -225271 -262144 0;
 #X obj 651 399 cnv 15 15 15 empty \$0-PtrnSve12DspItm3 empty 20 12
 0 14 -228992 -262144 0;
 #X obj 670 399 cnv 15 15 15 empty \$0-PtrnSve12DspItm4 empty 20 12
-0 14 -257472 -262144 0;
-#X obj 689 399 cnv 15 15 15 empty \$0-PtrnSve12DspItm5 empty 20 12
-0 14 -257472 -262144 0;
-#X obj 708 399 cnv 15 15 15 empty \$0-PtrnSve12DspItm6 empty 20 12
-0 14 -262131 -262144 0;
-#X obj 727 399 cnv 15 15 15 empty \$0-PtrnSve12DspItm7 empty 20 12
 0 14 -225271 -262144 0;
+#X obj 689 399 cnv 15 15 15 empty \$0-PtrnSve12DspItm5 empty 20 12
+0 14 -262131 -262144 0;
+#X obj 708 399 cnv 15 15 15 empty \$0-PtrnSve12DspItm6 empty 20 12
+0 14 -261681 -262144 0;
+#X obj 727 399 cnv 15 15 15 empty \$0-PtrnSve12DspItm7 empty 20 12
+0 14 -262131 -262144 0;
 #X obj 746 399 cnv 15 15 15 empty \$0-PtrnSve12DspItm8 empty 20 12
 0 14 -228992 -262144 0;
 #X obj 765 423 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
@@ -829,23 +829,23 @@
 #X obj 547 463 bng 50 250 50 0 \$0-SeqSec13 \$0-SeqSec13Rcv PB1-13
 5 24 0 12 -195578 -262144 -262144;
 #X obj 765 463 cnv 15 15 15 empty \$0-PtrnSve13DspItm9 empty 20 12
-0 14 -228992 -262144 0;
+0 14 -261681 -262144 0;
 #X obj 784 463 cnv 15 15 15 empty \$0-PtrnSve13DspItm10 empty 20 12
 0 14 -261681 -262144 0;
 #X obj 803 463 cnv 15 15 15 empty \$0-PtrnSve13DspItm11 empty 20 12
-0 14 -261681 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 822 463 cnv 15 15 15 empty \$0-PtrnSve13DspItm12 empty 20 12
 0 14 -262131 -262144 0;
 #X obj 841 463 cnv 15 15 15 empty \$0-PtrnSve13DspItm13 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -261681 -262144 0;
 #X obj 860 463 cnv 15 15 15 empty \$0-PtrnSve13DspItm14 empty 20 12
-0 14 -225271 -262144 0;
-#X obj 879 463 cnv 15 15 15 empty \$0-PtrnSve13DspItm15 empty 20 12
-0 14 -261689 -262144 0;
-#X obj 898 463 cnv 15 15 15 empty \$0-PtrnSve13DspItm16 empty 20 12
 0 14 -262131 -262144 0;
+#X obj 879 463 cnv 15 15 15 empty \$0-PtrnSve13DspItm15 empty 20 12
+0 14 -261681 -262144 0;
+#X obj 898 463 cnv 15 15 15 empty \$0-PtrnSve13DspItm16 empty 20 12
+0 14 -228992 -262144 0;
 #X obj 613 463 cnv 15 15 15 empty \$0-PtrnSve13DspItm1 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 632 463 cnv 15 15 15 empty \$0-PtrnSve13DspItm2 empty 20 12
 0 14 -225271 -262144 0;
 #X obj 651 463 cnv 15 15 15 empty \$0-PtrnSve13DspItm3 empty 20 12
@@ -853,11 +853,11 @@
 #X obj 670 463 cnv 15 15 15 empty \$0-PtrnSve13DspItm4 empty 20 12
 0 14 -225271 -262144 0;
 #X obj 689 463 cnv 15 15 15 empty \$0-PtrnSve13DspItm5 empty 20 12
-0 14 -225271 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 708 463 cnv 15 15 15 empty \$0-PtrnSve13DspItm6 empty 20 12
 0 14 -261681 -262144 0;
 #X obj 727 463 cnv 15 15 15 empty \$0-PtrnSve13DspItm7 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 746 463 cnv 15 15 15 empty \$0-PtrnSve13DspItm8 empty 20 12
 0 14 -228992 -262144 0;
 #X obj 765 487 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
@@ -895,23 +895,23 @@
 #X obj 547 527 bng 50 250 50 0 \$0-SeqSec14 \$0-SeqSec14Rcv PB1-14
 5 24 0 12 -195578 -262144 -262144;
 #X obj 765 527 cnv 15 15 15 empty \$0-PtrnSve14DspItm9 empty 20 12
-0 14 -228992 -262144 0;
+0 14 -261681 -262144 0;
 #X obj 784 527 cnv 15 15 15 empty \$0-PtrnSve14DspItm10 empty 20 12
 0 14 -261681 -262144 0;
 #X obj 803 527 cnv 15 15 15 empty \$0-PtrnSve14DspItm11 empty 20 12
-0 14 -261681 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 822 527 cnv 15 15 15 empty \$0-PtrnSve14DspItm12 empty 20 12
 0 14 -262131 -262144 0;
 #X obj 841 527 cnv 15 15 15 empty \$0-PtrnSve14DspItm13 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -261681 -262144 0;
 #X obj 860 527 cnv 15 15 15 empty \$0-PtrnSve14DspItm14 empty 20 12
-0 14 -225271 -262144 0;
-#X obj 879 527 cnv 15 15 15 empty \$0-PtrnSve14DspItm15 empty 20 12
-0 14 -261689 -262144 0;
-#X obj 898 527 cnv 15 15 15 empty \$0-PtrnSve14DspItm16 empty 20 12
 0 14 -262131 -262144 0;
+#X obj 879 527 cnv 15 15 15 empty \$0-PtrnSve14DspItm15 empty 20 12
+0 14 -261681 -262144 0;
+#X obj 898 527 cnv 15 15 15 empty \$0-PtrnSve14DspItm16 empty 20 12
+0 14 -228992 -262144 0;
 #X obj 613 527 cnv 15 15 15 empty \$0-PtrnSve14DspItm1 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 632 527 cnv 15 15 15 empty \$0-PtrnSve14DspItm2 empty 20 12
 0 14 -225271 -262144 0;
 #X obj 651 527 cnv 15 15 15 empty \$0-PtrnSve14DspItm3 empty 20 12
@@ -919,11 +919,11 @@
 #X obj 670 527 cnv 15 15 15 empty \$0-PtrnSve14DspItm4 empty 20 12
 0 14 -225271 -262144 0;
 #X obj 689 527 cnv 15 15 15 empty \$0-PtrnSve14DspItm5 empty 20 12
-0 14 -225271 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 708 527 cnv 15 15 15 empty \$0-PtrnSve14DspItm6 empty 20 12
 0 14 -261681 -262144 0;
 #X obj 727 527 cnv 15 15 15 empty \$0-PtrnSve14DspItm7 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 746 527 cnv 15 15 15 empty \$0-PtrnSve14DspItm8 empty 20 12
 0 14 -228992 -262144 0;
 #X obj 765 551 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
@@ -961,11 +961,11 @@
 #X obj 548 592 bng 50 250 50 0 \$0-SeqSec15 \$0-SeqSec15Rcv PB1-15
 5 24 0 12 -195578 -262144 -262144;
 #X obj 765 592 cnv 15 15 15 empty \$0-PtrnSve15DspItm9 empty 20 12
-0 14 -228992 -262144 0;
+0 14 -261681 -262144 0;
 #X obj 784 592 cnv 15 15 15 empty \$0-PtrnSve15DspItm10 empty 20 12
 0 14 -261681 -262144 0;
 #X obj 803 592 cnv 15 15 15 empty \$0-PtrnSve15DspItm11 empty 20 12
-0 14 -261681 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 822 592 cnv 15 15 15 empty \$0-PtrnSve15DspItm12 empty 20 12
 0 14 -262131 -262144 0;
 #X obj 841 592 cnv 15 15 15 empty \$0-PtrnSve15DspItm13 empty 20 12
@@ -977,7 +977,7 @@
 #X obj 898 592 cnv 15 15 15 empty \$0-PtrnSve15DspItm16 empty 20 12
 0 14 -262131 -262144 0;
 #X obj 612 592 cnv 15 15 15 empty \$0-PtrnSve15DspItm1 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 632 592 cnv 15 15 15 empty \$0-PtrnSve15DspItm2 empty 20 12
 0 14 -225271 -262144 0;
 #X obj 651 592 cnv 15 15 15 empty \$0-PtrnSve15DspItm3 empty 20 12
@@ -985,11 +985,11 @@
 #X obj 670 592 cnv 15 15 15 empty \$0-PtrnSve15DspItm4 empty 20 12
 0 14 -225271 -262144 0;
 #X obj 689 592 cnv 15 15 15 empty \$0-PtrnSve15DspItm5 empty 20 12
-0 14 -225271 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 708 592 cnv 15 15 15 empty \$0-PtrnSve15DspItm6 empty 20 12
 0 14 -261681 -262144 0;
 #X obj 727 592 cnv 15 15 15 empty \$0-PtrnSve15DspItm7 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 746 592 cnv 15 15 15 empty \$0-PtrnSve15DspItm8 empty 20 12
 0 14 -228992 -262144 0;
 #X obj 765 616 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
@@ -1027,23 +1027,23 @@
 #X obj 547 656 bng 50 250 50 0 \$0-SeqSec16 \$0-SeqSec16Rcv PB1-16
 5 24 0 12 -195578 -262144 -262144;
 #X obj 764 656 cnv 15 15 15 empty \$0-PtrnSve16DspItm9 empty 20 12
-0 14 -228992 -262144 0;
+0 14 -261681 -262144 0;
 #X obj 783 656 cnv 15 15 15 empty \$0-PtrnSve16DspItm10 empty 20 12
 0 14 -261681 -262144 0;
 #X obj 802 656 cnv 15 15 15 empty \$0-PtrnSve16DspItm11 empty 20 12
-0 14 -261681 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 821 656 cnv 15 15 15 empty \$0-PtrnSve16DspItm12 empty 20 12
 0 14 -262131 -262144 0;
 #X obj 840 656 cnv 15 15 15 empty \$0-PtrnSve16DspItm13 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -261681 -262144 0;
 #X obj 859 656 cnv 15 15 15 empty \$0-PtrnSve16DspItm14 empty 20 12
-0 14 -225271 -262144 0;
-#X obj 878 656 cnv 15 15 15 empty \$0-PtrnSve16DspItm15 empty 20 12
-0 14 -261689 -262144 0;
-#X obj 897 656 cnv 15 15 15 empty \$0-PtrnSve16DspItm16 empty 20 12
 0 14 -262131 -262144 0;
+#X obj 878 656 cnv 15 15 15 empty \$0-PtrnSve16DspItm15 empty 20 12
+0 14 -261681 -262144 0;
+#X obj 897 656 cnv 15 15 15 empty \$0-PtrnSve16DspItm16 empty 20 12
+0 14 -228992 -262144 0;
 #X obj 612 656 cnv 15 15 15 empty \$0-PtrnSve16DspItm1 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 631 656 cnv 15 15 15 empty \$0-PtrnSve16DspItm2 empty 20 12
 0 14 -225271 -262144 0;
 #X obj 650 656 cnv 15 15 15 empty \$0-PtrnSve16DspItm3 empty 20 12
@@ -1051,11 +1051,11 @@
 #X obj 669 656 cnv 15 15 15 empty \$0-PtrnSve16DspItm4 empty 20 12
 0 14 -225271 -262144 0;
 #X obj 688 656 cnv 15 15 15 empty \$0-PtrnSve16DspItm5 empty 20 12
-0 14 -225271 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 707 656 cnv 15 15 15 empty \$0-PtrnSve16DspItm6 empty 20 12
 0 14 -261681 -262144 0;
 #X obj 726 656 cnv 15 15 15 empty \$0-PtrnSve16DspItm7 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 745 656 cnv 15 15 15 empty \$0-PtrnSve16DspItm8 empty 20 12
 0 14 -228992 -262144 0;
 #X obj 764 680 cnv 15 15 15 empty empty empty 20 12 0 14 -228856 -66577
@@ -1303,7 +1303,7 @@
 #X floatatom 189 84 5 0 0 0 - - -;
 #X obj 189 169 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X msg 189 499 1066-SveSltSlct1;
+#X msg 189 499 1006-SveSltSlct1;
 #X obj 189 250 symbol SveSltSlct;
 #X floatatom 355 249 5 0 0 0 - - -;
 #X obj 188 716 pack s 0 0 0;
@@ -1504,69 +1504,69 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 -261234 -258113 -258113;
 #X obj 108 145 cnv 15 590 50 empty UIClrScheme2 empty 20 12 0 14 -166458
 -33289 0;
-#X obj 405 153 cnv 15 30 30 empty PtrnDspItm9 empty 20 12 0 14 -228992
+#X obj 405 153 cnv 15 30 30 empty PtrnDspItm9 empty 20 12 0 14 -261681
 -262144 0;
-#X obj 441 153 cnv 15 30 30 empty PtrnDspItm10 empty 20 12 0 14 -261689
+#X obj 441 153 cnv 15 30 30 empty PtrnDspItm10 empty 20 12 0 14 -261681
 -262144 0;
-#X obj 477 153 cnv 15 30 30 empty PtrnDspItm11 empty 20 12 0 14 -228992
+#X obj 477 153 cnv 15 30 30 empty PtrnDspItm11 empty 20 12 0 14 -262131
 -262144 0;
-#X obj 513 153 cnv 15 30 30 empty PtrnDspItm12 empty 20 12 0 14 -261689
+#X obj 513 153 cnv 15 30 30 empty PtrnDspItm12 empty 20 12 0 14 -262131
 -262144 0;
-#X obj 549 153 cnv 15 30 30 empty PtrnDspItm13 empty 20 12 0 14 -261689
+#X obj 549 153 cnv 15 30 30 empty PtrnDspItm13 empty 20 12 0 14 -261681
 -262144 0;
-#X obj 585 153 cnv 15 30 30 empty PtrnDspItm14 empty 20 12 0 14 -261681
+#X obj 585 153 cnv 15 30 30 empty PtrnDspItm14 empty 20 12 0 14 -262131
 -262144 0;
-#X obj 621 153 cnv 15 30 30 empty PtrnDspItm15 empty 20 12 0 14 -261689
+#X obj 621 153 cnv 15 30 30 empty PtrnDspItm15 empty 20 12 0 14 -261681
 -262144 0;
-#X obj 657 153 cnv 15 30 30 empty PtrnDspItm16 empty 20 12 0 14 -261689
+#X obj 657 153 cnv 15 30 30 empty PtrnDspItm16 empty 20 12 0 14 -228992
 -262144 0;
-#X obj 117 153 cnv 15 30 30 empty PtrnDspItm1 empty 20 12 0 14 -261681
+#X obj 117 153 cnv 15 30 30 empty PtrnDspItm1 empty 20 12 0 14 -262131
 -262144 0;
-#X obj 153 153 cnv 15 30 30 empty PtrnDspItm2 empty 20 12 0 14 -228992
+#X obj 153 153 cnv 15 30 30 empty PtrnDspItm2 empty 20 12 0 14 -225271
 -262144 0;
-#X obj 189 153 cnv 15 30 30 empty PtrnDspItm3 empty 20 12 0 14 -261681
+#X obj 189 153 cnv 15 30 30 empty PtrnDspItm3 empty 20 12 0 14 -228992
 -262144 0;
-#X obj 225 153 cnv 15 30 30 empty PtrnDspItm4 empty 20 12 0 14 -228992
+#X obj 225 153 cnv 15 30 30 empty PtrnDspItm4 empty 20 12 0 14 -225271
 -262144 0;
-#X obj 261 153 cnv 15 30 30 empty PtrnDspItm5 empty 20 12 0 14 -261689
+#X obj 261 153 cnv 15 30 30 empty PtrnDspItm5 empty 20 12 0 14 -262131
 -262144 0;
-#X obj 297 153 cnv 15 30 30 empty PtrnDspItm6 empty 20 12 0 14 -261689
+#X obj 297 153 cnv 15 30 30 empty PtrnDspItm6 empty 20 12 0 14 -261681
 -262144 0;
-#X obj 333 153 cnv 15 30 30 empty PtrnDspItm7 empty 20 12 0 14 -228992
+#X obj 333 153 cnv 15 30 30 empty PtrnDspItm7 empty 20 12 0 14 -262131
 -262144 0;
-#X obj 369 153 cnv 15 30 30 empty PtrnDspItm8 empty 20 12 0 14 -261681
+#X obj 369 153 cnv 15 30 30 empty PtrnDspItm8 empty 20 12 0 14 -228992
 -262144 0;
-#X obj 407 154 cnv 15 30 30 empty PtrnDspItm9 empty 20 12 0 14 -228992
+#X obj 407 154 cnv 15 30 30 empty PtrnDspItm9 empty 20 12 0 14 -261681
 -262144 0;
-#X obj 443 154 cnv 15 30 30 empty PtrnDspItm10 empty 20 12 0 14 -261689
+#X obj 443 154 cnv 15 30 30 empty PtrnDspItm10 empty 20 12 0 14 -261681
 -262144 0;
-#X obj 479 154 cnv 15 30 30 empty PtrnDspItm11 empty 20 12 0 14 -228992
+#X obj 479 154 cnv 15 30 30 empty PtrnDspItm11 empty 20 12 0 14 -262131
 -262144 0;
-#X obj 515 154 cnv 15 30 30 empty PtrnDspItm12 empty 20 12 0 14 -261689
+#X obj 515 154 cnv 15 30 30 empty PtrnDspItm12 empty 20 12 0 14 -262131
 -262144 0;
-#X obj 551 154 cnv 15 30 30 empty PtrnDspItm13 empty 20 12 0 14 -261689
+#X obj 551 154 cnv 15 30 30 empty PtrnDspItm13 empty 20 12 0 14 -261681
 -262144 0;
-#X obj 587 154 cnv 15 30 30 empty PtrnDspItm14 empty 20 12 0 14 -261681
+#X obj 587 154 cnv 15 30 30 empty PtrnDspItm14 empty 20 12 0 14 -262131
 -262144 0;
-#X obj 623 154 cnv 15 30 30 empty PtrnDspItm15 empty 20 12 0 14 -261689
+#X obj 623 154 cnv 15 30 30 empty PtrnDspItm15 empty 20 12 0 14 -261681
 -262144 0;
-#X obj 659 154 cnv 15 30 30 empty PtrnDspItm16 empty 20 12 0 14 -261689
+#X obj 659 154 cnv 15 30 30 empty PtrnDspItm16 empty 20 12 0 14 -228992
 -262144 0;
-#X obj 118 154 cnv 15 30 30 empty PtrnDspItm1 empty 20 12 0 14 -261681
+#X obj 118 154 cnv 15 30 30 empty PtrnDspItm1 empty 20 12 0 14 -262131
 -262144 0;
-#X obj 155 154 cnv 15 30 30 empty PtrnDspItm2 empty 20 12 0 14 -228992
+#X obj 155 154 cnv 15 30 30 empty PtrnDspItm2 empty 20 12 0 14 -225271
 -262144 0;
-#X obj 191 154 cnv 15 30 30 empty PtrnDspItm3 empty 20 12 0 14 -261681
+#X obj 191 154 cnv 15 30 30 empty PtrnDspItm3 empty 20 12 0 14 -228992
 -262144 0;
-#X obj 227 154 cnv 15 30 30 empty PtrnDspItm4 empty 20 12 0 14 -228992
+#X obj 227 154 cnv 15 30 30 empty PtrnDspItm4 empty 20 12 0 14 -225271
 -262144 0;
-#X obj 263 154 cnv 15 30 30 empty PtrnDspItm5 empty 20 12 0 14 -261689
+#X obj 263 154 cnv 15 30 30 empty PtrnDspItm5 empty 20 12 0 14 -262131
 -262144 0;
-#X obj 299 154 cnv 15 30 30 empty PtrnDspItm6 empty 20 12 0 14 -261689
+#X obj 299 154 cnv 15 30 30 empty PtrnDspItm6 empty 20 12 0 14 -261681
 -262144 0;
-#X obj 335 154 cnv 15 30 30 empty PtrnDspItm7 empty 20 12 0 14 -228992
+#X obj 335 154 cnv 15 30 30 empty PtrnDspItm7 empty 20 12 0 14 -262131
 -262144 0;
-#X obj 371 154 cnv 15 30 30 empty PtrnDspItm8 empty 20 12 0 14 -261681
+#X obj 371 154 cnv 15 30 30 empty PtrnDspItm8 empty 20 12 0 14 -228992
 -262144 0;
 #N canvas -243 36 1920 956 PtrnSve 0;
 #N canvas 399 16 958 960 SvePtrnDSpClrSet 0;
@@ -1733,7 +1733,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X connect 52 0 51 0;
 #X restore 263 477 pd SmpltoClrSlctr;
 #X obj 115 289 symbol PtrnSve1DspItm;
-#X msg 115 258 1066-PtrnSve1DspItm;
+#X msg 115 258 1006-PtrnSve1DspItm;
 #X floatatom 464 148 5 0 0 0 - - -;
 #X msg 544 143 DspItm;
 #X obj 382 56 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -1741,7 +1741,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 544 172 symbol;
 #X floatatom 382 33 5 0 0 0 - - -;
 #X obj 382 8 inlet;
-#X msg 115 524 1004-PtrnSve1DspItm16;
+#X msg 115 524 1006-PtrnSve1DspItm16;
 #X msg 114 383 set \$1\$2;
 #X obj 245 634 f;
 #X floatatom 261 796 5 0 0 0 - - -;
@@ -1912,17 +1912,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 654 5 0 0 0 - - -;
-#X msg 472 723 0;
+#X msg 472 723 5;
 #X msg 472 686 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 657 5 0 0 0 - - -;
-#X msg 606 726 0;
+#X msg 606 726 4;
 #X msg 606 689 set \$1;
 #X floatatom 748 654 5 0 0 0 - - -;
-#X msg 748 723 0;
+#X msg 748 723 2;
 #X msg 748 686 set \$1;
 #X floatatom 877 654 5 0 0 0 - - -;
-#X msg 877 723 0;
+#X msg 877 723 4;
 #X msg 877 686 set \$1;
 #X floatatom 229 150 5 1 3 0 - - -;
 #X obj 229 181 sel 1;
@@ -1958,40 +1958,40 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1347 913 s sqitmsmplset15;
 #X obj 1485 914 s sqitmsmplset16;
 #X floatatom 1018 652 5 0 0 0 - - -;
-#X msg 1018 721 0;
+#X msg 1018 721 5;
 #X msg 1018 684 set \$1;
 #X floatatom 1157 652 5 0 0 0 - - -;
-#X msg 1157 721 0;
+#X msg 1157 721 3;
 #X msg 1157 684 set \$1;
 #X floatatom 1294 652 5 0 0 0 - - -;
-#X msg 1294 721 0;
+#X msg 1294 721 5;
 #X msg 1294 684 set \$1;
 #X floatatom 1432 653 5 0 0 0 - - -;
-#X msg 1432 722 0;
+#X msg 1432 722 2;
 #X msg 1432 685 set \$1;
 #X floatatom 525 821 5 0 0 0 - - -;
-#X msg 525 891 2;
+#X msg 525 891 3;
 #X msg 525 853 set \$1;
 #X floatatom 659 824 5 0 0 0 - - -;
 #X msg 659 893 3;
 #X msg 659 856 set \$1;
 #X floatatom 801 821 5 0 0 0 - - -;
-#X msg 801 890 2;
+#X msg 801 890 5;
 #X msg 801 853 set \$1;
 #X floatatom 930 821 5 0 0 0 - - -;
-#X msg 930 890 1;
+#X msg 930 890 5;
 #X msg 930 853 set \$1;
 #X floatatom 1071 819 5 0 0 0 - - -;
-#X msg 1071 888 1;
+#X msg 1071 888 3;
 #X msg 1071 851 set \$1;
 #X floatatom 1210 819 5 0 0 0 - - -;
-#X msg 1210 888 4;
+#X msg 1210 888 5;
 #X msg 1210 851 set \$1;
 #X floatatom 1347 819 5 0 0 0 - - -;
-#X msg 1347 888 1;
+#X msg 1347 888 3;
 #X msg 1347 851 set \$1;
 #X floatatom 1485 820 5 0 0 0 - - -;
-#X msg 1485 889 5;
+#X msg 1485 889 2;
 #X msg 1485 852 set \$1;
 #X obj 1802 27 inlet;
 #X obj 220 386 del 5;
@@ -2247,14 +2247,14 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
 #X msg 606 725 0;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 1;
+#X msg 748 722 0;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
 #X msg 877 722 0;
@@ -2283,7 +2283,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1157 720 0;
 #X msg 1157 683 set \$1;
 #X floatatom 1294 651 5 0 0 0 - - -;
-#X msg 1294 720 1;
+#X msg 1294 720 0;
 #X msg 1294 683 set \$1;
 #X floatatom 1432 652 5 0 0 0 - - -;
 #X msg 1432 721 0;
@@ -2301,13 +2301,13 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 1;
+#X msg 1075 897 0;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 1;
+#X msg 1214 897 0;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -2617,7 +2617,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 654 5 0 0 0 - - -;
-#X msg 472 723 1;
+#X msg 472 723 5;
 #X msg 472 686 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 657 5 0 0 0 - - -;
@@ -2661,19 +2661,19 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1347 913 s sqitmsmplset15;
 #X obj 1485 914 s sqitmsmplset16;
 #X floatatom 1018 652 5 0 0 0 - - -;
-#X msg 1018 721 4;
+#X msg 1018 721 5;
 #X msg 1018 684 set \$1;
 #X floatatom 1157 652 5 0 0 0 - - -;
 #X msg 1157 721 3;
 #X msg 1157 684 set \$1;
 #X floatatom 1294 652 5 0 0 0 - - -;
-#X msg 1294 721 1;
+#X msg 1294 721 5;
 #X msg 1294 684 set \$1;
 #X floatatom 1432 653 5 0 0 0 - - -;
 #X msg 1432 722 2;
 #X msg 1432 685 set \$1;
 #X floatatom 507 820 5 0 0 0 - - -;
-#X msg 507 890 2;
+#X msg 507 890 5;
 #X msg 507 852 set \$1;
 #X floatatom 641 823 5 0 0 0 - - -;
 #X msg 641 892 3;
@@ -2691,7 +2691,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1210 888 4;
 #X msg 1210 851 set \$1;
 #X floatatom 1347 819 5 0 0 0 - - -;
-#X msg 1347 888 1;
+#X msg 1347 888 2;
 #X msg 1347 851 set \$1;
 #X floatatom 1485 820 5 0 0 0 - - -;
 #X msg 1485 889 5;
@@ -2952,7 +2952,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
@@ -3005,7 +3005,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 1;
+#X msg 1075 897 0;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
 #X msg 1214 897 1;
@@ -3322,7 +3322,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 654 5 0 0 0 - - -;
-#X msg 472 723 1;
+#X msg 472 723 5;
 #X msg 472 686 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 657 5 0 0 0 - - -;
@@ -3366,19 +3366,19 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1347 913 s sqitmsmplset15;
 #X obj 1485 914 s sqitmsmplset16;
 #X floatatom 1018 652 5 0 0 0 - - -;
-#X msg 1018 721 4;
+#X msg 1018 721 5;
 #X msg 1018 684 set \$1;
 #X floatatom 1157 652 5 0 0 0 - - -;
 #X msg 1157 721 3;
 #X msg 1157 684 set \$1;
 #X floatatom 1294 652 5 0 0 0 - - -;
-#X msg 1294 721 1;
+#X msg 1294 721 5;
 #X msg 1294 684 set \$1;
 #X floatatom 1432 653 5 0 0 0 - - -;
 #X msg 1432 722 2;
 #X msg 1432 685 set \$1;
 #X floatatom 507 820 5 0 0 0 - - -;
-#X msg 507 890 2;
+#X msg 507 890 1;
 #X msg 507 852 set \$1;
 #X floatatom 641 823 5 0 0 0 - - -;
 #X msg 641 892 3;
@@ -3396,7 +3396,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1210 888 4;
 #X msg 1210 851 set \$1;
 #X floatatom 1347 819 5 0 0 0 - - -;
-#X msg 1347 888 1;
+#X msg 1347 888 2;
 #X msg 1347 851 set \$1;
 #X floatatom 1485 820 5 0 0 0 - - -;
 #X msg 1485 889 5;
@@ -3657,7 +3657,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
@@ -3710,7 +3710,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 1;
+#X msg 1075 897 0;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
 #X msg 1214 897 1;
@@ -3989,17 +3989,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 362 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 344 553 5 0 0 0 - - -;
-#X msg 344 614 0.237113;
+#X msg 344 614 0.056701;
 #X msg 344 585 set \$1;
 #X text 408 102 Save;
 #X floatatom 450 556 5 0 0 0 - - -;
-#X msg 450 614 0.376289;
+#X msg 450 614 0.680412;
 #X msg 450 588 set \$1;
 #X floatatom 558 553 5 0 0 0 - - -;
 #X msg 558 614 0.180412;
 #X msg 558 585 set \$1;
 #X floatatom 661 552 5 0 0 0 - - -;
-#X msg 661 614 0.206186;
+#X msg 661 614 0.71134;
 #X msg 661 584 set \$1;
 #X floatatom 119 150 5 1 3 0 - - -;
 #X obj 119 181 sel 1;
@@ -4019,16 +4019,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 113 412 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 772 552 5 0 0 0 - - -;
-#X msg 772 614 0.0876289;
+#X msg 772 614 0.108247;
 #X msg 772 584 set \$1;
 #X floatatom 879 556 5 0 0 0 - - -;
-#X msg 879 615 0.14433;
+#X msg 879 615 0.587629;
 #X msg 879 588 set \$1;
 #X floatatom 985 556 5 0 0 0 - - -;
-#X msg 985 615 0.237113;
+#X msg 985 615 0.0257732;
 #X msg 985 588 set \$1;
 #X floatatom 1091 557 5 0 0 0 - - -;
-#X msg 1091 616 0.43299;
+#X msg 1091 616 0.603093;
 #X msg 1091 589 set \$1;
 #X obj 1702 21 inlet;
 #X obj 362 262 value strtlneQ;
@@ -4063,10 +4063,10 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1321 232 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1197 556 5 0 0 0 - - -;
-#X msg 1197 615 0.448454;
+#X msg 1197 615 0.159794;
 #X msg 1197 588 set \$1;
 #X floatatom 1303 557 5 0 0 0 - - -;
-#X msg 1303 616 0.603093;
+#X msg 1303 616 0.659794;
 #X msg 1303 589 set \$1;
 #X obj 1197 531 f;
 #X obj 1303 530 f;
@@ -4354,7 +4354,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1214 897 1;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -5047,7 +5047,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1432 721 0;
 #X msg 1432 684 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0;
+#X msg 529 899 1;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
 #X msg 663 902 0;
@@ -5389,7 +5389,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 654 5 0 0 0 - - -;
-#X msg 472 723 1;
+#X msg 472 723 5;
 #X msg 472 686 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 657 5 0 0 0 - - -;
@@ -5433,37 +5433,37 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1347 913 s sqitmsmplset15;
 #X obj 1485 914 s sqitmsmplset16;
 #X floatatom 1018 652 5 0 0 0 - - -;
-#X msg 1018 721 4;
+#X msg 1018 721 5;
 #X msg 1018 684 set \$1;
 #X floatatom 1157 652 5 0 0 0 - - -;
 #X msg 1157 721 3;
 #X msg 1157 684 set \$1;
 #X floatatom 1294 652 5 0 0 0 - - -;
-#X msg 1294 721 1;
+#X msg 1294 721 5;
 #X msg 1294 684 set \$1;
 #X floatatom 1432 653 5 0 0 0 - - -;
 #X msg 1432 722 2;
 #X msg 1432 685 set \$1;
 #X floatatom 507 820 5 0 0 0 - - -;
-#X msg 507 890 2;
+#X msg 507 890 1;
 #X msg 507 852 set \$1;
 #X floatatom 641 823 5 0 0 0 - - -;
 #X msg 641 892 3;
 #X msg 641 855 set \$1;
 #X floatatom 795 822 5 0 0 0 - - -;
-#X msg 795 891 3;
+#X msg 795 891 2;
 #X msg 795 854 set \$1;
 #X floatatom 930 821 5 0 0 0 - - -;
 #X msg 930 890 1;
 #X msg 930 853 set \$1;
 #X floatatom 1071 819 5 0 0 0 - - -;
-#X msg 1071 888 1;
+#X msg 1071 888 2;
 #X msg 1071 851 set \$1;
 #X floatatom 1210 819 5 0 0 0 - - -;
 #X msg 1210 888 4;
 #X msg 1210 851 set \$1;
 #X floatatom 1347 819 5 0 0 0 - - -;
-#X msg 1347 888 1;
+#X msg 1347 888 2;
 #X msg 1347 851 set \$1;
 #X floatatom 1485 820 5 0 0 0 - - -;
 #X msg 1485 889 5;
@@ -5724,7 +5724,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
@@ -5734,7 +5734,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 748 722 0;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 1;
+#X msg 877 722 0;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -5753,7 +5753,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 277 507 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 1;
+#X msg 1018 720 0;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0;
@@ -5777,7 +5777,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 1;
+#X msg 1075 897 0;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
 #X msg 1214 897 1;
@@ -5786,7 +5786,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1351 897 1;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
-#X msg 1489 898 1;
+#X msg 1489 898 0;
 #X msg 1489 861 set \$1;
 #X obj 472 262 value trillswitch1;
 #X obj 606 263 value trillswitch2;
@@ -6082,7 +6082,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
-#X msg 606 725 1;
+#X msg 606 725 0;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
 #X msg 748 722 1;
@@ -6107,7 +6107,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 1;
+#X msg 1018 720 0;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0;
@@ -6119,7 +6119,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1432 721 0;
 #X msg 1432 684 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0;
+#X msg 529 899 1;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
 #X msg 663 902 0;
@@ -6458,7 +6458,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 654 5 0 0 0 - - -;
-#X msg 472 723 1;
+#X msg 472 723 5;
 #X msg 472 686 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 657 5 0 0 0 - - -;
@@ -6502,37 +6502,37 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1347 913 s sqitmsmplset15;
 #X obj 1485 914 s sqitmsmplset16;
 #X floatatom 1018 652 5 0 0 0 - - -;
-#X msg 1018 721 4;
+#X msg 1018 721 5;
 #X msg 1018 684 set \$1;
 #X floatatom 1157 652 5 0 0 0 - - -;
 #X msg 1157 721 3;
 #X msg 1157 684 set \$1;
 #X floatatom 1294 652 5 0 0 0 - - -;
-#X msg 1294 721 1;
+#X msg 1294 721 5;
 #X msg 1294 684 set \$1;
 #X floatatom 1432 653 5 0 0 0 - - -;
 #X msg 1432 722 2;
 #X msg 1432 685 set \$1;
 #X floatatom 507 820 5 0 0 0 - - -;
-#X msg 507 890 2;
+#X msg 507 890 1;
 #X msg 507 852 set \$1;
 #X floatatom 641 823 5 0 0 0 - - -;
 #X msg 641 892 3;
 #X msg 641 855 set \$1;
 #X floatatom 795 822 5 0 0 0 - - -;
-#X msg 795 891 3;
+#X msg 795 891 2;
 #X msg 795 854 set \$1;
 #X floatatom 930 821 5 0 0 0 - - -;
-#X msg 930 890 5;
+#X msg 930 890 1;
 #X msg 930 853 set \$1;
 #X floatatom 1071 819 5 0 0 0 - - -;
-#X msg 1071 888 1;
+#X msg 1071 888 2;
 #X msg 1071 851 set \$1;
 #X floatatom 1210 819 5 0 0 0 - - -;
 #X msg 1210 888 4;
 #X msg 1210 851 set \$1;
 #X floatatom 1347 819 5 0 0 0 - - -;
-#X msg 1347 888 1;
+#X msg 1347 888 2;
 #X msg 1347 851 set \$1;
 #X floatatom 1485 820 5 0 0 0 - - -;
 #X msg 1485 889 5;
@@ -6793,17 +6793,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
 #X msg 606 725 0;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 0;
+#X msg 748 722 1;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 1;
+#X msg 877 722 0;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -6822,10 +6822,10 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 277 507 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 1;
+#X msg 1018 720 0;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
-#X msg 1157 720 0;
+#X msg 1157 720 1;
 #X msg 1157 683 set \$1;
 #X floatatom 1294 651 5 0 0 0 - - -;
 #X msg 1294 720 1;
@@ -6846,7 +6846,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 1;
+#X msg 1075 897 0;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
 #X msg 1214 897 1;
@@ -7151,7 +7151,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
-#X msg 606 725 1;
+#X msg 606 725 0;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
 #X msg 748 722 1;
@@ -7176,7 +7176,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 1;
+#X msg 1018 720 0;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0;
@@ -7188,7 +7188,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1432 721 0;
 #X msg 1432 684 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0;
+#X msg 529 899 1;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
 #X msg 663 902 0;
@@ -7197,7 +7197,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 805 899 0;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 1;
+#X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
 #X msg 1075 897 0;
@@ -7527,7 +7527,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 654 5 0 0 0 - - -;
-#X msg 472 723 1;
+#X msg 472 723 5;
 #X msg 472 686 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 657 5 0 0 0 - - -;
@@ -7571,37 +7571,37 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1347 913 s sqitmsmplset15;
 #X obj 1485 914 s sqitmsmplset16;
 #X floatatom 1018 652 5 0 0 0 - - -;
-#X msg 1018 721 4;
+#X msg 1018 721 5;
 #X msg 1018 684 set \$1;
 #X floatatom 1157 652 5 0 0 0 - - -;
 #X msg 1157 721 3;
 #X msg 1157 684 set \$1;
 #X floatatom 1294 652 5 0 0 0 - - -;
-#X msg 1294 721 1;
+#X msg 1294 721 5;
 #X msg 1294 684 set \$1;
 #X floatatom 1432 653 5 0 0 0 - - -;
 #X msg 1432 722 2;
 #X msg 1432 685 set \$1;
 #X floatatom 507 820 5 0 0 0 - - -;
-#X msg 507 890 2;
+#X msg 507 890 1;
 #X msg 507 852 set \$1;
 #X floatatom 641 823 5 0 0 0 - - -;
 #X msg 641 892 3;
 #X msg 641 855 set \$1;
 #X floatatom 795 822 5 0 0 0 - - -;
-#X msg 795 891 3;
+#X msg 795 891 2;
 #X msg 795 854 set \$1;
 #X floatatom 930 821 5 0 0 0 - - -;
-#X msg 930 890 5;
+#X msg 930 890 1;
 #X msg 930 853 set \$1;
 #X floatatom 1071 819 5 0 0 0 - - -;
-#X msg 1071 888 1;
+#X msg 1071 888 2;
 #X msg 1071 851 set \$1;
 #X floatatom 1210 819 5 0 0 0 - - -;
-#X msg 1210 888 5;
+#X msg 1210 888 4;
 #X msg 1210 851 set \$1;
 #X floatatom 1347 819 5 0 0 0 - - -;
-#X msg 1347 888 1;
+#X msg 1347 888 2;
 #X msg 1347 851 set \$1;
 #X floatatom 1485 820 5 0 0 0 - - -;
 #X msg 1485 889 5;
@@ -7862,17 +7862,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
 #X msg 606 725 0;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 0;
+#X msg 748 722 1;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 1;
+#X msg 877 722 0;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -7891,13 +7891,13 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 277 507 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 1;
+#X msg 1018 720 0;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0;
 #X msg 1157 683 set \$1;
 #X floatatom 1294 651 5 0 0 0 - - -;
-#X msg 1294 720 1;
+#X msg 1294 720 0;
 #X msg 1294 683 set \$1;
 #X floatatom 1432 652 5 0 0 0 - - -;
 #X msg 1432 721 0;
@@ -7915,13 +7915,13 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 1;
+#X msg 1075 897 0;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
 #X msg 1214 897 1;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 0;
+#X msg 1351 897 1;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -8220,7 +8220,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
-#X msg 606 725 1;
+#X msg 606 725 0;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
 #X msg 748 722 1;
@@ -8245,7 +8245,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 1;
+#X msg 1018 720 0;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0;
@@ -8257,7 +8257,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1432 721 0;
 #X msg 1432 684 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0;
+#X msg 529 899 1;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
 #X msg 663 902 0;
@@ -8266,7 +8266,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 805 899 0;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 1;
+#X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
 #X msg 1075 897 0;
@@ -8275,7 +8275,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1214 897 1;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 0;
+#X msg 1351 897 1;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -8596,7 +8596,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 654 5 0 0 0 - - -;
-#X msg 472 723 1;
+#X msg 472 723 5;
 #X msg 472 686 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 657 5 0 0 0 - - -;
@@ -8640,37 +8640,37 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1347 913 s sqitmsmplset15;
 #X obj 1485 914 s sqitmsmplset16;
 #X floatatom 1018 652 5 0 0 0 - - -;
-#X msg 1018 721 4;
+#X msg 1018 721 5;
 #X msg 1018 684 set \$1;
 #X floatatom 1157 652 5 0 0 0 - - -;
 #X msg 1157 721 3;
 #X msg 1157 684 set \$1;
 #X floatatom 1294 652 5 0 0 0 - - -;
-#X msg 1294 721 1;
+#X msg 1294 721 5;
 #X msg 1294 684 set \$1;
 #X floatatom 1432 653 5 0 0 0 - - -;
 #X msg 1432 722 2;
 #X msg 1432 685 set \$1;
 #X floatatom 507 820 5 0 0 0 - - -;
-#X msg 507 890 2;
+#X msg 507 890 1;
 #X msg 507 852 set \$1;
 #X floatatom 641 823 5 0 0 0 - - -;
-#X msg 641 892 3;
+#X msg 641 892 4;
 #X msg 641 855 set \$1;
 #X floatatom 795 822 5 0 0 0 - - -;
-#X msg 795 891 3;
+#X msg 795 891 2;
 #X msg 795 854 set \$1;
 #X floatatom 930 821 5 0 0 0 - - -;
-#X msg 930 890 5;
+#X msg 930 890 1;
 #X msg 930 853 set \$1;
 #X floatatom 1071 819 5 0 0 0 - - -;
-#X msg 1071 888 1;
+#X msg 1071 888 2;
 #X msg 1071 851 set \$1;
 #X floatatom 1210 819 5 0 0 0 - - -;
-#X msg 1210 888 5;
+#X msg 1210 888 4;
 #X msg 1210 851 set \$1;
 #X floatatom 1347 819 5 0 0 0 - - -;
-#X msg 1347 888 1;
+#X msg 1347 888 2;
 #X msg 1347 851 set \$1;
 #X floatatom 1485 820 5 0 0 0 - - -;
 #X msg 1485 889 5;
@@ -8931,17 +8931,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
 #X msg 606 725 0;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 0;
+#X msg 748 722 1;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 1;
+#X msg 877 722 0;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -8960,13 +8960,13 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 277 507 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 1;
+#X msg 1018 720 0;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0;
 #X msg 1157 683 set \$1;
 #X floatatom 1294 651 5 0 0 0 - - -;
-#X msg 1294 720 1;
+#X msg 1294 720 0;
 #X msg 1294 683 set \$1;
 #X floatatom 1432 652 5 0 0 0 - - -;
 #X msg 1432 721 0;
@@ -8975,7 +8975,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 529 899 0;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
-#X msg 663 902 0;
+#X msg 663 902 1;
 #X msg 663 865 set \$1;
 #X floatatom 805 830 5 0 0 0 - - -;
 #X msg 805 899 0;
@@ -8984,13 +8984,13 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 1;
+#X msg 1075 897 0;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
 #X msg 1214 897 1;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 0;
+#X msg 1351 897 1;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -9289,7 +9289,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
-#X msg 606 725 1;
+#X msg 606 725 0;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
 #X msg 748 722 1;
@@ -9314,7 +9314,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 1;
+#X msg 1018 720 0;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0;
@@ -9326,16 +9326,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1432 721 0;
 #X msg 1432 684 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0;
+#X msg 529 899 1;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
-#X msg 663 902 0;
+#X msg 663 902 1;
 #X msg 663 865 set \$1;
 #X floatatom 805 830 5 0 0 0 - - -;
 #X msg 805 899 0;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 1;
+#X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
 #X msg 1075 897 0;
@@ -9344,7 +9344,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1214 897 1;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 0;
+#X msg 1351 897 1;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -9665,7 +9665,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 654 5 0 0 0 - - -;
-#X msg 472 723 1;
+#X msg 472 723 5;
 #X msg 472 686 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 657 5 0 0 0 - - -;
@@ -9709,37 +9709,37 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1347 913 s sqitmsmplset15;
 #X obj 1485 914 s sqitmsmplset16;
 #X floatatom 1018 652 5 0 0 0 - - -;
-#X msg 1018 721 4;
+#X msg 1018 721 5;
 #X msg 1018 684 set \$1;
 #X floatatom 1157 652 5 0 0 0 - - -;
 #X msg 1157 721 3;
 #X msg 1157 684 set \$1;
 #X floatatom 1294 652 5 0 0 0 - - -;
-#X msg 1294 721 1;
+#X msg 1294 721 5;
 #X msg 1294 684 set \$1;
 #X floatatom 1432 653 5 0 0 0 - - -;
 #X msg 1432 722 2;
 #X msg 1432 685 set \$1;
 #X floatatom 507 820 5 0 0 0 - - -;
-#X msg 507 890 2;
+#X msg 507 890 1;
 #X msg 507 852 set \$1;
 #X floatatom 641 823 5 0 0 0 - - -;
-#X msg 641 892 3;
+#X msg 641 892 4;
 #X msg 641 855 set \$1;
 #X floatatom 795 822 5 0 0 0 - - -;
-#X msg 795 891 3;
+#X msg 795 891 2;
 #X msg 795 854 set \$1;
 #X floatatom 930 821 5 0 0 0 - - -;
-#X msg 930 890 5;
+#X msg 930 890 2;
 #X msg 930 853 set \$1;
 #X floatatom 1071 819 5 0 0 0 - - -;
-#X msg 1071 888 1;
+#X msg 1071 888 4;
 #X msg 1071 851 set \$1;
 #X floatatom 1210 819 5 0 0 0 - - -;
-#X msg 1210 888 5;
+#X msg 1210 888 4;
 #X msg 1210 851 set \$1;
 #X floatatom 1347 819 5 0 0 0 - - -;
-#X msg 1347 888 1;
+#X msg 1347 888 2;
 #X msg 1347 851 set \$1;
 #X floatatom 1485 820 5 0 0 0 - - -;
 #X msg 1485 889 5;
@@ -10000,17 +10000,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
 #X msg 606 725 0;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 0;
+#X msg 748 722 1;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 1;
+#X msg 877 722 0;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -10029,13 +10029,13 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 277 507 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 1;
+#X msg 1018 720 0;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0;
 #X msg 1157 683 set \$1;
 #X floatatom 1294 651 5 0 0 0 - - -;
-#X msg 1294 720 1;
+#X msg 1294 720 0;
 #X msg 1294 683 set \$1;
 #X floatatom 1432 652 5 0 0 0 - - -;
 #X msg 1432 721 0;
@@ -10044,22 +10044,22 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 529 899 0;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
-#X msg 663 902 0;
+#X msg 663 902 1;
 #X msg 663 865 set \$1;
 #X floatatom 805 830 5 0 0 0 - - -;
 #X msg 805 899 0;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 0;
+#X msg 934 899 1;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 1;
+#X msg 1075 897 0;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
 #X msg 1214 897 1;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 0;
+#X msg 1351 897 1;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -10358,7 +10358,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
-#X msg 606 725 1;
+#X msg 606 725 0;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
 #X msg 748 722 1;
@@ -10383,7 +10383,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 1;
+#X msg 1018 720 0;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0;
@@ -10395,10 +10395,10 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1432 721 0;
 #X msg 1432 684 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0;
+#X msg 529 899 1;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
-#X msg 663 902 0;
+#X msg 663 902 1;
 #X msg 663 865 set \$1;
 #X floatatom 805 830 5 0 0 0 - - -;
 #X msg 805 899 0;
@@ -10413,7 +10413,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1214 897 1;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 0;
+#X msg 1351 897 1;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -10734,7 +10734,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 654 5 0 0 0 - - -;
-#X msg 472 723 1;
+#X msg 472 723 5;
 #X msg 472 686 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 657 5 0 0 0 - - -;
@@ -10744,7 +10744,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 748 723 2;
 #X msg 748 686 set \$1;
 #X floatatom 877 654 5 0 0 0 - - -;
-#X msg 877 723 2;
+#X msg 877 723 4;
 #X msg 877 686 set \$1;
 #X floatatom 229 150 5 1 3 0 - - -;
 #X obj 229 215 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -10779,40 +10779,40 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1347 913 s sqitmsmplset15;
 #X obj 1485 914 s sqitmsmplset16;
 #X floatatom 1018 652 5 0 0 0 - - -;
-#X msg 1018 721 2;
+#X msg 1018 721 5;
 #X msg 1018 684 set \$1;
 #X floatatom 1157 652 5 0 0 0 - - -;
 #X msg 1157 721 3;
 #X msg 1157 684 set \$1;
 #X floatatom 1294 652 5 0 0 0 - - -;
-#X msg 1294 721 1;
+#X msg 1294 721 5;
 #X msg 1294 684 set \$1;
 #X floatatom 1432 653 5 0 0 0 - - -;
 #X msg 1432 722 2;
 #X msg 1432 685 set \$1;
 #X floatatom 525 821 5 0 0 0 - - -;
-#X msg 525 891 2;
+#X msg 525 891 3;
 #X msg 525 853 set \$1;
 #X floatatom 659 824 5 0 0 0 - - -;
 #X msg 659 893 3;
 #X msg 659 856 set \$1;
 #X floatatom 801 821 5 0 0 0 - - -;
-#X msg 801 890 2;
+#X msg 801 890 5;
 #X msg 801 853 set \$1;
 #X floatatom 930 821 5 0 0 0 - - -;
-#X msg 930 890 1;
+#X msg 930 890 5;
 #X msg 930 853 set \$1;
 #X floatatom 1071 819 5 0 0 0 - - -;
-#X msg 1071 888 1;
+#X msg 1071 888 3;
 #X msg 1071 851 set \$1;
 #X floatatom 1210 819 5 0 0 0 - - -;
-#X msg 1210 888 4;
+#X msg 1210 888 5;
 #X msg 1210 851 set \$1;
 #X floatatom 1347 819 5 0 0 0 - - -;
-#X msg 1347 888 1;
+#X msg 1347 888 3;
 #X msg 1347 851 set \$1;
 #X floatatom 1485 820 5 0 0 0 - - -;
-#X msg 1485 889 5;
+#X msg 1485 889 2;
 #X msg 1485 852 set \$1;
 #X obj 1802 27 inlet;
 #X obj 220 386 del 5;
@@ -11069,17 +11069,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
 #X msg 606 725 0;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 1;
+#X msg 748 722 0;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 1;
+#X msg 877 722 0;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -11098,13 +11098,13 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 1;
+#X msg 1018 720 0;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0;
 #X msg 1157 683 set \$1;
 #X floatatom 1294 651 5 0 0 0 - - -;
-#X msg 1294 720 1;
+#X msg 1294 720 0;
 #X msg 1294 683 set \$1;
 #X floatatom 1432 652 5 0 0 0 - - -;
 #X msg 1432 721 0;
@@ -11122,13 +11122,13 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 1;
+#X msg 1075 897 0;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 1;
+#X msg 1214 897 0;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -11452,7 +11452,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 1;
+#X msg 1018 720 0;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0;
@@ -11482,7 +11482,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1214 897 1;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -11813,7 +11813,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 654 5 0 0 0 - - -;
-#X msg 472 723 1;
+#X msg 472 723 5;
 #X msg 472 686 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 657 5 0 0 0 - - -;
@@ -11858,40 +11858,40 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1347 913 s sqitmsmplset15;
 #X obj 1485 914 s sqitmsmplset16;
 #X floatatom 1018 652 5 0 0 0 - - -;
-#X msg 1018 721 4;
+#X msg 1018 721 5;
 #X msg 1018 684 set \$1;
 #X floatatom 1157 652 5 0 0 0 - - -;
 #X msg 1157 721 3;
 #X msg 1157 684 set \$1;
 #X floatatom 1294 652 5 0 0 0 - - -;
-#X msg 1294 721 1;
+#X msg 1294 721 5;
 #X msg 1294 684 set \$1;
 #X floatatom 1432 653 5 0 0 0 - - -;
 #X msg 1432 722 2;
 #X msg 1432 685 set \$1;
 #X floatatom 525 821 5 0 0 0 - - -;
-#X msg 525 891 2;
+#X msg 525 891 3;
 #X msg 525 853 set \$1;
 #X floatatom 659 824 5 0 0 0 - - -;
 #X msg 659 893 3;
 #X msg 659 856 set \$1;
 #X floatatom 801 821 5 0 0 0 - - -;
-#X msg 801 890 3;
+#X msg 801 890 5;
 #X msg 801 853 set \$1;
 #X floatatom 930 821 5 0 0 0 - - -;
 #X msg 930 890 5;
 #X msg 930 853 set \$1;
 #X floatatom 1071 819 5 0 0 0 - - -;
-#X msg 1071 888 1;
+#X msg 1071 888 3;
 #X msg 1071 851 set \$1;
 #X floatatom 1210 819 5 0 0 0 - - -;
-#X msg 1210 888 4;
+#X msg 1210 888 5;
 #X msg 1210 851 set \$1;
 #X floatatom 1347 819 5 0 0 0 - - -;
-#X msg 1347 888 1;
+#X msg 1347 888 3;
 #X msg 1347 851 set \$1;
 #X floatatom 1485 820 5 0 0 0 - - -;
-#X msg 1485 889 5;
+#X msg 1485 889 2;
 #X msg 1485 852 set \$1;
 #X obj 1802 27 inlet;
 #X obj 220 386 del 5;
@@ -12148,7 +12148,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
@@ -12158,7 +12158,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 748 722 0;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 1;
+#X msg 877 722 0;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -12183,7 +12183,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1157 720 0;
 #X msg 1157 683 set \$1;
 #X floatatom 1294 651 5 0 0 0 - - -;
-#X msg 1294 720 1;
+#X msg 1294 720 0;
 #X msg 1294 683 set \$1;
 #X floatatom 1432 652 5 0 0 0 - - -;
 #X msg 1432 721 0;
@@ -12201,13 +12201,13 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 1;
+#X msg 1075 897 0;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 1;
+#X msg 1214 897 0;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -12506,7 +12506,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
-#X msg 606 725 1;
+#X msg 606 725 0;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
 #X msg 748 722 1;
@@ -12531,7 +12531,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 1;
+#X msg 1018 720 0;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0;
@@ -12552,7 +12552,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 805 899 0;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 1;
+#X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
 #X msg 1075 897 0;
@@ -12561,7 +12561,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1214 897 1;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -12872,7 +12872,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 654 5 0 0 0 - - -;
-#X msg 472 723 1;
+#X msg 472 723 5;
 #X msg 472 686 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 657 5 0 0 0 - - -;
@@ -12917,40 +12917,40 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1347 913 s sqitmsmplset15;
 #X obj 1485 914 s sqitmsmplset16;
 #X floatatom 1018 652 5 0 0 0 - - -;
-#X msg 1018 721 4;
+#X msg 1018 721 5;
 #X msg 1018 684 set \$1;
 #X floatatom 1157 652 5 0 0 0 - - -;
 #X msg 1157 721 3;
 #X msg 1157 684 set \$1;
 #X floatatom 1294 652 5 0 0 0 - - -;
-#X msg 1294 721 1;
+#X msg 1294 721 5;
 #X msg 1294 684 set \$1;
 #X floatatom 1432 653 5 0 0 0 - - -;
 #X msg 1432 722 2;
 #X msg 1432 685 set \$1;
 #X floatatom 525 821 5 0 0 0 - - -;
-#X msg 525 891 2;
+#X msg 525 891 3;
 #X msg 525 853 set \$1;
 #X floatatom 659 824 5 0 0 0 - - -;
 #X msg 659 893 3;
 #X msg 659 856 set \$1;
 #X floatatom 801 821 5 0 0 0 - - -;
-#X msg 801 890 2;
+#X msg 801 890 5;
 #X msg 801 853 set \$1;
 #X floatatom 930 821 5 0 0 0 - - -;
-#X msg 930 890 1;
+#X msg 930 890 5;
 #X msg 930 853 set \$1;
 #X floatatom 1071 819 5 0 0 0 - - -;
-#X msg 1071 888 1;
+#X msg 1071 888 3;
 #X msg 1071 851 set \$1;
 #X floatatom 1210 819 5 0 0 0 - - -;
-#X msg 1210 888 4;
+#X msg 1210 888 5;
 #X msg 1210 851 set \$1;
 #X floatatom 1347 819 5 0 0 0 - - -;
-#X msg 1347 888 1;
+#X msg 1347 888 3;
 #X msg 1347 851 set \$1;
 #X floatatom 1485 820 5 0 0 0 - - -;
-#X msg 1485 889 5;
+#X msg 1485 889 2;
 #X msg 1485 852 set \$1;
 #X obj 1802 27 inlet;
 #X obj 220 386 del 5;
@@ -13207,14 +13207,14 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
 #X msg 606 725 0;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 1;
+#X msg 748 722 0;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
 #X msg 877 722 0;
@@ -13242,7 +13242,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1157 720 0;
 #X msg 1157 683 set \$1;
 #X floatatom 1294 651 5 0 0 0 - - -;
-#X msg 1294 720 1;
+#X msg 1294 720 0;
 #X msg 1294 683 set \$1;
 #X floatatom 1432 652 5 0 0 0 - - -;
 #X msg 1432 721 0;
@@ -13260,13 +13260,13 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 1;
+#X msg 1075 897 0;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 1;
+#X msg 1214 897 0;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -13620,7 +13620,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1214 897 1;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -13941,7 +13941,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 654 5 0 0 0 - - -;
-#X msg 472 723 1;
+#X msg 472 723 5;
 #X msg 472 686 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 657 5 0 0 0 - - -;
@@ -13986,40 +13986,40 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1347 913 s sqitmsmplset15;
 #X obj 1485 914 s sqitmsmplset16;
 #X floatatom 1018 652 5 0 0 0 - - -;
-#X msg 1018 721 4;
+#X msg 1018 721 5;
 #X msg 1018 684 set \$1;
 #X floatatom 1157 652 5 0 0 0 - - -;
 #X msg 1157 721 3;
 #X msg 1157 684 set \$1;
 #X floatatom 1294 652 5 0 0 0 - - -;
-#X msg 1294 721 1;
+#X msg 1294 721 5;
 #X msg 1294 684 set \$1;
 #X floatatom 1432 653 5 0 0 0 - - -;
 #X msg 1432 722 2;
 #X msg 1432 685 set \$1;
 #X floatatom 525 821 5 0 0 0 - - -;
-#X msg 525 891 2;
+#X msg 525 891 3;
 #X msg 525 853 set \$1;
 #X floatatom 659 824 5 0 0 0 - - -;
 #X msg 659 893 3;
 #X msg 659 856 set \$1;
 #X floatatom 801 821 5 0 0 0 - - -;
-#X msg 801 890 3;
+#X msg 801 890 5;
 #X msg 801 853 set \$1;
 #X floatatom 930 821 5 0 0 0 - - -;
 #X msg 930 890 5;
 #X msg 930 853 set \$1;
 #X floatatom 1071 819 5 0 0 0 - - -;
-#X msg 1071 888 1;
+#X msg 1071 888 3;
 #X msg 1071 851 set \$1;
 #X floatatom 1210 819 5 0 0 0 - - -;
-#X msg 1210 888 4;
+#X msg 1210 888 5;
 #X msg 1210 851 set \$1;
 #X floatatom 1347 819 5 0 0 0 - - -;
-#X msg 1347 888 1;
+#X msg 1347 888 3;
 #X msg 1347 851 set \$1;
 #X floatatom 1485 820 5 0 0 0 - - -;
-#X msg 1485 889 5;
+#X msg 1485 889 2;
 #X msg 1485 852 set \$1;
 #X obj 1802 27 inlet;
 #X obj 220 386 del 5;
@@ -14276,7 +14276,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
@@ -14286,7 +14286,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 748 722 0;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 1;
+#X msg 877 722 0;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -14311,7 +14311,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1157 720 0;
 #X msg 1157 683 set \$1;
 #X floatatom 1294 651 5 0 0 0 - - -;
-#X msg 1294 720 1;
+#X msg 1294 720 0;
 #X msg 1294 683 set \$1;
 #X floatatom 1432 652 5 0 0 0 - - -;
 #X msg 1432 721 0;
@@ -14329,13 +14329,13 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 1;
+#X msg 1075 897 0;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 1;
+#X msg 1214 897 0;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -14634,7 +14634,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
-#X msg 606 725 1;
+#X msg 606 725 0;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
 #X msg 748 722 1;
@@ -14659,7 +14659,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 1;
+#X msg 1018 720 0;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0;
@@ -14680,7 +14680,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 805 899 0;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 1;
+#X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
 #X msg 1075 897 0;
@@ -14689,7 +14689,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1214 897 1;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -15010,7 +15010,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 654 5 0 0 0 - - -;
-#X msg 472 723 1;
+#X msg 472 723 5;
 #X msg 472 686 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 657 5 0 0 0 - - -;
@@ -15055,40 +15055,40 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1347 913 s sqitmsmplset15;
 #X obj 1485 914 s sqitmsmplset16;
 #X floatatom 1018 652 5 0 0 0 - - -;
-#X msg 1018 721 4;
+#X msg 1018 721 5;
 #X msg 1018 684 set \$1;
 #X floatatom 1157 652 5 0 0 0 - - -;
 #X msg 1157 721 3;
 #X msg 1157 684 set \$1;
 #X floatatom 1294 652 5 0 0 0 - - -;
-#X msg 1294 721 1;
+#X msg 1294 721 5;
 #X msg 1294 684 set \$1;
 #X floatatom 1432 653 5 0 0 0 - - -;
 #X msg 1432 722 2;
 #X msg 1432 685 set \$1;
 #X floatatom 525 821 5 0 0 0 - - -;
-#X msg 525 891 2;
+#X msg 525 891 3;
 #X msg 525 853 set \$1;
 #X floatatom 659 824 5 0 0 0 - - -;
 #X msg 659 893 3;
 #X msg 659 856 set \$1;
 #X floatatom 801 821 5 0 0 0 - - -;
-#X msg 801 890 3;
+#X msg 801 890 5;
 #X msg 801 853 set \$1;
 #X floatatom 930 821 5 0 0 0 - - -;
 #X msg 930 890 5;
 #X msg 930 853 set \$1;
 #X floatatom 1071 819 5 0 0 0 - - -;
-#X msg 1071 888 1;
+#X msg 1071 888 3;
 #X msg 1071 851 set \$1;
 #X floatatom 1210 819 5 0 0 0 - - -;
-#X msg 1210 888 4;
+#X msg 1210 888 5;
 #X msg 1210 851 set \$1;
 #X floatatom 1347 819 5 0 0 0 - - -;
-#X msg 1347 888 1;
+#X msg 1347 888 3;
 #X msg 1347 851 set \$1;
 #X floatatom 1485 820 5 0 0 0 - - -;
-#X msg 1485 889 5;
+#X msg 1485 889 2;
 #X msg 1485 852 set \$1;
 #X obj 1802 27 inlet;
 #X obj 220 386 del 5;
@@ -15345,7 +15345,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
@@ -15355,7 +15355,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 748 722 0;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 1;
+#X msg 877 722 0;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -15380,7 +15380,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1157 720 0;
 #X msg 1157 683 set \$1;
 #X floatatom 1294 651 5 0 0 0 - - -;
-#X msg 1294 720 1;
+#X msg 1294 720 0;
 #X msg 1294 683 set \$1;
 #X floatatom 1432 652 5 0 0 0 - - -;
 #X msg 1432 721 0;
@@ -15398,13 +15398,13 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 1;
+#X msg 1075 897 0;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 1;
+#X msg 1214 897 0;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -15703,7 +15703,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
-#X msg 606 725 1;
+#X msg 606 725 0;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
 #X msg 748 722 1;
@@ -15728,7 +15728,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 1;
+#X msg 1018 720 0;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0;
@@ -15749,7 +15749,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 805 899 0;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 1;
+#X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
 #X msg 1075 897 0;
@@ -15758,7 +15758,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1214 897 1;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -16079,7 +16079,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 654 5 0 0 0 - - -;
-#X msg 472 723 1;
+#X msg 472 723 5;
 #X msg 472 686 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 657 5 0 0 0 - - -;
@@ -16124,40 +16124,40 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1347 913 s sqitmsmplset15;
 #X obj 1485 914 s sqitmsmplset16;
 #X floatatom 1018 652 5 0 0 0 - - -;
-#X msg 1018 721 4;
+#X msg 1018 721 5;
 #X msg 1018 684 set \$1;
 #X floatatom 1157 652 5 0 0 0 - - -;
 #X msg 1157 721 3;
 #X msg 1157 684 set \$1;
 #X floatatom 1294 652 5 0 0 0 - - -;
-#X msg 1294 721 1;
+#X msg 1294 721 5;
 #X msg 1294 684 set \$1;
 #X floatatom 1432 653 5 0 0 0 - - -;
 #X msg 1432 722 2;
 #X msg 1432 685 set \$1;
 #X floatatom 525 821 5 0 0 0 - - -;
-#X msg 525 891 2;
+#X msg 525 891 3;
 #X msg 525 853 set \$1;
 #X floatatom 659 824 5 0 0 0 - - -;
 #X msg 659 893 3;
 #X msg 659 856 set \$1;
 #X floatatom 801 821 5 0 0 0 - - -;
-#X msg 801 890 3;
+#X msg 801 890 5;
 #X msg 801 853 set \$1;
 #X floatatom 930 821 5 0 0 0 - - -;
 #X msg 930 890 5;
 #X msg 930 853 set \$1;
 #X floatatom 1071 819 5 0 0 0 - - -;
-#X msg 1071 888 1;
+#X msg 1071 888 3;
 #X msg 1071 851 set \$1;
 #X floatatom 1210 819 5 0 0 0 - - -;
-#X msg 1210 888 4;
+#X msg 1210 888 5;
 #X msg 1210 851 set \$1;
 #X floatatom 1347 819 5 0 0 0 - - -;
-#X msg 1347 888 1;
+#X msg 1347 888 3;
 #X msg 1347 851 set \$1;
 #X floatatom 1485 820 5 0 0 0 - - -;
-#X msg 1485 889 5;
+#X msg 1485 889 2;
 #X msg 1485 852 set \$1;
 #X obj 1802 27 inlet;
 #X obj 220 386 del 5;
@@ -16414,7 +16414,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
@@ -16424,7 +16424,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 748 722 0;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 1;
+#X msg 877 722 0;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -16449,7 +16449,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1157 720 0;
 #X msg 1157 683 set \$1;
 #X floatatom 1294 651 5 0 0 0 - - -;
-#X msg 1294 720 1;
+#X msg 1294 720 0;
 #X msg 1294 683 set \$1;
 #X floatatom 1432 652 5 0 0 0 - - -;
 #X msg 1432 721 0;
@@ -16467,13 +16467,13 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 1;
+#X msg 1075 897 0;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 1;
+#X msg 1214 897 0;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -16772,7 +16772,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
-#X msg 606 725 1;
+#X msg 606 725 0;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
 #X msg 748 722 1;
@@ -16797,7 +16797,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 1;
+#X msg 1018 720 0;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0;
@@ -16818,7 +16818,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 805 899 0;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 1;
+#X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
 #X msg 1075 897 0;
@@ -16827,7 +16827,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1214 897 1;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -17158,7 +17158,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 654 5 0 0 0 - - -;
-#X msg 472 723 1;
+#X msg 472 723 5;
 #X msg 472 686 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 657 5 0 0 0 - - -;
@@ -17203,40 +17203,40 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1347 913 s sqitmsmplset15;
 #X obj 1485 914 s sqitmsmplset16;
 #X floatatom 1018 652 5 0 0 0 - - -;
-#X msg 1018 721 4;
+#X msg 1018 721 5;
 #X msg 1018 684 set \$1;
 #X floatatom 1157 652 5 0 0 0 - - -;
 #X msg 1157 721 3;
 #X msg 1157 684 set \$1;
 #X floatatom 1294 652 5 0 0 0 - - -;
-#X msg 1294 721 1;
+#X msg 1294 721 5;
 #X msg 1294 684 set \$1;
 #X floatatom 1432 653 5 0 0 0 - - -;
 #X msg 1432 722 2;
 #X msg 1432 685 set \$1;
 #X floatatom 525 821 5 0 0 0 - - -;
-#X msg 525 891 2;
+#X msg 525 891 3;
 #X msg 525 853 set \$1;
 #X floatatom 659 824 5 0 0 0 - - -;
 #X msg 659 893 3;
 #X msg 659 856 set \$1;
 #X floatatom 801 821 5 0 0 0 - - -;
-#X msg 801 890 3;
+#X msg 801 890 5;
 #X msg 801 853 set \$1;
 #X floatatom 930 821 5 0 0 0 - - -;
 #X msg 930 890 5;
 #X msg 930 853 set \$1;
 #X floatatom 1071 819 5 0 0 0 - - -;
-#X msg 1071 888 1;
+#X msg 1071 888 3;
 #X msg 1071 851 set \$1;
 #X floatatom 1210 819 5 0 0 0 - - -;
-#X msg 1210 888 4;
+#X msg 1210 888 5;
 #X msg 1210 851 set \$1;
 #X floatatom 1347 819 5 0 0 0 - - -;
-#X msg 1347 888 1;
+#X msg 1347 888 3;
 #X msg 1347 851 set \$1;
 #X floatatom 1485 820 5 0 0 0 - - -;
-#X msg 1485 889 5;
+#X msg 1485 889 2;
 #X msg 1485 852 set \$1;
 #X obj 1802 27 inlet;
 #X obj 220 386 del 5;
@@ -17493,7 +17493,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
@@ -17503,7 +17503,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 748 722 0;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 1;
+#X msg 877 722 0;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -17528,7 +17528,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1157 720 0;
 #X msg 1157 683 set \$1;
 #X floatatom 1294 651 5 0 0 0 - - -;
-#X msg 1294 720 1;
+#X msg 1294 720 0;
 #X msg 1294 683 set \$1;
 #X floatatom 1432 652 5 0 0 0 - - -;
 #X msg 1432 721 0;
@@ -17546,13 +17546,13 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 1;
+#X msg 1075 897 0;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 1;
+#X msg 1214 897 0;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -17851,7 +17851,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
-#X msg 606 725 1;
+#X msg 606 725 0;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
 #X msg 748 722 1;
@@ -17876,7 +17876,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 1;
+#X msg 1018 720 0;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0;
@@ -17897,7 +17897,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 805 899 0;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 1;
+#X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
 #X msg 1075 897 0;
@@ -17906,7 +17906,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1214 897 1;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -18205,7 +18205,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
-#X msg 606 725 1;
+#X msg 606 725 0;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
 #X msg 748 722 1;
@@ -18230,7 +18230,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 1;
+#X msg 1018 720 0;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0;
@@ -18251,7 +18251,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 805 899 0;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 1;
+#X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
 #X msg 1075 897 0;
@@ -18260,7 +18260,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1214 897 1;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -18555,7 +18555,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
@@ -18565,7 +18565,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 748 722 0;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 1;
+#X msg 877 722 0;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -18590,7 +18590,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1157 720 0;
 #X msg 1157 683 set \$1;
 #X floatatom 1294 651 5 0 0 0 - - -;
-#X msg 1294 720 1;
+#X msg 1294 720 0;
 #X msg 1294 683 set \$1;
 #X floatatom 1432 652 5 0 0 0 - - -;
 #X msg 1432 721 0;
@@ -18608,13 +18608,13 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 934 899 0;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 1;
+#X msg 1075 897 0;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 1;
+#X msg 1214 897 0;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0;
@@ -18925,7 +18925,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 654 5 0 0 0 - - -;
-#X msg 472 723 1;
+#X msg 472 723 5;
 #X msg 472 686 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 657 5 0 0 0 - - -;
@@ -18970,40 +18970,40 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1347 913 s sqitmsmplset15;
 #X obj 1485 914 s sqitmsmplset16;
 #X floatatom 1018 652 5 0 0 0 - - -;
-#X msg 1018 721 4;
+#X msg 1018 721 5;
 #X msg 1018 684 set \$1;
 #X floatatom 1157 652 5 0 0 0 - - -;
 #X msg 1157 721 3;
 #X msg 1157 684 set \$1;
 #X floatatom 1294 652 5 0 0 0 - - -;
-#X msg 1294 721 1;
+#X msg 1294 721 5;
 #X msg 1294 684 set \$1;
 #X floatatom 1432 653 5 0 0 0 - - -;
 #X msg 1432 722 2;
 #X msg 1432 685 set \$1;
 #X floatatom 525 821 5 0 0 0 - - -;
-#X msg 525 891 2;
+#X msg 525 891 3;
 #X msg 525 853 set \$1;
 #X floatatom 659 824 5 0 0 0 - - -;
 #X msg 659 893 3;
 #X msg 659 856 set \$1;
 #X floatatom 801 821 5 0 0 0 - - -;
-#X msg 801 890 3;
+#X msg 801 890 5;
 #X msg 801 853 set \$1;
 #X floatatom 930 821 5 0 0 0 - - -;
 #X msg 930 890 5;
 #X msg 930 853 set \$1;
 #X floatatom 1071 819 5 0 0 0 - - -;
-#X msg 1071 888 1;
+#X msg 1071 888 3;
 #X msg 1071 851 set \$1;
 #X floatatom 1210 819 5 0 0 0 - - -;
-#X msg 1210 888 4;
+#X msg 1210 888 5;
 #X msg 1210 851 set \$1;
 #X floatatom 1347 819 5 0 0 0 - - -;
-#X msg 1347 888 1;
+#X msg 1347 888 3;
 #X msg 1347 851 set \$1;
 #X floatatom 1485 820 5 0 0 0 - - -;
-#X msg 1485 889 5;
+#X msg 1485 889 2;
 #X msg 1485 852 set \$1;
 #X obj 1802 27 inlet;
 #X obj 220 386 del 5;
@@ -19260,14 +19260,14 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 0.470588;
+#X msg 472 722 1;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
-#X msg 606 725 1;
+#X msg 606 725 0.558824;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 0.441176;
+#X msg 748 722 0.176471;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
 #X msg 877 722 0.794118;
@@ -19289,37 +19289,37 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 0.411765;
+#X msg 1018 720 0.588235;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
-#X msg 1157 720 0.176471;
+#X msg 1157 720 0.411765;
 #X msg 1157 683 set \$1;
 #X floatatom 1294 651 5 0 0 0 - - -;
-#X msg 1294 720 0.147059;
+#X msg 1294 720 1;
 #X msg 1294 683 set \$1;
 #X floatatom 1432 663 5 0 0 0 - - -;
-#X msg 1432 721 0.0882353;
+#X msg 1432 721 0.470588;
 #X msg 1432 689 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0.647059;
+#X msg 529 899 0.588235;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
 #X msg 663 902 0.588235;
 #X msg 663 865 set \$1;
 #X floatatom 805 830 5 0 0 0 - - -;
-#X msg 805 899 0.294118;
+#X msg 805 899 0.794118;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 0.117647;
+#X msg 934 899 1;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 0.147059;
+#X msg 1075 897 0.823529;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 0.529412;
+#X msg 1214 897 1;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 0.176471;
+#X msg 1351 897 0.617647;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0.617647;
@@ -19618,14 +19618,14 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0.705882;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
 #X msg 606 725 0.558824;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 0.441176;
+#X msg 748 722 0.176471;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
 #X msg 877 722 0.794118;
@@ -19647,7 +19647,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 0.382353;
+#X msg 1018 720 0.588235;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0.411765;
@@ -19659,7 +19659,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1432 721 0.470588;
 #X msg 1432 689 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0.647059;
+#X msg 529 899 1;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
 #X msg 663 902 0.588235;
@@ -19677,7 +19677,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1214 897 0.529412;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0.617647;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0.617647;
@@ -19974,14 +19974,14 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0.705882;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
-#X msg 606 725 0.941176;
+#X msg 606 725 0.558824;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 0.441176;
+#X msg 748 722 0.176471;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
 #X msg 877 722 0.794118;
@@ -20003,7 +20003,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 0.382353;
+#X msg 1018 720 0.588235;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0.411765;
@@ -20015,7 +20015,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1432 721 0.470588;
 #X msg 1432 689 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0.647059;
+#X msg 529 899 0.588235;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
 #X msg 663 902 0.588235;
@@ -20033,10 +20033,10 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1214 897 0.529412;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0.617647;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
-#X msg 1489 898 0.264706;
+#X msg 1489 898 0.617647;
 #X msg 1489 861 set \$1;
 #X obj 219 204 t b b;
 #X obj 1797 43 inlet;
@@ -20330,17 +20330,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0.705882;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
 #X msg 606 725 0.558824;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 0.264706;
+#X msg 748 722 0.764706;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 0.970588;
+#X msg 877 722 0.794118;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -20359,7 +20359,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 0.705882;
+#X msg 1018 720 0.588235;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0.411765;
@@ -20371,7 +20371,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1432 721 0.470588;
 #X msg 1432 689 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0.647059;
+#X msg 529 899 0.588235;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
 #X msg 663 902 0.588235;
@@ -20383,16 +20383,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 934 899 0.382353;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 0.911765;
+#X msg 1075 897 1;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 1;
+#X msg 1214 897 0.529412;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0.617647;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
-#X msg 1489 898 0.147059;
+#X msg 1489 898 0.617647;
 #X msg 1489 861 set \$1;
 #X obj 219 204 t b b;
 #X obj 1797 43 inlet;
@@ -20686,17 +20686,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0.705882;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
 #X msg 606 725 0.558824;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 0.264706;
+#X msg 748 722 0.764706;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 0.970588;
+#X msg 877 722 0.794118;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -20715,7 +20715,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 0.705882;
+#X msg 1018 720 0.588235;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0.411765;
@@ -20727,7 +20727,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1432 721 0.470588;
 #X msg 1432 689 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0.647059;
+#X msg 529 899 0.588235;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
 #X msg 663 902 0.588235;
@@ -20736,19 +20736,19 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 805 899 0.294118;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 0.0882353;
+#X msg 934 899 0.382353;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 0.911765;
+#X msg 1075 897 1;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 1;
+#X msg 1214 897 0.529412;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0.617647;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
-#X msg 1489 898 0.5;
+#X msg 1489 898 0.617647;
 #X msg 1489 861 set \$1;
 #X obj 219 204 t b b;
 #X obj 1797 43 inlet;
@@ -21042,17 +21042,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0.705882;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
 #X msg 606 725 0.558824;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 0.264706;
+#X msg 748 722 0.764706;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 0.970588;
+#X msg 877 722 0.794118;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -21071,19 +21071,19 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 0.705882;
+#X msg 1018 720 0.588235;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0.411765;
 #X msg 1157 683 set \$1;
 #X floatatom 1294 651 5 0 0 0 - - -;
-#X msg 1294 720 0.5;
+#X msg 1294 720 1;
 #X msg 1294 683 set \$1;
 #X floatatom 1432 663 5 0 0 0 - - -;
 #X msg 1432 721 0.470588;
 #X msg 1432 689 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0.647059;
+#X msg 529 899 0.588235;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
 #X msg 663 902 0.588235;
@@ -21092,19 +21092,19 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 805 899 0.294118;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 0.0588235;
+#X msg 934 899 0.382353;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 0.558824;
+#X msg 1075 897 1;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 0.0294118;
+#X msg 1214 897 0.529412;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 0.705882;
+#X msg 1351 897 0.617647;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
-#X msg 1489 898 0.176471;
+#X msg 1489 898 0.617647;
 #X msg 1489 861 set \$1;
 #X obj 219 204 t b b;
 #X obj 1797 43 inlet;
@@ -21398,17 +21398,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0.705882;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
 #X msg 606 725 0.558824;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 0.264706;
+#X msg 748 722 0.764706;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 0.970588;
+#X msg 877 722 0.794118;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -21427,40 +21427,40 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 0.705882;
+#X msg 1018 720 0.588235;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0.411765;
 #X msg 1157 683 set \$1;
 #X floatatom 1294 651 5 0 0 0 - - -;
-#X msg 1294 720 0.5;
+#X msg 1294 720 1;
 #X msg 1294 683 set \$1;
 #X floatatom 1432 663 5 0 0 0 - - -;
 #X msg 1432 721 0.470588;
 #X msg 1432 689 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0.647059;
+#X msg 529 899 0.588235;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
-#X msg 663 902 0.588235;
+#X msg 663 902 0.735294;
 #X msg 663 865 set \$1;
 #X floatatom 805 830 5 0 0 0 - - -;
 #X msg 805 899 0.294118;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 0.147059;
+#X msg 934 899 0.382353;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 0.911765;
+#X msg 1075 897 1;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 0.147059;
+#X msg 1214 897 0.529412;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 0.529412;
+#X msg 1351 897 0.617647;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
-#X msg 1489 898 0.235294;
+#X msg 1489 898 0.617647;
 #X msg 1489 861 set \$1;
 #X obj 219 204 t b b;
 #X obj 1797 43 inlet;
@@ -21754,17 +21754,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0.705882;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
 #X msg 606 725 0.558824;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 0.264706;
+#X msg 748 722 0.764706;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 0.970588;
+#X msg 877 722 0.794118;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -21783,40 +21783,40 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 0.705882;
+#X msg 1018 720 0.588235;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0.411765;
 #X msg 1157 683 set \$1;
 #X floatatom 1294 651 5 0 0 0 - - -;
-#X msg 1294 720 0.5;
+#X msg 1294 720 1;
 #X msg 1294 683 set \$1;
 #X floatatom 1432 663 5 0 0 0 - - -;
 #X msg 1432 721 0.470588;
 #X msg 1432 689 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0.647059;
+#X msg 529 899 0.588235;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
-#X msg 663 902 0.588235;
+#X msg 663 902 0.735294;
 #X msg 663 865 set \$1;
 #X floatatom 805 830 5 0 0 0 - - -;
 #X msg 805 899 0.294118;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 0.147059;
+#X msg 934 899 0.382353;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 0.911765;
+#X msg 1075 897 1;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 0.147059;
+#X msg 1214 897 0.529412;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 0.529412;
+#X msg 1351 897 0.617647;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
-#X msg 1489 898 0.235294;
+#X msg 1489 898 0.617647;
 #X msg 1489 861 set \$1;
 #X obj 219 204 t b b;
 #X obj 1797 43 inlet;
@@ -22110,17 +22110,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0.705882;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
-#X msg 606 725 1;
+#X msg 606 725 0.558824;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 1;
+#X msg 748 722 0.176471;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 1;
+#X msg 877 722 0.794118;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -22139,7 +22139,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 1;
+#X msg 1018 720 0.588235;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0.411765;
@@ -22151,7 +22151,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1432 721 0.470588;
 #X msg 1432 689 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0.647059;
+#X msg 529 899 0.588235;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
 #X msg 663 902 0.588235;
@@ -22160,16 +22160,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 805 899 0.294118;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 0.382353;
+#X msg 934 899 0.735294;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 0.911765;
+#X msg 1075 897 0.823529;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 0.529412;
+#X msg 1214 897 0.852941;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0.617647;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0.617647;
@@ -22227,7 +22227,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1455 330 value StpSmplLvlSnd16;
 #X obj 286 279 sel 9;
 #X obj 804 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm11 empty 20 12
-0 14 -228992 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 223 134 r \$0-PtrnSveBng;
 #X obj 286 209 r \$0-PtrnSveSltN;
 #X obj 472 28 r \$0-PtrnSveBng;
@@ -22468,17 +22468,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0.705882;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
 #X msg 606 725 0.558824;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 0.264706;
+#X msg 748 722 0.176471;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 0.970588;
+#X msg 877 722 0.794118;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -22497,7 +22497,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 0.705882;
+#X msg 1018 720 0.588235;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0.411765;
@@ -22509,7 +22509,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1432 721 0.470588;
 #X msg 1432 689 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0.647059;
+#X msg 529 899 0.588235;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
 #X msg 663 902 0.588235;
@@ -22518,16 +22518,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 805 899 0.294118;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 0.382353;
+#X msg 934 899 0.735294;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 0.911765;
+#X msg 1075 897 0.823529;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 1;
+#X msg 1214 897 0.852941;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0.617647;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0.617647;
@@ -22824,14 +22824,14 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0.705882;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
-#X msg 606 725 1;
+#X msg 606 725 0.558824;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 0.441176;
+#X msg 748 722 0.176471;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
 #X msg 877 722 0.794118;
@@ -22865,7 +22865,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1432 721 0.470588;
 #X msg 1432 689 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0.647059;
+#X msg 529 899 0.588235;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
 #X msg 663 902 0.588235;
@@ -22874,16 +22874,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 805 899 0.294118;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 0.382353;
+#X msg 934 899 0.735294;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 0.911765;
+#X msg 1075 897 0.823529;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 0.529412;
+#X msg 1214 897 0.852941;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0.617647;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0.617647;
@@ -23180,17 +23180,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0.705882;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
 #X msg 606 725 0.558824;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 0.264706;
+#X msg 748 722 0.176471;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 0.970588;
+#X msg 877 722 0.794118;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -23209,7 +23209,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 0.705882;
+#X msg 1018 720 0.588235;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0.411765;
@@ -23221,7 +23221,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1432 721 0.470588;
 #X msg 1432 689 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0.647059;
+#X msg 529 899 0.588235;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
 #X msg 663 902 0.588235;
@@ -23230,16 +23230,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 805 899 0.294118;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 0.382353;
+#X msg 934 899 0.735294;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 0.911765;
+#X msg 1075 897 0.823529;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 1;
+#X msg 1214 897 0.852941;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0.617647;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0.617647;
@@ -23536,17 +23536,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0.705882;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
 #X msg 606 725 0.558824;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 0.264706;
+#X msg 748 722 0.176471;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 0.970588;
+#X msg 877 722 0.794118;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -23565,7 +23565,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 0.705882;
+#X msg 1018 720 0.588235;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0.411765;
@@ -23577,7 +23577,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1432 721 0.470588;
 #X msg 1432 689 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0.647059;
+#X msg 529 899 0.588235;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
 #X msg 663 902 0.588235;
@@ -23586,16 +23586,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 805 899 0.294118;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 0.382353;
+#X msg 934 899 0.735294;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 0.911765;
+#X msg 1075 897 0.823529;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 1;
+#X msg 1214 897 0.852941;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0.617647;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0.617647;
@@ -23892,17 +23892,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0.705882;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
 #X msg 606 725 0.558824;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 0.264706;
+#X msg 748 722 0.176471;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 0.970588;
+#X msg 877 722 0.794118;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -23921,7 +23921,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 0.705882;
+#X msg 1018 720 0.588235;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0.411765;
@@ -23933,7 +23933,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1432 721 0.470588;
 #X msg 1432 689 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0.647059;
+#X msg 529 899 0.588235;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
 #X msg 663 902 0.588235;
@@ -23942,16 +23942,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 805 899 0.294118;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 0.382353;
+#X msg 934 899 0.735294;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 0.911765;
+#X msg 1075 897 0.823529;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 1;
+#X msg 1214 897 0.852941;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0.617647;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0.617647;
@@ -24248,17 +24248,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0.705882;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
 #X msg 606 725 0.558824;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 0.264706;
+#X msg 748 722 0.176471;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 0.970588;
+#X msg 877 722 0.794118;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -24277,7 +24277,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 0.705882;
+#X msg 1018 720 0.588235;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0.411765;
@@ -24289,7 +24289,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1432 721 0.470588;
 #X msg 1432 689 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0.647059;
+#X msg 529 899 0.588235;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
 #X msg 663 902 0.588235;
@@ -24298,16 +24298,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 805 899 0.294118;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 0.382353;
+#X msg 934 899 0.735294;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 0.911765;
+#X msg 1075 897 0.823529;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 1;
+#X msg 1214 897 0.852941;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0.617647;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0.617647;
@@ -24604,17 +24604,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 472 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 472 653 5 0 0 0 - - -;
-#X msg 472 722 1;
+#X msg 472 722 0.705882;
 #X msg 472 685 set \$1;
 #X text 518 102 Save;
 #X floatatom 606 656 5 0 0 0 - - -;
 #X msg 606 725 0.558824;
 #X msg 606 688 set \$1;
 #X floatatom 748 653 5 0 0 0 - - -;
-#X msg 748 722 0.264706;
+#X msg 748 722 0.176471;
 #X msg 748 685 set \$1;
 #X floatatom 877 653 5 0 0 0 - - -;
-#X msg 877 722 0.970588;
+#X msg 877 722 0.794118;
 #X msg 877 685 set \$1;
 #X floatatom 286 248 5 1 3 0 - - -;
 #X obj 286 313 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -24633,7 +24633,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 280 497 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1018 651 5 0 0 0 - - -;
-#X msg 1018 720 0.705882;
+#X msg 1018 720 0.588235;
 #X msg 1018 683 set \$1;
 #X floatatom 1157 651 5 0 0 0 - - -;
 #X msg 1157 720 0.411765;
@@ -24645,7 +24645,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 1432 721 0.470588;
 #X msg 1432 689 set \$1;
 #X floatatom 529 830 5 0 0 0 - - -;
-#X msg 529 899 0.647059;
+#X msg 529 899 0.588235;
 #X msg 529 862 set \$1;
 #X floatatom 663 833 5 0 0 0 - - -;
 #X msg 663 902 0.588235;
@@ -24654,16 +24654,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X msg 805 899 0.294118;
 #X msg 805 862 set \$1;
 #X floatatom 934 830 5 0 0 0 - - -;
-#X msg 934 899 0.382353;
+#X msg 934 899 0.735294;
 #X msg 934 862 set \$1;
 #X floatatom 1075 828 5 0 0 0 - - -;
-#X msg 1075 897 0.911765;
+#X msg 1075 897 0.823529;
 #X msg 1075 860 set \$1;
 #X floatatom 1214 828 5 0 0 0 - - -;
-#X msg 1214 897 1;
+#X msg 1214 897 0.852941;
 #X msg 1214 860 set \$1;
 #X floatatom 1351 828 5 0 0 0 - - -;
-#X msg 1351 897 1;
+#X msg 1351 897 0.617647;
 #X msg 1351 860 set \$1;
 #X floatatom 1489 829 5 0 0 0 - - -;
 #X msg 1489 898 0.617647;
@@ -24934,17 +24934,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 362 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 344 553 5 0 0 0 - - -;
-#X msg 344 614 0.237113;
+#X msg 344 614 0.056701;
 #X msg 344 585 set \$1;
 #X text 408 102 Save;
 #X floatatom 450 556 5 0 0 0 - - -;
-#X msg 450 614 0.283505;
+#X msg 450 614 0.680412;
 #X msg 450 588 set \$1;
 #X floatatom 558 553 5 0 0 0 - - -;
 #X msg 558 614 0.180412;
 #X msg 558 585 set \$1;
 #X floatatom 661 552 5 0 0 0 - - -;
-#X msg 661 614 0.206186;
+#X msg 661 614 0.43299;
 #X msg 661 584 set \$1;
 #X floatatom 119 150 5 1 3 0 - - -;
 #X obj 119 215 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -24963,16 +24963,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 113 412 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 772 552 5 0 0 0 - - -;
-#X msg 772 614 0.0876289;
+#X msg 772 614 0.108247;
 #X msg 772 584 set \$1;
 #X floatatom 879 556 5 0 0 0 - - -;
-#X msg 879 615 0.14433;
+#X msg 879 615 0.407216;
 #X msg 879 588 set \$1;
 #X floatatom 985 556 5 0 0 0 - - -;
 #X msg 985 615 0.206186;
 #X msg 985 588 set \$1;
 #X floatatom 1091 557 5 0 0 0 - - -;
-#X msg 1091 616 0.268041;
+#X msg 1091 616 0.56701;
 #X msg 1091 589 set \$1;
 #X obj 1702 21 inlet;
 #X obj 362 262 value strtlneQ;
@@ -25007,7 +25007,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1321 232 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1197 556 5 0 0 0 - - -;
-#X msg 1197 615 0.185567;
+#X msg 1197 615 0.159794;
 #X msg 1197 588 set \$1;
 #X floatatom 1303 557 5 0 0 0 - - -;
 #X msg 1303 616 0.43299;
@@ -25209,17 +25209,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 362 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 344 553 5 0 0 0 - - -;
-#X msg 344 614 0.237113;
+#X msg 344 614 0.056701;
 #X msg 344 585 set \$1;
 #X text 408 102 Save;
 #X floatatom 450 556 5 0 0 0 - - -;
-#X msg 450 614 0.283505;
+#X msg 450 614 0.680412;
 #X msg 450 588 set \$1;
 #X floatatom 558 553 5 0 0 0 - - -;
 #X msg 558 614 0.180412;
 #X msg 558 585 set \$1;
 #X floatatom 661 552 5 0 0 0 - - -;
-#X msg 661 614 0.206186;
+#X msg 661 614 0.43299;
 #X msg 661 584 set \$1;
 #X floatatom 119 150 5 1 3 0 - - -;
 #X obj 119 215 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -25238,16 +25238,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 113 412 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 772 552 5 0 0 0 - - -;
-#X msg 772 614 0.0876289;
+#X msg 772 614 0.108247;
 #X msg 772 584 set \$1;
 #X floatatom 879 556 5 0 0 0 - - -;
-#X msg 879 615 0.14433;
+#X msg 879 615 0.407216;
 #X msg 879 588 set \$1;
 #X floatatom 985 556 5 0 0 0 - - -;
-#X msg 985 615 0.108247;
+#X msg 985 615 0.206186;
 #X msg 985 588 set \$1;
 #X floatatom 1091 557 5 0 0 0 - - -;
-#X msg 1091 616 0.268041;
+#X msg 1091 616 0.56701;
 #X msg 1091 589 set \$1;
 #X obj 1702 21 inlet;
 #X obj 362 262 value strtlneQ;
@@ -25282,10 +25282,10 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1321 232 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1197 556 5 0 0 0 - - -;
-#X msg 1197 615 0.185567;
+#X msg 1197 615 0.159794;
 #X msg 1197 588 set \$1;
 #X floatatom 1303 557 5 0 0 0 - - -;
-#X msg 1303 616 0.64433;
+#X msg 1303 616 0.43299;
 #X msg 1303 589 set \$1;
 #X obj 1197 531 f;
 #X obj 1303 530 f;
@@ -25484,17 +25484,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 362 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 344 553 5 0 0 0 - - -;
-#X msg 344 614 0.237113;
+#X msg 344 614 0.056701;
 #X msg 344 585 set \$1;
 #X text 408 102 Save;
 #X floatatom 450 556 5 0 0 0 - - -;
-#X msg 450 614 0.283505;
+#X msg 450 614 0.680412;
 #X msg 450 588 set \$1;
 #X floatatom 558 553 5 0 0 0 - - -;
-#X msg 558 614 0.139175;
+#X msg 558 614 0.180412;
 #X msg 558 585 set \$1;
 #X floatatom 661 552 5 0 0 0 - - -;
-#X msg 661 614 0.206186;
+#X msg 661 614 0.43299;
 #X msg 661 584 set \$1;
 #X floatatom 119 150 5 1 3 0 - - -;
 #X obj 119 215 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -25513,16 +25513,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 113 412 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 772 552 5 0 0 0 - - -;
-#X msg 772 614 0.0515464;
+#X msg 772 614 0.108247;
 #X msg 772 584 set \$1;
 #X floatatom 879 556 5 0 0 0 - - -;
-#X msg 879 615 0.14433;
+#X msg 879 615 0.407216;
 #X msg 879 588 set \$1;
 #X floatatom 985 556 5 0 0 0 - - -;
-#X msg 985 615 0.319588;
+#X msg 985 615 0.206186;
 #X msg 985 588 set \$1;
 #X floatatom 1091 557 5 0 0 0 - - -;
-#X msg 1091 616 0.43299;
+#X msg 1091 616 0.56701;
 #X msg 1091 589 set \$1;
 #X obj 1702 21 inlet;
 #X obj 362 262 value strtlneQ;
@@ -25557,10 +25557,10 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1321 232 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1197 556 5 0 0 0 - - -;
-#X msg 1197 615 0.0721649;
+#X msg 1197 615 0.159794;
 #X msg 1197 588 set \$1;
 #X floatatom 1303 557 5 0 0 0 - - -;
-#X msg 1303 616 0.701031;
+#X msg 1303 616 0.43299;
 #X msg 1303 589 set \$1;
 #X obj 1197 531 f;
 #X obj 1303 530 f;
@@ -25759,17 +25759,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 362 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 344 553 5 0 0 0 - - -;
-#X msg 344 614 0.237113;
+#X msg 344 614 0.056701;
 #X msg 344 585 set \$1;
 #X text 408 102 Save;
 #X floatatom 450 556 5 0 0 0 - - -;
-#X msg 450 614 0.283505;
+#X msg 450 614 0.680412;
 #X msg 450 588 set \$1;
 #X floatatom 558 553 5 0 0 0 - - -;
-#X msg 558 614 0.139175;
+#X msg 558 614 0.180412;
 #X msg 558 585 set \$1;
 #X floatatom 661 552 5 0 0 0 - - -;
-#X msg 661 614 0.206186;
+#X msg 661 614 0.43299;
 #X msg 661 584 set \$1;
 #X floatatom 119 150 5 1 3 0 - - -;
 #X obj 119 215 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -25788,16 +25788,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 113 412 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 772 552 5 0 0 0 - - -;
-#X msg 772 614 0.0515464;
+#X msg 772 614 0.108247;
 #X msg 772 584 set \$1;
 #X floatatom 879 556 5 0 0 0 - - -;
-#X msg 879 615 0.14433;
+#X msg 879 615 0.407216;
 #X msg 879 588 set \$1;
 #X floatatom 985 556 5 0 0 0 - - -;
-#X msg 985 615 0.319588;
+#X msg 985 615 0.206186;
 #X msg 985 588 set \$1;
 #X floatatom 1091 557 5 0 0 0 - - -;
-#X msg 1091 616 0.43299;
+#X msg 1091 616 0.56701;
 #X msg 1091 589 set \$1;
 #X obj 1702 21 inlet;
 #X obj 362 262 value strtlneQ;
@@ -25832,10 +25832,10 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1321 232 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1197 556 5 0 0 0 - - -;
-#X msg 1197 615 0.128866;
+#X msg 1197 615 0.159794;
 #X msg 1197 588 set \$1;
 #X floatatom 1303 557 5 0 0 0 - - -;
-#X msg 1303 616 0.742268;
+#X msg 1303 616 0.43299;
 #X msg 1303 589 set \$1;
 #X obj 1197 531 f;
 #X obj 1303 530 f;
@@ -26034,17 +26034,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 362 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 344 553 5 0 0 0 - - -;
-#X msg 344 614 0.237113;
+#X msg 344 614 0.056701;
 #X msg 344 585 set \$1;
 #X text 408 102 Save;
 #X floatatom 450 556 5 0 0 0 - - -;
-#X msg 450 614 0.283505;
+#X msg 450 614 0.680412;
 #X msg 450 588 set \$1;
 #X floatatom 558 553 5 0 0 0 - - -;
-#X msg 558 614 0.139175;
+#X msg 558 614 0.180412;
 #X msg 558 585 set \$1;
 #X floatatom 661 552 5 0 0 0 - - -;
-#X msg 661 614 0.206186;
+#X msg 661 614 0.43299;
 #X msg 661 584 set \$1;
 #X floatatom 119 150 5 1 3 0 - - -;
 #X obj 119 215 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -26063,16 +26063,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 113 412 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 772 552 5 0 0 0 - - -;
-#X msg 772 614 0.0515464;
+#X msg 772 614 0.108247;
 #X msg 772 584 set \$1;
 #X floatatom 879 556 5 0 0 0 - - -;
-#X msg 879 615 0.14433;
+#X msg 879 615 0.407216;
 #X msg 879 588 set \$1;
 #X floatatom 985 556 5 0 0 0 - - -;
-#X msg 985 615 0.319588;
+#X msg 985 615 0.206186;
 #X msg 985 588 set \$1;
 #X floatatom 1091 557 5 0 0 0 - - -;
-#X msg 1091 616 0.43299;
+#X msg 1091 616 0.56701;
 #X msg 1091 589 set \$1;
 #X obj 1702 21 inlet;
 #X obj 362 262 value strtlneQ;
@@ -26107,10 +26107,10 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1321 232 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1197 556 5 0 0 0 - - -;
-#X msg 1197 615 0.185567;
+#X msg 1197 615 0.159794;
 #X msg 1197 588 set \$1;
 #X floatatom 1303 557 5 0 0 0 - - -;
-#X msg 1303 616 0.639175;
+#X msg 1303 616 0.43299;
 #X msg 1303 589 set \$1;
 #X obj 1197 531 f;
 #X obj 1303 530 f;
@@ -26309,17 +26309,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 362 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 344 553 5 0 0 0 - - -;
-#X msg 344 614 0.237113;
+#X msg 344 614 0.056701;
 #X msg 344 585 set \$1;
 #X text 408 102 Save;
 #X floatatom 450 556 5 0 0 0 - - -;
-#X msg 450 614 0.283505;
+#X msg 450 614 0.680412;
 #X msg 450 588 set \$1;
 #X floatatom 558 553 5 0 0 0 - - -;
-#X msg 558 614 0.139175;
+#X msg 558 614 0.180412;
 #X msg 558 585 set \$1;
 #X floatatom 661 552 5 0 0 0 - - -;
-#X msg 661 614 0.206186;
+#X msg 661 614 0.43299;
 #X msg 661 584 set \$1;
 #X floatatom 119 150 5 1 3 0 - - -;
 #X obj 119 215 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -26338,16 +26338,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 113 412 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 772 552 5 0 0 0 - - -;
-#X msg 772 614 0.0515464;
+#X msg 772 614 0.108247;
 #X msg 772 584 set \$1;
 #X floatatom 879 556 5 0 0 0 - - -;
-#X msg 879 615 0.14433;
+#X msg 879 615 0.407216;
 #X msg 879 588 set \$1;
 #X floatatom 985 556 5 0 0 0 - - -;
-#X msg 985 615 0.319588;
+#X msg 985 615 0.206186;
 #X msg 985 588 set \$1;
 #X floatatom 1091 557 5 0 0 0 - - -;
-#X msg 1091 616 0.43299;
+#X msg 1091 616 0.56701;
 #X msg 1091 589 set \$1;
 #X obj 1702 21 inlet;
 #X obj 362 262 value strtlneQ;
@@ -26382,10 +26382,10 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1321 232 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1197 556 5 0 0 0 - - -;
-#X msg 1197 615 0;
+#X msg 1197 615 0.159794;
 #X msg 1197 588 set \$1;
 #X floatatom 1303 557 5 0 0 0 - - -;
-#X msg 1303 616 0.335052;
+#X msg 1303 616 0.43299;
 #X msg 1303 589 set \$1;
 #X obj 1197 531 f;
 #X obj 1303 530 f;
@@ -26584,17 +26584,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 362 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 344 553 5 0 0 0 - - -;
-#X msg 344 614 0.237113;
+#X msg 344 614 0.056701;
 #X msg 344 585 set \$1;
 #X text 408 102 Save;
 #X floatatom 450 556 5 0 0 0 - - -;
-#X msg 450 614 0.283505;
+#X msg 450 614 0.680412;
 #X msg 450 588 set \$1;
 #X floatatom 558 553 5 0 0 0 - - -;
-#X msg 558 614 0.139175;
+#X msg 558 614 0.180412;
 #X msg 558 585 set \$1;
 #X floatatom 661 552 5 0 0 0 - - -;
-#X msg 661 614 0.206186;
+#X msg 661 614 0.43299;
 #X msg 661 584 set \$1;
 #X floatatom 119 150 5 1 3 0 - - -;
 #X obj 119 215 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -26613,16 +26613,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 113 412 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 772 552 5 0 0 0 - - -;
-#X msg 772 614 0.0515464;
+#X msg 772 614 0.108247;
 #X msg 772 584 set \$1;
 #X floatatom 879 556 5 0 0 0 - - -;
-#X msg 879 615 0.14433;
+#X msg 879 615 0.407216;
 #X msg 879 588 set \$1;
 #X floatatom 985 556 5 0 0 0 - - -;
-#X msg 985 615 0.319588;
+#X msg 985 615 0.206186;
 #X msg 985 588 set \$1;
 #X floatatom 1091 557 5 0 0 0 - - -;
-#X msg 1091 616 0.43299;
+#X msg 1091 616 0.56701;
 #X msg 1091 589 set \$1;
 #X obj 1702 21 inlet;
 #X obj 362 262 value strtlneQ;
@@ -26657,10 +26657,10 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1321 232 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1197 556 5 0 0 0 - - -;
-#X msg 1197 615 0;
+#X msg 1197 615 0.159794;
 #X msg 1197 588 set \$1;
 #X floatatom 1303 557 5 0 0 0 - - -;
-#X msg 1303 616 0.335052;
+#X msg 1303 616 0.43299;
 #X msg 1303 589 set \$1;
 #X obj 1197 531 f;
 #X obj 1303 530 f;
@@ -26859,17 +26859,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 362 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 344 553 5 0 0 0 - - -;
-#X msg 344 614 0.237113;
+#X msg 344 614 0.056701;
 #X msg 344 585 set \$1;
 #X text 408 102 Save;
 #X floatatom 450 556 5 0 0 0 - - -;
-#X msg 450 614 0.283505;
+#X msg 450 614 0.680412;
 #X msg 450 588 set \$1;
 #X floatatom 558 553 5 0 0 0 - - -;
 #X msg 558 614 0.180412;
 #X msg 558 585 set \$1;
 #X floatatom 661 552 5 0 0 0 - - -;
-#X msg 661 614 0.206186;
+#X msg 661 614 0.43299;
 #X msg 661 584 set \$1;
 #X floatatom 119 150 5 1 3 0 - - -;
 #X obj 119 215 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -26888,16 +26888,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 113 412 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 772 552 5 0 0 0 - - -;
-#X msg 772 614 0.0876289;
+#X msg 772 614 0.108247;
 #X msg 772 584 set \$1;
 #X floatatom 879 556 5 0 0 0 - - -;
-#X msg 879 615 0.14433;
+#X msg 879 615 0.407216;
 #X msg 879 588 set \$1;
 #X floatatom 985 556 5 0 0 0 - - -;
-#X msg 985 615 0.237113;
+#X msg 985 615 0.206186;
 #X msg 985 588 set \$1;
 #X floatatom 1091 557 5 0 0 0 - - -;
-#X msg 1091 616 0.43299;
+#X msg 1091 616 0.56701;
 #X msg 1091 589 set \$1;
 #X obj 1702 21 inlet;
 #X obj 362 262 value strtlneQ;
@@ -26932,10 +26932,10 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1321 232 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1197 556 5 0 0 0 - - -;
-#X msg 1197 615 0.278351;
+#X msg 1197 615 0.159794;
 #X msg 1197 588 set \$1;
 #X floatatom 1303 557 5 0 0 0 - - -;
-#X msg 1303 616 0.603093;
+#X msg 1303 616 0.43299;
 #X msg 1303 589 set \$1;
 #X obj 1197 531 f;
 #X obj 1303 530 f;
@@ -27134,17 +27134,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 362 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 344 553 5 0 0 0 - - -;
-#X msg 344 614 0.237113;
+#X msg 344 614 0.056701;
 #X msg 344 585 set \$1;
 #X text 408 102 Save;
 #X floatatom 450 556 5 0 0 0 - - -;
-#X msg 450 614 0.283505;
+#X msg 450 614 0.680412;
 #X msg 450 588 set \$1;
 #X floatatom 558 553 5 0 0 0 - - -;
-#X msg 558 614 0.139175;
+#X msg 558 614 0.0618557;
 #X msg 558 585 set \$1;
 #X floatatom 661 552 5 0 0 0 - - -;
-#X msg 661 614 0.206186;
+#X msg 661 614 0.891753;
 #X msg 661 584 set \$1;
 #X floatatom 119 150 5 1 3 0 - - -;
 #X obj 119 215 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -27163,16 +27163,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 113 412 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 772 552 5 0 0 0 - - -;
-#X msg 772 614 0.0515464;
+#X msg 772 614 0.108247;
 #X msg 772 584 set \$1;
 #X floatatom 879 556 5 0 0 0 - - -;
-#X msg 879 615 0.14433;
+#X msg 879 615 0.407216;
 #X msg 879 588 set \$1;
 #X floatatom 985 556 5 0 0 0 - - -;
-#X msg 985 615 0.319588;
+#X msg 985 615 0.206186;
 #X msg 985 588 set \$1;
 #X floatatom 1091 557 5 0 0 0 - - -;
-#X msg 1091 616 0.43299;
+#X msg 1091 616 0.56701;
 #X msg 1091 589 set \$1;
 #X obj 1702 21 inlet;
 #X obj 362 262 value strtlneQ;
@@ -27207,10 +27207,10 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1321 232 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1197 556 5 0 0 0 - - -;
-#X msg 1197 615 0.128866;
+#X msg 1197 615 0.159794;
 #X msg 1197 588 set \$1;
 #X floatatom 1303 557 5 0 0 0 - - -;
-#X msg 1303 616 0.742268;
+#X msg 1303 616 0.43299;
 #X msg 1303 589 set \$1;
 #X obj 1197 531 f;
 #X obj 1303 530 f;
@@ -27409,17 +27409,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 362 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 344 553 5 0 0 0 - - -;
-#X msg 344 614 0.237113;
+#X msg 344 614 0.056701;
 #X msg 344 585 set \$1;
 #X text 408 102 Save;
 #X floatatom 450 556 5 0 0 0 - - -;
-#X msg 450 614 0.283505;
+#X msg 450 614 0.680412;
 #X msg 450 588 set \$1;
 #X floatatom 558 553 5 0 0 0 - - -;
-#X msg 558 614 0.180412;
+#X msg 558 614 0.56701;
 #X msg 558 585 set \$1;
 #X floatatom 661 552 5 0 0 0 - - -;
-#X msg 661 614 0.206186;
+#X msg 661 614 0.891753;
 #X msg 661 584 set \$1;
 #X floatatom 119 150 5 1 3 0 - - -;
 #X obj 119 215 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -27438,16 +27438,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 113 412 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 772 552 5 0 0 0 - - -;
-#X msg 772 614 0.0876289;
+#X msg 772 614 0.108247;
 #X msg 772 584 set \$1;
 #X floatatom 879 556 5 0 0 0 - - -;
-#X msg 879 615 0.14433;
+#X msg 879 615 0.731959;
 #X msg 879 588 set \$1;
 #X floatatom 985 556 5 0 0 0 - - -;
-#X msg 985 615 0.237113;
+#X msg 985 615 0.206186;
 #X msg 985 588 set \$1;
 #X floatatom 1091 557 5 0 0 0 - - -;
-#X msg 1091 616 0.43299;
+#X msg 1091 616 0.56701;
 #X msg 1091 589 set \$1;
 #X obj 1702 21 inlet;
 #X obj 362 262 value strtlneQ;
@@ -27482,10 +27482,10 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1321 232 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1197 556 5 0 0 0 - - -;
-#X msg 1197 615 0.278351;
+#X msg 1197 615 0.159794;
 #X msg 1197 588 set \$1;
 #X floatatom 1303 557 5 0 0 0 - - -;
-#X msg 1303 616 0.603093;
+#X msg 1303 616 0.43299;
 #X msg 1303 589 set \$1;
 #X obj 1197 531 f;
 #X obj 1303 530 f;
@@ -27684,17 +27684,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 362 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 344 553 5 0 0 0 - - -;
-#X msg 344 614 0.237113;
+#X msg 344 614 0.056701;
 #X msg 344 585 set \$1;
 #X text 408 102 Save;
 #X floatatom 450 556 5 0 0 0 - - -;
-#X msg 450 614 0.283505;
+#X msg 450 614 0.680412;
 #X msg 450 588 set \$1;
 #X floatatom 558 553 5 0 0 0 - - -;
-#X msg 558 614 0.139175;
+#X msg 558 614 0.56701;
 #X msg 558 585 set \$1;
 #X floatatom 661 552 5 0 0 0 - - -;
-#X msg 661 614 0.206186;
+#X msg 661 614 0.891753;
 #X msg 661 584 set \$1;
 #X floatatom 119 150 5 1 3 0 - - -;
 #X obj 119 215 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -27713,16 +27713,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 113 412 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 772 552 5 0 0 0 - - -;
-#X msg 772 614 0.0515464;
+#X msg 772 614 0.381443;
 #X msg 772 584 set \$1;
 #X floatatom 879 556 5 0 0 0 - - -;
-#X msg 879 615 0.14433;
+#X msg 879 615 0.731959;
 #X msg 879 588 set \$1;
 #X floatatom 985 556 5 0 0 0 - - -;
-#X msg 985 615 0.319588;
+#X msg 985 615 0.206186;
 #X msg 985 588 set \$1;
 #X floatatom 1091 557 5 0 0 0 - - -;
-#X msg 1091 616 0.43299;
+#X msg 1091 616 0.56701;
 #X msg 1091 589 set \$1;
 #X obj 1702 21 inlet;
 #X obj 362 262 value strtlneQ;
@@ -27757,10 +27757,10 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1321 232 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1197 556 5 0 0 0 - - -;
-#X msg 1197 615 0.128866;
+#X msg 1197 615 0.159794;
 #X msg 1197 588 set \$1;
 #X floatatom 1303 557 5 0 0 0 - - -;
-#X msg 1303 616 0.742268;
+#X msg 1303 616 0.71134;
 #X msg 1303 589 set \$1;
 #X obj 1197 531 f;
 #X obj 1303 530 f;
@@ -27959,17 +27959,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 362 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 344 553 5 0 0 0 - - -;
-#X msg 344 614 0.237113;
+#X msg 344 614 0.056701;
 #X msg 344 585 set \$1;
 #X text 408 102 Save;
 #X floatatom 450 556 5 0 0 0 - - -;
-#X msg 450 614 0.283505;
+#X msg 450 614 0.680412;
 #X msg 450 588 set \$1;
 #X floatatom 558 553 5 0 0 0 - - -;
-#X msg 558 614 0.139175;
+#X msg 558 614 0.180412;
 #X msg 558 585 set \$1;
 #X floatatom 661 552 5 0 0 0 - - -;
-#X msg 661 614 0.206186;
+#X msg 661 614 0.43299;
 #X msg 661 584 set \$1;
 #X floatatom 119 150 5 1 3 0 - - -;
 #X obj 119 215 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -27988,16 +27988,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 113 412 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 772 552 5 0 0 0 - - -;
-#X msg 772 614 0.0515464;
+#X msg 772 614 0.108247;
 #X msg 772 584 set \$1;
 #X floatatom 879 556 5 0 0 0 - - -;
-#X msg 879 615 0.14433;
+#X msg 879 615 0.407216;
 #X msg 879 588 set \$1;
 #X floatatom 985 556 5 0 0 0 - - -;
-#X msg 985 615 0.319588;
+#X msg 985 615 0.0257732;
 #X msg 985 588 set \$1;
 #X floatatom 1091 557 5 0 0 0 - - -;
-#X msg 1091 616 0.43299;
+#X msg 1091 616 0.603093;
 #X msg 1091 589 set \$1;
 #X obj 1702 21 inlet;
 #X obj 362 262 value strtlneQ;
@@ -28032,10 +28032,10 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1321 232 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1197 556 5 0 0 0 - - -;
-#X msg 1197 615 0.128866;
+#X msg 1197 615 0.159794;
 #X msg 1197 588 set \$1;
 #X floatatom 1303 557 5 0 0 0 - - -;
-#X msg 1303 616 0.742268;
+#X msg 1303 616 0.43299;
 #X msg 1303 589 set \$1;
 #X obj 1197 531 f;
 #X obj 1303 530 f;
@@ -28234,17 +28234,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 362 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 344 553 5 0 0 0 - - -;
-#X msg 344 614 0.237113;
+#X msg 344 614 0.056701;
 #X msg 344 585 set \$1;
 #X text 408 102 Save;
 #X floatatom 450 556 5 0 0 0 - - -;
-#X msg 450 614 0.283505;
+#X msg 450 614 0.680412;
 #X msg 450 588 set \$1;
 #X floatatom 558 553 5 0 0 0 - - -;
-#X msg 558 614 0.139175;
+#X msg 558 614 0.180412;
 #X msg 558 585 set \$1;
 #X floatatom 661 552 5 0 0 0 - - -;
-#X msg 661 614 0.206186;
+#X msg 661 614 0.43299;
 #X msg 661 584 set \$1;
 #X floatatom 119 150 5 1 3 0 - - -;
 #X obj 119 215 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -28263,16 +28263,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 113 412 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 772 552 5 0 0 0 - - -;
-#X msg 772 614 0.0515464;
+#X msg 772 614 0.108247;
 #X msg 772 584 set \$1;
 #X floatatom 879 556 5 0 0 0 - - -;
-#X msg 879 615 0.14433;
+#X msg 879 615 0.407216;
 #X msg 879 588 set \$1;
 #X floatatom 985 556 5 0 0 0 - - -;
-#X msg 985 615 0.319588;
+#X msg 985 615 0.0257732;
 #X msg 985 588 set \$1;
 #X floatatom 1091 557 5 0 0 0 - - -;
-#X msg 1091 616 0.43299;
+#X msg 1091 616 0.603093;
 #X msg 1091 589 set \$1;
 #X obj 1702 21 inlet;
 #X obj 362 262 value strtlneQ;
@@ -28307,10 +28307,10 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1321 232 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1197 556 5 0 0 0 - - -;
-#X msg 1197 615 0.128866;
+#X msg 1197 615 0.159794;
 #X msg 1197 588 set \$1;
 #X floatatom 1303 557 5 0 0 0 - - -;
-#X msg 1303 616 0.742268;
+#X msg 1303 616 0.659794;
 #X msg 1303 589 set \$1;
 #X obj 1197 531 f;
 #X obj 1303 530 f;
@@ -28509,17 +28509,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 362 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 344 553 5 0 0 0 - - -;
-#X msg 344 614 0.237113;
+#X msg 344 614 0.056701;
 #X msg 344 585 set \$1;
 #X text 408 102 Save;
 #X floatatom 450 556 5 0 0 0 - - -;
-#X msg 450 614 0.283505;
+#X msg 450 614 0.680412;
 #X msg 450 588 set \$1;
 #X floatatom 558 553 5 0 0 0 - - -;
-#X msg 558 614 0.139175;
+#X msg 558 614 0.180412;
 #X msg 558 585 set \$1;
 #X floatatom 661 552 5 0 0 0 - - -;
-#X msg 661 614 0.206186;
+#X msg 661 614 0.43299;
 #X msg 661 584 set \$1;
 #X floatatom 119 150 5 1 3 0 - - -;
 #X obj 119 215 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -28538,16 +28538,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 113 412 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 772 552 5 0 0 0 - - -;
-#X msg 772 614 0.0515464;
+#X msg 772 614 0.108247;
 #X msg 772 584 set \$1;
 #X floatatom 879 556 5 0 0 0 - - -;
-#X msg 879 615 0.14433;
+#X msg 879 615 0.587629;
 #X msg 879 588 set \$1;
 #X floatatom 985 556 5 0 0 0 - - -;
-#X msg 985 615 0.319588;
+#X msg 985 615 0.0257732;
 #X msg 985 588 set \$1;
 #X floatatom 1091 557 5 0 0 0 - - -;
-#X msg 1091 616 0.43299;
+#X msg 1091 616 0.603093;
 #X msg 1091 589 set \$1;
 #X obj 1702 21 inlet;
 #X obj 362 262 value strtlneQ;
@@ -28582,10 +28582,10 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1321 232 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1197 556 5 0 0 0 - - -;
-#X msg 1197 615 0.128866;
+#X msg 1197 615 0.159794;
 #X msg 1197 588 set \$1;
 #X floatatom 1303 557 5 0 0 0 - - -;
-#X msg 1303 616 0.742268;
+#X msg 1303 616 0.659794;
 #X msg 1303 589 set \$1;
 #X obj 1197 531 f;
 #X obj 1303 530 f;
@@ -28784,17 +28784,17 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 362 65 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 344 553 5 0 0 0 - - -;
-#X msg 344 614 0.237113;
+#X msg 344 614 0.056701;
 #X msg 344 585 set \$1;
 #X text 408 102 Save;
 #X floatatom 450 556 5 0 0 0 - - -;
-#X msg 450 614 0.283505;
+#X msg 450 614 0.680412;
 #X msg 450 588 set \$1;
 #X floatatom 558 553 5 0 0 0 - - -;
-#X msg 558 614 0.139175;
+#X msg 558 614 0.180412;
 #X msg 558 585 set \$1;
 #X floatatom 661 552 5 0 0 0 - - -;
-#X msg 661 614 0.206186;
+#X msg 661 614 0.71134;
 #X msg 661 584 set \$1;
 #X floatatom 119 150 5 1 3 0 - - -;
 #X obj 119 215 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -28813,16 +28813,16 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 113 412 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 772 552 5 0 0 0 - - -;
-#X msg 772 614 0.0515464;
+#X msg 772 614 0.108247;
 #X msg 772 584 set \$1;
 #X floatatom 879 556 5 0 0 0 - - -;
-#X msg 879 615 0.14433;
+#X msg 879 615 0.587629;
 #X msg 879 588 set \$1;
 #X floatatom 985 556 5 0 0 0 - - -;
-#X msg 985 615 0.319588;
+#X msg 985 615 0.0257732;
 #X msg 985 588 set \$1;
 #X floatatom 1091 557 5 0 0 0 - - -;
-#X msg 1091 616 0.43299;
+#X msg 1091 616 0.603093;
 #X msg 1091 589 set \$1;
 #X obj 1702 21 inlet;
 #X obj 362 262 value strtlneQ;
@@ -28857,10 +28857,10 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X obj 1321 232 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X floatatom 1197 556 5 0 0 0 - - -;
-#X msg 1197 615 0.128866;
+#X msg 1197 615 0.159794;
 #X msg 1197 588 set \$1;
 #X floatatom 1303 557 5 0 0 0 - - -;
-#X msg 1303 616 0.742268;
+#X msg 1303 616 0.659794;
 #X msg 1303 589 set \$1;
 #X obj 1197 531 f;
 #X obj 1303 530 f;
@@ -29243,7 +29243,7 @@ empty 0 -8 0 35 -262144 -1 -1 1 256;
 #X connect 211 0 177 0;
 #X restore 1227 183 pd PtrnSve;
 #X obj 823 335 cnv 15 15 15 empty \$0-PtrnSve11DspItm12 empty 20 12
-0 14 -261689 -262144 0;
+0 14 -262131 -262144 0;
 #X obj 59 38 loadbang;
 #X obj 943 436 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -29290,7 +29290,7 @@ color \$2 \$3 \$4 \;;
 1;
 #X obj 611 110 cnv 15 15 15 empty empty Pattern_Bank_4_Save/Load_Samples
 20 7 0 15 -233017 -66577 0;
-#N canvas 969 119 796 303 \$0-PBSamples 1;
+#N canvas 1059 300 796 303 \$0-PBSamples 1;
 #N canvas -58 0 1274 944 PtrnBnkSmpleSetPnl 0;
 #X obj 1056 177 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -29313,23 +29313,23 @@ color \$2 \$3 \$4 \;;
 -166458 -33289 0;
 #X obj 110 161 cnv 15 15 15 empty SampleQDspClr Q 20 12 0 20 -261689
 -262144 0;
-#X obj 160 162 cnv 15 15 15 empty \$0-QSmplFleNmeRcv samples/clap-slapper.wav
+#X obj 160 162 cnv 15 15 15 empty \$0-QSmplFleNmeRcv C:/Users/Gareth/Documents/GitHub/port/audio/LowGSeged-5.wav
 20 12 0 20 -233017 -66577 0;
 #X obj 111 196 cnv 15 15 15 empty SampleWDspClr W 20 12 0 20 -228992
 -262144 0;
-#X obj 160 197 cnv 15 15 15 empty \$0-WSmplFleNmeRcv samples/clap-tape.wav
+#X obj 160 197 cnv 15 15 15 empty \$0-WSmplFleNmeRcv C:/Users/Gareth/Documents/GitHub/port/audio/LowGSeged-9.wav
 20 12 0 20 -233017 -66577 0;
 #X obj 111 229 cnv 15 15 15 empty SampleEDspClr E 20 12 0 20 -261681
 -262144 0;
-#X obj 160 230 cnv 15 15 15 empty \$0-ESmplFleNmeRcv samples/kick-electro01.wav
+#X obj 160 230 cnv 15 15 15 empty \$0-ESmplFleNmeRcv C:/Users/Gareth/Documents/GitHub/port/audio/LowGSeged-5.wav
 20 12 0 20 -233017 -66577 0;
 #X obj 112 263 cnv 15 15 15 empty SampleADspClr A 20 12 0 20 -225271
 -262144 0;
-#X obj 161 263 cnv 15 15 15 empty \$0-QSmplFleNmeRcv samples/clap-slapper.wav
+#X obj 161 263 cnv 15 15 15 empty \$0-QSmplFleNmeRcv C:/Users/Gareth/Documents/GitHub/port/audio/LowGSeged-5.wav
 20 12 0 20 -233017 -66577 0;
 #X obj 112 297 cnv 15 15 15 empty SampleSDspClr S 20 12 0 20 -262131
 -262144 0;
-#X obj 160 296 cnv 15 15 15 empty \$0-WSmplFleNmeRcv samples/clap-tape.wav
+#X obj 160 296 cnv 15 15 15 empty \$0-WSmplFleNmeRcv C:/Users/Gareth/Documents/GitHub/port/audio/LowGSeged-9.wav
 20 12 0 20 -233017 -66577 0;
 #X obj 112 330 cnv 15 15 15 empty SampleDDspClr D 20 12 0 20 -225280
 -262144 0;
@@ -29366,7 +29366,8 @@ color \$2 \$3 \$4 \;;
 #X msg 1016 210 1;
 #X floatatom 1016 242 5 0 0 0 - - -;
 #N canvas 395 67 965 808 ESmplBnkSmplSvLd 0;
-#X msg 59 616 samples/kick-electro01.wav;
+#X msg 59 616 C:/Users/Gareth/Documents/GitHub/port/audio/LowGSeged-5.wav
+;
 #X msg 74 585 set \$1;
 #X obj 59 312 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -29386,7 +29387,7 @@ color \$2 \$3 \$4 \;;
 #X obj 414 315 symbol -ESmplFleNmeRcv;
 #X obj 361 358 pack f s;
 #X msg 361 387 set \$1\$2;
-#X msg 307 439 1066-ESmplFleNmeRcv;
+#X msg 307 439 1006-ESmplFleNmeRcv;
 #X obj 307 198 t b b b, f 16;
 #X obj 308 682 pack s s;
 #X msg 310 717 \; \$1 label \$2;
@@ -29425,7 +29426,8 @@ color \$2 \$3 \$4 \;;
 #X restore 418 424 pd ESmplBnkSmplSvLd;
 #X obj 900 165 r \$0-PtrnBnkSvReset;
 #N canvas 395 67 965 808 WSmplBnkSmplSvLd 0;
-#X msg 59 616 samples/clap-tape.wav;
+#X msg 59 616 C:/Users/Gareth/Documents/GitHub/port/audio/LowGSeged-9.wav
+;
 #X msg 74 585 set \$1;
 #X obj 59 312 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -29451,7 +29453,7 @@ color \$2 \$3 \$4 \;;
 #X msg 466 699 0;
 #X obj 275 31 r PtrnBnk1SmplFleW;
 #X obj 413 315 symbol -WSmplFleNmeRcv;
-#X msg 307 439 1066-WSmplFleNmeRcv;
+#X msg 307 439 1006-WSmplFleNmeRcv;
 #X obj 59 646 s samplefileW;
 #X connect 0 0 24 0;
 #X connect 1 0 0 0;
@@ -29483,7 +29485,8 @@ color \$2 \$3 \$4 \;;
 #X connect 23 0 15 0;
 #X restore 265 424 pd WSmplBnkSmplSvLd;
 #N canvas 395 67 965 808 QSmplBnkSmplSvLd 0;
-#X msg 59 616 samples/clap-slapper.wav;
+#X msg 59 616 C:/Users/Gareth/Documents/GitHub/port/audio/LowGSeged-5.wav
+;
 #X msg 74 585 set \$1;
 #X obj 59 312 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -29510,7 +29513,7 @@ color \$2 \$3 \$4 \;;
 #X obj 275 31 r PtrnBnk1SmplFleQ;
 #X obj 413 315 symbol -QSmplFleNmeRcv;
 #X obj 59 646 s samplefileQ;
-#X msg 307 439 1066-QSmplFleNmeRcv;
+#X msg 307 439 1006-QSmplFleNmeRcv;
 #X connect 0 0 23 0;
 #X connect 1 0 0 0;
 #X connect 2 0 0 0;
@@ -29544,7 +29547,8 @@ color \$2 \$3 \$4 \;;
 #X obj 156 648 r XXPtrnBnk1SmplFleA;
 #X msg 172 684 \; XXASmplFleNmeRcv label \$1 \;;
 #N canvas 440 85 965 808 ASmplBnkSmplSvLd 0;
-#X msg 59 616 samples/kick-808.wav;
+#X msg 59 616 C:/Users/Gareth/Documents/GitHub/port/audio/LowGSeged-12.wav
+;
 #X msg 74 585 set \$1;
 #X obj 59 312 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -29570,7 +29574,7 @@ color \$2 \$3 \$4 \;;
 #X msg 466 699 0;
 #X obj 275 31 r PtrnBnk1SmplFleA;
 #X obj 413 315 symbol -ASmplFleNmeRcv;
-#X msg 307 439 1066-ASmplFleNmeRcv;
+#X msg 307 439 1006-ASmplFleNmeRcv;
 #X obj 59 646 s samplefileA;
 #X connect 0 0 24 0;
 #X connect 1 0 0 0;
@@ -29602,7 +29606,8 @@ color \$2 \$3 \$4 \;;
 #X connect 23 0 15 0;
 #X restore 107 471 pd ASmplBnkSmplSvLd;
 #N canvas 395 67 965 808 SSmplBnkSmplSvLd 0;
-#X msg 59 616 samples/clap-slapper.wav;
+#X msg 59 616 C:/Users/Gareth/Documents/GitHub/port/audio/LowGSeged-2.wav
+;
 #X msg 74 585 set \$1;
 #X obj 59 312 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -29628,7 +29633,7 @@ color \$2 \$3 \$4 \;;
 #X msg 466 699 0;
 #X obj 275 31 r PtrnBnk1SmplFleS;
 #X obj 59 646 s samplefileS;
-#X msg 307 439 1066-SSmplFleNmeRcv;
+#X msg 307 439 1006-SSmplFleNmeRcv;
 #X obj 413 315 symbol -SSmplFleNmeRcv;
 #X connect 0 0 22 0;
 #X connect 1 0 0 0;
